@@ -77,7 +77,8 @@
     "start": "node scripts/start.js",
     "build": "SET NODE_OPTIONS=--openssl-legacy-provider && node scripts/build.js",
     "test": "node scripts/test.js",
-    "dev": "SET NODE_OPTIONS=--openssl-legacy-provider && npm start"
+    "dev": "SET NODE_OPTIONS=--openssl-legacy-provider && npm start" ,
+    "dev-mac": "NODE_OPTIONS=--openssl-legacy-provider npm start"
   },
   "eslintConfig": {
     "extends": [

@@ -1341,6 +1341,18 @@ export const alumni: IMember[] = [
     titleDisplay_en: ["2020 Master Student"],
     directions_en: ["Affective computing","NLP","Attribute-level sentiment analysis"],
   },
+  {
+    name: "冯彪",
+    title: "master",
+    titleDisplay: ["2025级研究生"],
+    email: "biaofeng2025@gmail.com",
+    directions: [],
+    homepageUrl: null,
+    photoSrc: "/images/members/master/fb.jpg",
+    name_en: "Biao Feng",
+    titleDisplay_en: ["2025 Master Student"],
+    directions_en: [],
+  }
 ]
 
 
