@@ -33,7 +33,8 @@ export const seminars: ISeminar[] = [
               <p><strong>汇报人：</strong></p>
 <p>1.移动计算组：郭旭 </p>
 <p><strong>报告主题：</strong></p>
-              <p>1.工作进度汇报文献讨论 </p>
+              <p>1.工作进度汇报</p>
+             <p>2.文献讨论 </p>
 `,
     title_en: "The 33rd seminar of CSSC group in 2025",
     author_en: "Runjia Zhou",
@@ -47,7 +48,8 @@ export const seminars: ISeminar[] = [
                 <p><strong>Reporter :</strong></p>
 <p>1.Mobile Computing Group: Xu Guo</p>
 <p><strong>Theme:</strong></p>
-<p>1.Mobile Computing Group: Work progress report and literature discussion.</p>
+<p>1.Mobile Computing Group: Work progress report.</p>
+ <p>2.literature discussion.</p>
 `,
     top: false,
     year: 2025,
@@ -63,9 +65,9 @@ export const seminars: ISeminar[] = [
 <p><strong>报告地点：</strong></p><p>计算机楼A318</p>
               <p><strong>主持人：</strong></p><p>沈国江教授、孔祥杰教授、刘志教授、王蒙蒙老师、杜嘉欣老师</p>
               <p><strong>汇报人：</strong></p>
-<p>2.交通智能感知与控制组：全体  </p>
+<p>1.交通智能感知与控制组：全体  </p>
 <p><strong>报告主题：</strong></p>
-<p>2.工作进度汇报 </p>
+<p>1.工作进度汇报 </p>
 `,
     title_en: "The 32nd seminar of CSSC group in 2025",
     author_en: "Runjia Zhou",
@@ -77,9 +79,9 @@ export const seminars: ISeminar[] = [
                 </p><p>Computer Building A318</p>
                 <p><strong>Moderator:</strong></p><p>Prof. Guojiang Shen, Prof. Xiangjie Kong, Prof. Zhi Liu, Mengmeng Wang, Jiaxin Du</p>
                 <p><strong>Reporter :</strong></p>
-<p>2.Traffic Intelligent Perception and Control Group: All members</p>
+<p>1.Traffic Intelligent Perception and Control Group: All members</p>
 <p><strong>Theme:</strong></p>
-<p>2.Traffic Intelligent Perception and Control Group: Work progress report.</p>
+<p>1.Traffic Intelligent Perception and Control Group: Work progress report.</p>
 `,
     top: false,
     year: 2025,
