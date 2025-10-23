@@ -33,6 +33,47 @@ interface INews {
 
 export const news: INews[] = [
   {
+  id: 77,
+  title: "学术报告 | 面向稳健生成式AI的新兴数据科学研究",
+  author: "周润佳",
+  create_date: "2025-10-18",
+  summary: "",
+  content: `
+    <div style="text-align: justify;">
+      <p><big><span class="highlight-text">报告时间：</span></big>2025年10月18日（周六）15:30-16:30</p>
+      <p><big><span class="highlight-text">报告地点：</span></big>浙江工业大学 计算机大楼A411</p>
+      <p><big><span class="highlight-text">演讲人：</span></big>李建新 教授，埃迪斯科文大学（Edith Cowan University）商法学院商业智能集群副主任</p>
+      <p><big><span class="highlight-text">题目：</span></big>面向稳健生成式AI的新兴数据科学研究</p>
+      <p><big><span class="highlight-text">摘要：</span></big>本次邀请报告将首先回顾大型语言模型（LLMs）的最新进展，聚焦生成式AI对数据科学提出的新需求，涵盖典型应用与关键研究空白。为展示研究影响，报告将简要介绍两项近期工作：用于图文检索与图-文本自然语言问答的跨模态数据对齐与数据融合方法。最后，将以团队近期的平台DE4AI（Data Engineering for AI）为例，讨论相关研究问题并阐明该类技术的价值。报告适合数据科学、机器学习、深度学习与AI应用领域的听众。</p>
+      <p><big><span class="highlight-text">演讲人简介：</span></big>李建新 教授，信息系统全职教授，埃迪斯科文大学商法学院商业智能集群副主任。此前在Swinburne、RMIT、UWA与Deakin大学任职。研究方向为数据科学、人工智能与知识信息系统，在IEEE ICDE、IEEE TKDE等国际顶级会议与期刊发表约200篇高水平论文，自2020年以来有13篇高被引/热点论文；自2022年起入选全球前2%顶尖科学家榜单。主持/参与10余项外部项目（约170万澳元），包括ARC DP与ARC LP。目前担任期刊Array主编，Information Systems、Knowledge-Based Systems与World Wide Web期刊副主编。</p>
+      <p><img src="/images/news/2025_10_18-li-talk/1.png" alt="讲座现场1" style="max-width:100%;height:auto"/></p>
+      <p><img src="/images/news/2025_10_18-li-talk/2.png" alt="讲座现场2" style="max-width:100%;height:auto"/></p>
+      <p><img src="/images/news/2025_10_18-li-talk/3.png" alt="讲座现场3" style="max-width:100%;height:auto"/></p>
+      <p><img src="/images/news/2025_10_18-li-talk/4.png" alt="讲座现场4" style="max-width:100%;height:auto"/></p>
+      <p><img src="/images/news/2025_10_18-li-talk/5.png" alt="讲座现场5" style="max-width:100%;height:auto"/></p>
+    </div>
+  `,
+  title_en: "Academic Talk | Emerging Data Science Research for Robust Generative AI",
+  author_en: "Runjia Zhou",
+  summary_en: "",
+  content_en: `
+    <div style="text-align: justify;">
+      <p><big><span class="highlight-text">Reporting time:</span></big> October 18, 2025 (Saturday) 15:30-16:30</p>
+      <p><big><span class="highlight-text">Reporting location:</span></big> Computer Building A411</p>
+      <p><big><span class="highlight-text">Reporter:</span></big> Prof. Jianxin Li, Deputy Director of Business Intelligence Cluster, School of Business and Law, Edith Cowan University</p>
+      <p><big><span class="highlight-text">Title:</span></big> Emerging Data Science Research for Robust Generative AI</p>
+      <p><big><span class="highlight-text">Abstract:</span></big> In this invited talk, Professor Jianxin Li will first present the overall state of the art about large language models (LLMs), particularly the emerging needs of data science for generative AI models, including the significant applications and the research gaps. To show the research impact, he will briefly introduce two recent studies of cross-modal data alignment and data fusion for supporting image-text retrieval and graph-text natural language-based question and answering. Finally, he will discuss the research problems by demonstrating one of their recent innovative platforms, i.e., data engineering for AI (DE4AI) to explain the benefits of such technologies. This talk is suitable to all attendees in the fields of data science, machine learning, deep learning and AI applications.</p>
+      <p><big><span class="highlight-text">Reporters' Profile:</span></big> Dr. Jianxin Li is the full professor of information systems, and deputy director of Business Intelligence Cluster at School of Business and Law, Edith Cowan University. Prior to joining ECU, Jianxin has worked as academic positions in Swinburne, RMIT, UWA and Deakin Universities. His research is specialised in data science, AI and knowledge information systems. He has published about 200 peer-reviewed and high-quality research articles in top international conferences and journals, e.g., IEEE ICDE, IEEE TKDE. There are 13 Highly Cited Papers or Hot Papers since 2020. He was awarded as World Top 2% scientists since 2022 due to research impact and high citation. He has obtained more than 10 external grants with about 1.7 million funding, including ARC DP, ARC LP. Currently, he serves as the Editor-in-Chief in Array, Associate Editors in Information Systems, Knowledge-based Systems, and World Wide Web Journal.</p>
+      <p><img src="/images/news/2025_10_18-li-talk/1.png" alt="Talk photo 1" style="max-width:100%;height:auto"/></p>
+      <p><img src="/images/news/2025_10_18-li-talk/2.png" alt="Talk photo 2" style="max-width:100%;height:auto"/></p>
+      <p><img src="/images/news/2025_10_18-li-talk/3.png" alt="Talk photo 3" style="max-width:100%;height:auto"/></p>
+      <p><img src="/images/news/2025_10_18-li-talk/4.png" alt="Talk photo 4" style="max-width:100%;height:auto"/></p>
+      <p><img src="/images/news/2025_10_18-li-talk/5.png" alt="Talk photo 5" style="max-width:100%;height:auto"/></p>
+    </div>
+  `,
+  top: false
+},
+  {
     id: 76,
     title: "学术报告 | 人工智能在知识产权中的应用",
     author: "宁凯丽",
