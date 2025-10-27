@@ -33,17 +33,285 @@ interface INews {
 
 export const news: INews[] = [
   {
-  id: 77,
-  title: "学术报告 | 面向稳健生成式AI的新兴数据科学研究",
-  author: "周润佳",
-  create_date: "2025-10-18",
-  summary: "",
-  content: `
+    id: 78,
+    title: "学术报告 | 大模型前沿科研应用",
+    author: "周润佳",
+    create_date: "2025-10-25",
+    summary: "CSSC Lab 举办“大模型前沿科研应用”专题学术讲座，包含跨模态时间序列、时空挖掘、LLM增强推荐、个性化联邦推荐、多智能体与张量网络等主题分享。",
+    content: `
+      <div style="text-align: justify;">
+      <p><big><span class="highlight-text">浙江工业大学城市科学与社会计算研究组(CSSC Lab)</span>
+      <big><span class="text">于 2025年10月25日8:30举办了学术讲座，邀请与浙工大-大数据与城市计算团队研究内容密切相关的多位高校与企业的<span class="highlight-text">助理教授、工程师和博士后</span>同行进行<span class="highlight-text">前沿工作</span>分享。</span></big></p>
+      <p><big><span class="highlight-text">时间：</span></big>2025年10月25日（周六）8:30-12:10</p>
+        <p><big><span class="highlight-text">地点：</span></big>浙江工业大学 计算机大楼A105</p>
+        <p><big><span class="highlight-text">主办单位：</span></big>浙江工业大学 城市科学与社会计算研究组（CSSC Lab）</p>
+        <p><big><span class="highlight-text">演讲人：</span></big>缪浩、张子健、刘启东、刘朗鸣、张春旭、郑值、王茂林</p>
+        <table border="1" style="text-align: center; width: 100%; border-collapse: collapse;">
+          <tr>
+            <th style="padding:6px;">时间</th>
+            <th style="padding:6px;">报告嘉宾</th>
+            <th style="padding:6px;">单位</th>
+            <th style="padding:6px;">报告题目</th>
+            <th style="padding:6px;">主持人</th>
+          </tr>
+          <tr>
+            <td>08:30-08:40</td>
+            <td colspan="3">朱李楠教授致开幕辞</td>
+            <td rowspan="8">朱李楠、韩笑</td>
+          </tr>
+          <tr>
+            <td>08:40-09:10</td>
+            <td>缪浩</td>
+            <td>香港理工大学</td>
+            <td>基于大语言模型的跨模态时间序列分析</td>
+          </tr>
+          <tr>
+            <td>09:10-09:40</td>
+            <td>张子健</td>
+            <td>吉林大学</td>
+            <td>时空数据挖掘的通用模式建模方法研究</td>
+          </tr>
+          <tr>
+            <td>09:40-10:10</td>
+            <td>刘启东</td>
+            <td>西安交通大学</td>
+            <td>大语言模型增强的推荐系统：方法与进展</td>
+          </tr>
+          <tr>
+            <td>10:10-10:40</td>
+            <td>刘朗鸣</td>
+            <td>淘天集团未来生活实验室</td>
+            <td>基于深度学习方法的用户序列建模：从高效预测到个性化推荐</td>
+          </tr>
+          <tr>
+            <td>10:40-11:10</td>
+            <td>张春旭</td>
+            <td>香港理工大学</td>
+            <td>个性化联邦推荐系统研究</td>
+          </tr>
+          <tr>
+            <td>11:10-11:40</td>
+            <td>郑值</td>
+            <td>中国科学技术大学</td>
+            <td>大模型驱动的多智能体系统及其应用</td>
+          </tr>
+          <tr>
+            <td>11:40-12:10</td>
+            <td>王茂林</td>
+            <td>香港城市大学</td>
+            <td>基于张量准则的神经网络</td>
+          </tr>
+        </table>
+
+        <p><big><h2 class="highlight-text">研讨会议程：</h2></big></p>
+        <p><big><h3 class="highlight-text">议程项目：</h3></big></p>
+
+        <p><strong><span class="highlight-text">08:30-08:40</span></strong></p>
+        <p>朱李楠教授致开幕辞</p>
+        <p><img src="/images/news/2025_10_25-llm-report/1.png" alt="开幕致辞" style="max-width:100%;height:auto"/></p>
+
+        <p><strong><span class="highlight-text">08:40-09:10</span></strong></p>
+        <p><span class="highlight-text"><strong>题目：</strong>基于大语言模型的跨模态时间序列分析</p>
+        <p><span class="highlight-text"><strong>主讲人：</strong>缪浩 香港理工大学 助理教授</p>
+        <p><strong><span class="highlight-text">报告摘要：</span></strong>边缘设备的激增在不同领域产生了前所未有的时间序列数据量，催生了各种定制化方法。近年来，大型语言模型(LLM)利用文本数据和时间序列共享的序列特性，成为时间序列分析的新范式。然而，时间序列和LLM之间存在着根本性的跨模态差距，因为LLM是在文本语料库上进行预训练的，并非天生就针对时间序列进行优化。许多近期提案旨在解决这个问题。在本综述中，我们提供了基于LLM的时间序列分析跨模态建模的最新概述。我们首先介绍一种分类法，该分类法根据用于时间序列建模的文本数据类型将现有方法分为四类。然后，我们总结了关键的跨模态策略，例如对齐和融合，并讨论了它们在一系列下游任务中的应用。此外，我们将在不同应用领域的多模态数据集上进行实验，以探索文本数据和跨模态策略的有效组合，从而增强时间序列分析。此外，我们将举例说明基于LLM的跨模态时间序列分析的最新进展。最后，我们提出了几个有前景的未来研究方向。</p>
+        <p><img src="/images/news/2025_10_25-llm-report/2.png" alt="缪浩报告" style="max-width:100%;height:auto"/></p>
+
+        <p><strong><span class="highlight-text">09:10-09:40</span></strong></p>
+        <p><span class="highlight-text"><strong>题目：</strong>时空数据挖掘的通用模式建模方法研究</p>
+        <p><span class="highlight-text"><strong>主讲人：</strong>张子健 吉林大学 助理教授</p>
+        <p><strong><span class="highlight-text">报告摘要：</span></strong>时空预测在交通、天气、人口迁移等领域应用广泛，对城市规划和灾害响应等关键决策具有重大意义。然而，现有研究面临着核心瓶颈：时空数据的固有复杂性、模式的多样性，以及现有模型在处理通用规律时的灵活性和泛化性不足。本报告旨在系统性地解决这些挑战。我们将首先确立通用时空模式建模的三个层次：多区域、多任务和多领域，并以此为基础介绍本报告在每个层次的创新工作。具体而言，本文提出了跨层次图卷积模型来挖掘多区域通用模式；设计了首个自适应时空多任务学习框架来增强多任务通用模式的拟合；并构建了基于Transformer和预训练-提示微调范式的模型，以高效学习和迁移多领域通用知识。此外，为解决现有模型复杂度高的问题，我们还提出了一种具有线性时间复杂度的时空预测架构。本报告通过系统性的通用模式建模方法，不仅显著提高了数据利用效率和预测准确性，也为时空数据挖掘的普适化应用奠定了坚实的基础。</p>
+        <p><img src="/images/news/2025_10_25-llm-report/3.png" alt="张子健报告" style="max-width:100%;height:auto"/></p>
+
+        <p><strong><span class="highlight-text">09:40-10:10</strong> </span> </p>
+        <p><span class="highlight-text"><strong>题目：</strong>大语言模型增强的推荐系统：方法与进展</p>
+        <p><span class="highlight-text"><strong>主讲人：</strong>刘启东 西安交通大学 助理教授</p>
+        <p><strong><span class="highlight-text">报告摘要：</span></strong>随着大语言模型在推理与理解能力上展现出的卓越性能，其已为推荐系统领域带来了革命性影响。尽管已有研究探索利用LLM赋能推荐系统，但在实际应用中，LLM的高延迟与高内存成本构成了严峻挑战。为此，LLM增强的推荐系统作为一种新的范式应运而生，其核心思想是在推理阶段避免对LLM的直接调用，从而将其高效地整合至在线推荐服务中。为系统性地梳理这一领域，本报告将对该领域的前沿进展进行介绍。本报告将首先阐明LLM增强推荐系统的背景与动机，并基于LLM所作用的推荐系统核心模块，提出了一套清晰的分类框架，具体包括：（1）知识增强：利用LLM的外部知识丰富推荐内容；（2）交互增强：借助LLM提升交互质量；（3）模型增强：运用LLM优化推荐模型的核心结构与能力。最后，本报告将总结当前研究现状，并展望若干具有潜力的未来研究方向。</p>
+        <p><img src="/images/news/2025_10_25-llm-report/4.png" alt="刘启东报告" style="max-width:100%;height:auto"/></p>
+
+        <p><strong><span class="highlight-text">10:10-10:40</strong> </span> </p>
+        <p><span class="highlight-text"><strong>题目：</strong>基于深度学习方法的用户序列建模：从高效预测到个性化推荐</p>
+        <p><span class="highlight-text"><strong>主讲人：</strong>刘朗鸣 淘天集团未来生活实验室算法工程师</p>
+        <p><strong><span class="highlight-text">报告摘要：</span></strong>用户序列建模在各个实际应用场景（如推荐系统、教育、医疗等）得到了广泛的关注。用户序列建模旨在从用户历史交互序列中提取用户兴趣和偏好，用于下游场景的特定任务中。随着用户的数量、序列长度、特征急剧增加，传统的建模方法不足以刻画更为复杂的场景。基于深度学习（DL-based）的方法，如MLP、RNN、GNN、Transformer等，能提取序列中的非线性、隐式、高阶信息，对于复杂场景中的建模很有前景。基于深度学习的用户序列建模在实际应用中面临诸多挑战，本次报告聚焦于推荐系统中的四个前沿挑战：效率挑战，决策挑战，隐私挑战，以及个性化挑战。针对这些核心问题，我们提供了对应解决方案：（1）设计线性注意力机制，降低复杂度；（2）引入强化学习方法，优化对长期收益的决策能力；（3）引入联邦学习方法，保护用户隐私；（4）使用大模型增强对用户的兴趣感知，打破协同过滤带来的信息茧房。围绕这些前沿挑战和解决方案，将提供一些对于现代推荐系统的见解和业界的期望。</p>
+        <p><img src="/images/news/2025_10_25-llm-report/5.png" alt="刘朗鸣报告" style="max-width:100%;height:auto"/></p>
+
+        <p><strong><span class="highlight-text">10:40-11:10</strong> </span> </p>
+        <p><span class="highlight-text"><strong>题目：</strong>个性化联邦推荐系统研究</p>
+        <p><span class="highlight-text"><strong>主讲人：</strong>张春旭 香港理工大学 博士后</p>
+        <p><strong><span class="highlight-text">报告摘要：</span></strong>推荐系统通过挖掘用户的历史行为和兴趣偏好，从海量信息中筛选出符合个人需求的内容，已成为应对信息过载和实现智能化服务的重要技术。然而，传统推荐系统通常依赖集中式的数据收集和训练方式，引发了对数据安全与隐私保护的担忧，同时限制了模型在多样化用户群体中的个性化表达。联邦学习框架为该问题提供了新的解决思路。它通过在各客户端本地执行模型训练，仅共享模型参数而非原始数据，有效保护了用户隐私。与此同时，联邦学习以用户为独立建模单元，为个性化建模带来了新的契机，使推荐系统能够更好地捕捉个体差异与兴趣变化，从而提供更加精准和具有适应性的推荐服务。本报告将围绕个性化联邦推荐系统展开，介绍该方向的研究背景与基本框架，重点探讨如何在分布式环境中实现隐私保护与个性化建模的有机融合。</p>
+        <p><img src="/images/news/2025_10_25-llm-report/6.png" alt="张春旭报告" style="max-width:100%;height:auto"/></p>
+
+        <p><strong><span class="highlight-text">11:10-11:40</strong> </span> </p>
+        <p><span class="highlight-text"><strong>题目：</strong>大模型驱动的多智能体系统及其应用</p>
+        <p><span class="highlight-text"><strong>主讲人：</strong>郑值 中国科技大学 博士后</p>
+        <p><strong><span class="highlight-text">报告摘要：</span></strong>近年来，大模型（Large Language Models, LLMs）的快速发展为多智能体系统（Multi-Agent Systems, MAS）的智能协作与自主决策带来了全新范式。传统的多智能体系统主要依赖规则驱动或强化学习机制，难以应对复杂环境下的动态变化与语义交互需求。而大模型具备强大的知识表达、语言理解与生成能力，使其在感知、推理、规划与协同等方面为多智能体赋能，推动系统从“算法协作”向“认知协作”升级。本报告围绕“大模型驱动的多智能体系统及其应用”展开，系统梳理大模型与多智能体融合的研究背景，介绍其在架构、通信协议、任务分解与角色分工上的核心思想，以及它们在自治决策与群体智能中的作用机制，并介绍研究组在推荐系统、自动机器学习等领域应用大模型多智能体系统的探索。</p>
+        <p><img src="/images/news/2025_10_25-llm-report/7.png" alt="郑值报告" style="max-width:100%;height:auto"/></p>
+
+        <p><strong><span class="highlight-text">11:40-12:10</strong> </span> </p>
+        <p><span class="highlight-text"><strong>题目：</strong>基于张量准则的神经网络</p>
+        <p><span class="highlight-text"><strong>主讲人：</strong>王茂林 香港城市大学 博士后</p>
+        <p><strong><span class="highlight-text">报告摘要：</span></strong>本次报告提出了一种借助张量数学视角思考神经网络设计的新方法。不同于通过反复试错或遵循传统模式构建网络，我们探索了张量结构如何为更高效的架构设计提供指导。张量作为矩阵的多维推广形式，能够自然地捕捉现实世界数据中的复杂关系——无论是图像、视频，还是图结构与语言数据。通过识别这些张量模式，并构建符合该模式的网络，我们可以开发出兼具更高效率与更强性能的模型。报告将展示这种基于张量的思维方式如何在信号恢复、隐私保护学习、高效模型适配等领域催生出突破性解决方案。</p>
+        <p><img src="/images/news/2025_10_25-llm-report/8.png" alt="王茂林报告" style="max-width:100%;height:auto"/></p>
+
+        <hr/>
+        <p><big><h3 class="highlight-text">报告主讲人简介：</h3></big></p>
+        <p><strong>• 缪浩 香港理工大学 助理教授：</strong>缪浩，香港理工大学研究助理教授，2024年12月于丹麦奥尔堡大学获得博士学位，导师为Christian S. Jensen教授。研究方向为时空数据挖掘，时间序列分析，轨迹管理与大语言模型。发表国际期刊和学术会议论文共40余篇，其中包含26篇CCF-A类论文，如PVLDB，NeurIPS，SIGKDD，与TKDE等，相关成果部分填补了时间序列数据分析在流式场景与分布式场景下的应用空白。常年担任多个CCF-A类会议的A领域主席与程序委员会成员，被邀请至多个全世界知名实验室访问并作口头报告，如麻省理工大学MIT Senseable City Lab与柏林工业大学TU Berlin DIMA/BIFOLD Lab等。</p>
+        <p><strong>• 张子健 吉林大学 助理教授：</strong>张子健博士现任吉林大学计算机科学与技术学院助理教授/副研究员，博士生导师，香港中文大学荣誉访问学者。博士毕业于吉林大学和香港城市大学。他的研究方向包括推荐系统，大语言模型，时间序列分析，近三年在国际顶级会议/期刊（CCF-A/B）上发表学术论文30余篇，其中以第一作者/通讯作者发表论文9篇，谷歌学术总被引600余次，H-index为14。他作为主要讲者在WWW 2025，KDD 2025，以及SSTD 2025上举办关于大语言模型推荐系统和人类移动性分析的讲习班，受到领域学者的广泛关注。他长期担任顶级会议执委会成员和知名期刊审稿人。他曾担任AAAI 2023和CIKM 2023分论坛主席，并多次在国际会议做口头报告。主持博士后面上项目与全国重点实验室开放基金等多项课题。</p>
+        <p><strong>• 刘启东 西安交通大学 助理教授：</strong>刘启东，西安交通大学助理教授，西安交通大学青年优秀人才支持计划，隶属于智能网络与网络空间安全教育部重点实验室。博士毕业于西安交通大学（导师：田锋教授）和香港城市大学（导师：赵翔宇教授）。研究方向包括大语言模型、推荐系统、智慧医疗等。发表高水平期刊和会议论文近30篇，引用千余次。获得授权发明专利1项，以第一/共同第一作者身份发表论文12篇，其中CCF-A类7篇，高被引论文1篇。曾在国际顶级会议AAAI 2025和CIKM 2023担任议程主席。在KDD、WWW、IJCAI等会议上多次组织以推荐系统为主题的Tutorial。担任国际顶级会议ICML、ICLR、NeurIPS、KDD、SIGIR、WWW、IJCAI、AAAI、CIKM、RecSys以及国际权威期刊TPAMI、TKDE、TOIS、TKDD、TIST等审稿人。</p>
+        <p><strong>• 刘朗鸣 淘天集团未来生活实验室算法工程师：</strong>刘朗鸣，香港城市大学数据科学博士。本科毕业于北京航空航天大学应用数学专业。现就职于淘天集团未来生活实验室，从事算法研发工作，专注大模型训练及推荐/广告相关应用。研究兴趣包括推荐系统（序列与高效推荐）、大语言模型（数据合成、评测与电商应用增强）、联邦学习（优化与收敛理论）与强化学习。相关成果被SIGIR、KDD、CIKM、EMNLP等顶级会议接收，并曾受邀担任NeurIPS、KDD、WWW及TKDE、TKDD等顶级会议与期刊审稿人。曾获多项科研奖学金与优秀学术表现奖。</p>
+        <p><strong>• 张春旭 香港理工大学 博士后：</strong>张春旭博士现任香港理工大学人工智能高等研究院博士后，博士毕业于吉林大学。她的研究方向包括联邦学习，推荐系统，大小模型协同，近三年在国际顶级会议/期刊（CCF-A/B）上发表学术论文20余篇，其中以第一作者/通讯作者发表论文12篇，谷歌学术总被引400余次。她长期担任顶级会议执委会成员和知名期刊审稿人，曾担任WWW 2025分论坛主席，并多次在国际会议做口头报告。</p>
+        <p><strong>• 郑值 中国科技大学 博士后：</strong>郑值，中国科学技术大学计算机学院博士后研究员，合作导师为陈恩红教授。博士毕业于中国科学技术大学人工智能与数据科学学院，师从熊辉教授和徐童教授。本科毕业于中国科学技术大学计算机学院英才班。在国内外重要学术期刊和会议上发表论文30余篇，其中第一/通讯作者论文20余篇。曾获得2025年度博士后创新人才支持计划、COLING 2025 Outstanding Paper Award、2021年度腾讯犀牛鸟精英人才计划奖学金等奖项，主持国家自然科学基金青年基金（C类）、校青年创新基金等项目。现任安徽省人工智能学会大模型专委会秘书长，曾担任中国中文信息学会青年工作委员会学生执委会副主任。</p>
+        <p><strong>• 王茂林 香港城市大学 博士后：</strong>在电子科技大学获得计算机科学与技术硕士学位。自2021年起，他在香港城市大学攻读数据科学博士学位。他的研究兴趣涵盖机器学习、张量网络、模型压缩，大语言模型和特征融合等领域。他在AAAI、WWW、ICDM、RecSys、SDM、IJCNN、ICONIP等CCF知名会议上发表了多篇文章，并担任TNNLS、IEEE Transactions on Big Data、Neurocomputing、Neural Networks、NeurIPS、CIKM等知名期刊和会议的审稿人。同时，他还曾受邀担任CCF A类会议WWW 2024的智能推荐系统Session主席，并获得KDD 2025年Best Paper Award Runner-up。</p>
+      </div>
+    `,
+    title_en: "Academic Talk | Frontier Applications of LLMs",
+    author_en: "Runjia Zhou",
+    summary_en: "CSSC Lab held a seminar titled Frontier Applications of LLMs, featuring talks on cross‑modal time series analysis, general pattern modeling for spatiotemporal data, LLM‑enhanced recommender systems, deep learning–based user sequence modeling, personalized federated recommendation, LLM‑driven multi‑agent systems, and tensor‑guided neural networks.",
+    content_en: `
+      <div style="text-align: justify;">
+        <p><big><span class="highlight-text">CSSC Lab (Research Group of Urban Science and Social Computing, Zhejiang University of Technology)</span></big><big><span class="text"> held an academic seminar at 08:30 on October 25, 2025, inviting <span class="highlight-text">assistant professors, engineers, and postdoctoral researchers</span> from universities and industry whose research is closely related to ZJUT’s Big Data and Urban Computing team to share <span class="highlight-text">frontier work</span>.</span></big></p>
+        <p><big><span class="highlight-text">Time:</span></big> October 25, 2025 (Saturday) 08:30–12:10</p>
+        <p><big><span class="highlight-text">Venue:</span></big> Computer Building A105, Zhejiang University of Technology</p>
+        <p><big><span class="highlight-text">Organizer:</span></big> CSSC Lab, Zhejiang University of Technology</p>
+        <p><big><span class="highlight-text">Speakers:</span></big> Hao Miao, Zijian Zhang, Qidong Liu, Langming Liu, Chunxu Zhang, Zhi Zheng, Maolin Wang</p>
+
+        <table border="1" style="text-align: center; width: 100%; border-collapse: collapse;">
+          <tr>
+            <th style="padding:6px;">Time</th>
+            <th style="padding:6px;">Speaker</th>
+            <th style="padding:6px;">Affiliation</th>
+            <th style="padding:6px;">Title</th>
+            <th style="padding:6px;">Host</th>
+          </tr>
+          <tr>
+            <td>08:30-08:40</td>
+            <td colspan="3">Opening remarks by Prof. Linan Zhu</td>
+            <td rowspan="8">Linan Zhu, Xiao Han</td>
+          </tr>
+          <tr>
+            <td>08:40-09:10</td>
+            <td>Hao Miao</td>
+            <td>The Hong Kong Polytechnic University</td>
+            <td>Cross‑modal Time Series Analysis Based on Large Language Models</td>
+          </tr>
+          <tr>
+            <td>09:10-09:40</td>
+            <td>Zijian Zhang</td>
+            <td>Jilin University</td>
+            <td>Research on General Pattern Modeling Methods for Spatiotemporal Data Mining</td>
+          </tr>
+          <tr>
+            <td>09:40-10:10</td>
+            <td>Qidong Liu</td>
+            <td>Xi’an Jiaotong University</td>
+            <td>LLM‑enhanced Recommender Systems: Methods and Progress</td>
+          </tr>
+          <tr>
+            <td>10:10-10:40</td>
+            <td>Langming Liu</td>
+            <td>TaoTian Group, Future Life Lab</td>
+            <td>User Sequence Modeling via Deep Learning: From Efficient Prediction to Personalized Recommendation</td>
+          </tr>
+          <tr>
+            <td>10:40-11:10</td>
+            <td>Chunxu Zhang</td>
+            <td>The Hong Kong Polytechnic University</td>
+            <td>Research on Personalized Federated Recommendation Systems</td>
+          </tr>
+          <tr>
+            <td>11:10-11:40</td>
+            <td>Zhi Zheng</td>
+            <td>University of Science and Technology of China</td>
+            <td>LLM‑driven Multi‑Agent Systems and Their Applications</td>
+          </tr>
+          <tr>
+            <td>11:40-12:10</td>
+            <td>Maolin Wang</td>
+            <td>City University of Hong Kong</td>
+            <td>Neural Networks Based on Tensor Principles</td>
+          </tr>
+        </table>
+
+        <p><big><h2 class="highlight-text">Seminar Agenda:</h2></big></p>
+        <p><big><h3 class="highlight-text">Sessions:</h3></big></p>
+
+        <p><strong><span class="highlight-text">08:30-08:40</span></strong></p>
+        <p>Opening remarks by Prof. Linan Zhu</p>
+        <p><img src="/images/news/2025_10_25-llm-report/1.png" alt="Opening remarks" style="max-width:100%;height:auto"/></p>
+
+        <p><strong><span class="highlight-text">08:40-09:10</span></strong></p>
+        <p><span class="highlight-text"><strong>Title:</strong> Cross‑modal Time Series Analysis Based on Large Language Models</span></p>
+        <p><span class="highlight-text"><strong>Speaker:</strong> Hao Miao, Assistant Professor, The Hong Kong Polytechnic University</span></p>
+        <p><strong><span class="highlight-text">Abstract:</span></strong> The surge of edge devices has generated an unprecedented volume of time‑series data across domains, spurring a variety of customized methods. In recent years, large language models (LLMs) have emerged as a new paradigm for time‑series analysis by leveraging the shared sequential nature of text and time series. However, there is a fundamental cross‑modal gap between time series and LLMs, because LLMs are pre‑trained on textual corpora and are not inherently optimized for time‑series data. Many recent proposals aim to address this issue. In this survey, we provide an up‑to‑date overview of cross‑modal modeling for time‑series analysis based on LLMs. We first present a taxonomy that categorizes existing methods into four groups according to the types of text data used for time‑series modeling. We then summarize key cross‑modal strategies such as alignment and fusion, and discuss their applications to a range of downstream tasks. In addition, we conduct experiments on multimodal datasets from different application domains to explore effective combinations of text data and cross‑modal strategies that enhance time‑series analysis. We further illustrate recent advances in LLM‑based cross‑modal time‑series analysis with concrete examples. Finally, we propose several promising directions for future research.</p>
+        <p><img src="/images/news/2025_10_25-llm-report/2.png" alt="Talk by Hao Miao" style="max-width:100%;height:auto"/></p>
+
+        <p><strong><span class="highlight-text">09:10-09:40</span></strong></p>
+        <p><span class="highlight-text"><strong>Title:</strong> Research on General Pattern Modeling Methods for Spatiotemporal Data Mining</span></p>
+        <p><span class="highlight-text"><strong>Speaker:</strong> Zijian Zhang, Assistant Professor, Jilin University</span></p>
+        <p><strong><span class="highlight-text">Abstract:</span></strong> Spatiotemporal forecasting is widely used in domains such as transportation, weather, and population migration, and is of great significance for key decisions in urban planning and disaster response. However, existing research faces core bottlenecks: the inherent complexity of spatiotemporal data, the diversity of patterns, and the limited flexibility and generalization of current models in handling universal regularities. This talk aims to systematically address these challenges. We first establish three levels of general spatiotemporal pattern modeling—multi‑region, multi‑task, and multi‑domain—and introduce our innovations at each level. Specifically, we propose cross‑level graph convolutional models to mine multi‑region general patterns; design the first adaptive spatiotemporal multi‑task learning framework to better fit general patterns across tasks; and build models based on Transformers and the pre‑train–prompt–fine‑tune paradigm to efficiently learn and transfer multi‑domain general knowledge. Moreover, to tackle the high complexity of existing models, we propose a spatiotemporal forecasting architecture with linear time complexity. Through a systematic general pattern modeling approach, our work not only significantly improves data utilization efficiency and prediction accuracy, but also lays a solid foundation for the generalizable application of spatiotemporal data mining.</p>
+        <p><img src="/images/news/2025_10_25-llm-report/3.png" alt="Talk by Zijian Zhang" style="max-width:100%;height:auto"/></p>
+
+        <p><strong><span class="highlight-text">09:40-10:10</span></strong></p>
+        <p><span class="highlight-text"><strong>Title:</strong> LLM‑enhanced Recommender Systems: Methods and Progress</span></p>
+        <p><span class="highlight-text"><strong>Speaker:</strong> Qidong Liu, Assistant Professor, Xi’an Jiaotong University</span></p>
+        <p><strong><span class="highlight-text">Abstract:</span></strong> With their outstanding performance in reasoning and understanding, LLMs have brought revolutionary impact to recommender systems. Although prior studies have explored empowering recommendation with LLMs, high latency and high memory costs pose serious challenges in real‑world deployments. In response, LLM‑enhanced recommender systems have emerged as a new paradigm whose core idea is to avoid direct LLM invocation at inference time, thereby integrating LLM capabilities efficiently into online recommendation services. This talk provides a systematic overview of the field. We first clarify the background and motivation of LLM‑enhanced recommendation. Then, based on the core modules of recommender systems impacted by LLMs, we propose a clear taxonomy comprising: (1) knowledge enhancement, which leverages external knowledge from LLMs to enrich recommendation content; (2) interaction enhancement, which improves user–system interactions with LLMs; and (3) model enhancement, which uses LLMs to optimize core model structures and capabilities. Finally, we summarize the current state of research and discuss several promising future directions.</p>
+        <p><img src="/images/news/2025_10_25-llm-report/4.png" alt="Talk by Qidong Liu" style="max-width:100%;height:auto"/></p>
+
+        <p><strong><span class="highlight-text">10:10-10:40</span></strong></p>
+        <p><span class="highlight-text"><strong>Title:</strong> User Sequence Modeling via Deep Learning: From Efficient Prediction to Personalized Recommendation</span></p>
+        <p><span class="highlight-text"><strong>Speaker:</strong> Langming Liu, Algorithm Engineer, Future Life Lab, TaoTian Group</span></p>
+        <p><strong><span class="highlight-text">Abstract:</span></strong> User sequence modeling has received broad attention across practical application scenarios such as recommendation, education, and healthcare. It aims to extract users’ interests and preferences from their historical interaction sequences to support downstream tasks. As the number of users, the sequence length, and the feature set grow rapidly, traditional methods are insufficient for more complex scenarios. Deep learning–based methods (e.g., MLPs, RNNs, GNNs, Transformers) can capture non‑linear, implicit, and high‑order information in sequences and are promising for complex modeling. In practice, deep learning–based user sequence modeling faces several challenges. This talk focuses on four frontiers in recommendation: efficiency, decision‑making, privacy, and personalization. For these core issues, we provide corresponding solutions: (1) design linear attention mechanisms to reduce complexity; (2) introduce reinforcement learning to optimize decision‑making for long‑term rewards; (3) adopt federated learning to protect user privacy; and (4) employ large models to enhance the perception of user interests and break the filter bubble caused by collaborative filtering. Around these challenges and solutions, we offer insights into modern recommender systems and industry expectations.</p>
+        <p><img src="/images/news/2025_10_25-llm-report/5.png" alt="Talk by Langming Liu" style="max-width:100%;height:auto"/></p>
+
+        <p><strong><span class="highlight-text">10:40-11:10</span></strong></p>
+        <p><span class="highlight-text"><strong>Title:</strong> Research on Personalized Federated Recommendation Systems</span></p>
+        <p><span class="highlight-text"><strong>Speaker:</strong> Chunxu Zhang, Postdoctoral Researcher, The Hong Kong Polytechnic University</span></p>
+        <p><strong><span class="highlight-text">Abstract:</span></strong> Recommender systems mine users’ historical behaviors and interests to filter personalized content from massive information, and have become key technologies for addressing information overload and enabling intelligent services. However, traditional recommender systems typically rely on centralized data collection and training, which raises concerns about data security and privacy protection and limits personalized expression across diverse user groups. Federated learning offers a new solution by performing model training locally on clients and sharing model parameters rather than raw data, thus effectively protecting user privacy. Meanwhile, federated learning treats the user as an independent modeling unit, creating opportunities for personalization so that recommender systems can better capture individual differences and interest dynamics, delivering more accurate and adaptive recommendations. This talk focuses on personalized federated recommendation, introducing the research background and fundamental frameworks in this direction, and emphasizing how to organically combine privacy protection with personalized modeling in distributed environments.</p>
+        <p><img src="/images/news/2025_10_25-llm-report/6.png" alt="Talk by Chunxu Zhang" style="max-width:100%;height:auto"/></p>
+
+        <p><strong><span class="highlight-text">11:10-11:40</span></strong></p>
+        <p><span class="highlight-text"><strong>Title:</strong> LLM‑driven Multi‑Agent Systems and Their Applications</span></p>
+        <p><span class="highlight-text"><strong>Speaker:</strong> Zhi Zheng, Postdoctoral Researcher, University of Science and Technology of China</span></p>
+        <p><strong><span class="highlight-text">Abstract:</span></strong> In recent years, the rapid development of large language models (LLMs) has introduced a new paradigm for intelligent collaboration and autonomous decision‑making in multi‑agent systems (MAS). Traditional MAS primarily relies on rule‑based or reinforcement learning mechanisms, which struggle to cope with dynamic changes and semantic interaction requirements in complex environments. With their powerful knowledge representation, language understanding, and generation capabilities, LLMs empower multi‑agent systems in perception, reasoning, planning, and coordination, promoting an upgrade from “algorithmic collaboration” to “cognitive collaboration.” Centered on “LLM‑driven multi‑agent systems and their applications,” this talk systematically reviews the background of integrating LLMs with multi‑agent systems, introduces core ideas in architecture, communication protocols, task decomposition, and role allocation, and explains their mechanisms in autonomous decision‑making and collective intelligence. We also present the group’s explorations of applying LLM‑based multi‑agent systems to recommendation and AutoML.</p>
+        <p><img src="/images/news/2025_10_25-llm-report/7.png" alt="Talk by Zhi Zheng" style="max-width:100%;height:auto"/></p>
+
+        <p><strong><span class="highlight-text">11:40-12:10</span></strong></p>
+        <p><span class="highlight-text"><strong>Title:</strong> Neural Networks Based on Tensor Principles</span></p>
+        <p><span class="highlight-text"><strong>Speaker:</strong> Maolin Wang, Postdoctoral Researcher, City University of Hong Kong</span></p>
+        <p><strong><span class="highlight-text">Abstract:</span></strong> This talk proposes a new approach to neural network design from the perspective of tensor mathematics. Unlike building networks through repeated trial‑and‑error or following traditional recipes, we explore how tensor structures can guide the design of more efficient architectures. As a multi‑dimensional generalization of matrices, tensors naturally capture complex relationships in real‑world data—be it images, videos, graph‑structured, or language data. By identifying these tensor patterns and constructing networks that conform to them, we can develop models that achieve both higher efficiency and stronger performance. The talk demonstrates how this tensor‑based way of thinking can lead to breakthroughs in areas such as signal recovery, privacy‑preserving learning, and efficient model adaptation.</p>
+        <p><img src="/images/news/2025_10_25-llm-report/8.png" alt="Talk by Maolin Wang" style="max-width:100%;height:auto"/></p>
+
+        <hr/>
+        <p><big><h3 class="highlight-text">Speakers’ Biographies:</h3></big></p>
+
+        <p><strong>• Hao Miao, The Hong Kong Polytechnic University, Assistant Professor:</strong> Research Assistant Professor at The Hong Kong Polytechnic University; Ph.D. (Dec 2024) from Aalborg University, Denmark, advised by Prof. Christian S. Jensen. His research interests include spatiotemporal data mining, time‑series analysis, trajectory management, and large language models. He has published 40+ papers in international journals and conferences, including 26 CCF‑A papers such as PVLDB, NeurIPS, SIGKDD, and TKDE. Some results fill gaps in applying time‑series analysis to streaming and distributed settings. He has long served as area chair/program committee member for multiple CCF‑A conferences and has been invited to visit and give talks at world‑renowned labs such as MIT Senseable City Lab and TU Berlin DIMA/BIFOLD Lab.</p>
+
+        <p><strong>• Zijian Zhang, Jilin University, Assistant Professor:</strong> Dr. Zhang is an Assistant Professor/Associate Researcher and Ph.D. supervisor at the College of Computer Science and Technology, Jilin University, and an Honorary Visiting Scholar at The Chinese University of Hong Kong. He received his Ph.D. from Jilin University and City University of Hong Kong. His research interests include recommender systems, large language models, and time‑series analysis. Over the past three years, he has published 30+ papers in top conferences/journals (CCF A/B), including 9 as first/corresponding author. He has 600+ Google Scholar citations and an H‑index of 14. He was a main organizer/speaker for tutorials on LLM‑based recommendation and human mobility analysis at WWW 2025, KDD 2025, and SSTD 2025. He has long served on program committees of top conferences and as a reviewer for renowned journals, served as area chair for AAAI 2023 and CIKM 2023, and has given talks at international conferences. He leads multiple projects including a Postdoctoral General Program and National Key Lab Open Fund.</p>
+
+        <p><strong>• Qidong Liu, Xi’an Jiaotong University, Assistant Professor:</strong> Assistant Professor at Xi’an Jiaotong University and a recipient of XJTU’s Young Talent Program, affiliated with the Key Laboratory of Intelligent Networks and Network Security, Ministry of Education. He received his Ph.D. from Xi’an Jiaotong University (advised by Prof. Feng Tian) and City University of Hong Kong (advised by Prof. Xiangyu Zhao). His research interests include LLMs, recommender systems, and smart healthcare. He has authored nearly 30 high‑quality journal and conference papers with 1,000+ citations, holds one authorized invention patent, and as first/co‑first author has published 12 papers (including seven CCF‑A) and one highly cited paper. He served as agenda chair for AAAI 2025 and CIKM 2023, organized multiple recommendation tutorials at KDD, WWW, IJCAI, and others, and reviews for top conferences (ICML, ICLR, NeurIPS, KDD, SIGIR, WWW, IJCAI, AAAI, CIKM, RecSys) and leading journals (TPAMI, TKDE, TOIS, TKDD, TIST).</p>
+
+        <p><strong>• Langming Liu, Algorithm Engineer, Future Life Lab, TaoTian Group:</strong> Ph.D. in Data Science from City University of Hong Kong; B.S. in Applied Mathematics from Beihang University. He works on algorithm development at TaoTian Group’s Future Life Lab, focusing on large‑model training and recommendation/advertising applications. His research interests include recommender systems (sequential and efficient recommendation), large language models (data synthesis, evaluation, and e‑commerce applications), federated learning (optimization and convergence theory), and reinforcement learning. His work has been accepted by SIGIR, KDD, CIKM, EMNLP, etc., and he has served as a reviewer for NeurIPS, KDD, WWW, TKDE, TKDD, and other top venues. He has received multiple research scholarships and outstanding academic performance awards.</p>
+
+        <p><strong>• Chunxu Zhang, The Hong Kong Polytechnic University, Postdoctoral Researcher:</strong> Dr. Zhang is a postdoctoral researcher at the Institute for Artificial Intelligence, The Hong Kong Polytechnic University, and received her Ph.D. from Jilin University. Her research interests include federated learning, recommender systems, and collaboration between large and small models. Over the past three years, she has published 20+ papers in top conferences/journals (CCF A/B), including 12 as first/corresponding author, with 400+ Google Scholar citations. She has served on program committees of top conferences and as a reviewer for renowned journals, was a session chair at WWW 2025, and has given talks at international conferences.</p>
+
+        <p><strong>• Zhi Zheng, University of Science and Technology of China, Postdoctoral Researcher:</strong> Dr. Zheng is a postdoctoral researcher at the School of Computer Science, USTC, working with Prof. Enhong Chen; he received his Ph.D. from USTC’s School of Artificial Intelligence and Data Science under Prof. Hui Xiong and Prof. Tong Xu. He earned his B.S. from USTC’s Elite Class in Computer Science. He has published 30+ papers, including 20+ as first/corresponding author. Honors include the 2025 Postdoctoral Innovative Talent Support Program, COLING 2025 Outstanding Paper Award, and the 2021 Tencent Rhino‑Bird Elite Talent Program Scholarship. He leads projects such as the NSFC Youth (Category C) and university youth innovation funds. He serves as Secretary‑General of the Large Model Special Committee of the Anhui Artificial Intelligence Society and previously as Deputy Director of the Student Committee of the CCF Youth Working Committee.</p>
+
+        <p><strong>• Maolin Wang, City University of Hong Kong, Postdoctoral Researcher:</strong> He received his M.S. in Computer Science and Technology from the University of Electronic Science and Technology of China. Since 2021, he has pursued a Ph.D. in Data Science at City University of Hong Kong. His research interests cover machine learning, tensor networks, model compression, large language models, and feature fusion. He has published papers at well‑known conferences (AAAI, WWW, ICDM, RecSys, SDM, IJCNN, ICONIP) and serves as a reviewer for journals and conferences such as TNNLS, IEEE Transactions on Big Data, Neurocomputing, Neural Networks, NeurIPS, and CIKM. He was invited to serve as Session Chair for Intelligent Recommender Systems at the CCF‑A conference WWW 2024 and received the KDD 2025 Best Paper Award Runner‑up.</p>
+      </div>
+    `,
+    top: false
+  },
+  {
+    id: 77,
+    title: "学术报告 | 面向稳健生成式AI的新兴数据科学研究",
+    author: "周润佳",
+    create_date: "2025-10-18",
+    summary: "",
+    content: `
     <div style="text-align: justify;">
       <p><big><span class="highlight-text">报告时间：</span></big>2025年10月18日（周六）15:30-16:30</p>
       <p><big><span class="highlight-text">报告地点：</span></big>浙江工业大学 计算机大楼A411</p>
       <p><big><span class="highlight-text">演讲人：</span></big>李建新 教授，埃迪斯科文大学（Edith Cowan University）商法学院商业智能集群副主任</p>
-      <p><big><span class="highlight-text">题目：</span></big>面向稳健生成式AI的新兴数据科学研究</p>
+      <p><big><span class="highligh<span class="highlight-text">t-text">题目：</span></big>面向稳健生成式AI的新兴数据科学研究</p>
       <p><big><span class="highlight-text">摘要：</span></big>本次邀请报告将首先回顾大型语言模型（LLMs）的最新进展，聚焦生成式AI对数据科学提出的新需求，涵盖典型应用与关键研究空白。为展示研究影响，报告将简要介绍两项近期工作：用于图文检索与图-文本自然语言问答的跨模态数据对齐与数据融合方法。最后，将以团队近期的平台DE4AI（Data Engineering for AI）为例，讨论相关研究问题并阐明该类技术的价值。报告适合数据科学、机器学习、深度学习与AI应用领域的听众。</p>
       <p><big><span class="highlight-text">演讲人简介：</span></big>李建新 教授，信息系统全职教授，埃迪斯科文大学商法学院商业智能集群副主任。此前在Swinburne、RMIT、UWA与Deakin大学任职。研究方向为数据科学、人工智能与知识信息系统，在IEEE ICDE、IEEE TKDE等国际顶级会议与期刊发表约200篇高水平论文，自2020年以来有13篇高被引/热点论文；自2022年起入选全球前2%顶尖科学家榜单。主持/参与10余项外部项目（约170万澳元），包括ARC DP与ARC LP。目前担任期刊Array主编，Information Systems、Knowledge-Based Systems与World Wide Web期刊副主编。</p>
       <p><img src="/images/news/2025_10_18-li-talk/1.png" alt="讲座现场1" style="max-width:100%;height:auto"/></p>
@@ -53,10 +321,10 @@ export const news: INews[] = [
       <p><img src="/images/news/2025_10_18-li-talk/5.png" alt="讲座现场5" style="max-width:100%;height:auto"/></p>
     </div>
   `,
-  title_en: "Academic Talk | Emerging Data Science Research for Robust Generative AI",
-  author_en: "Runjia Zhou",
-  summary_en: "",
-  content_en: `
+    title_en: "Academic Talk | Emerging Data Science Research for Robust Generative AI",
+    author_en: "Runjia Zhou",
+    summary_en: "",
+    content_en: `
     <div style="text-align: justify;">
       <p><big><span class="highlight-text">Reporting time:</span></big> October 18, 2025 (Saturday) 15:30-16:30</p>
       <p><big><span class="highlight-text">Reporting location:</span></big> Computer Building A411</p>
@@ -71,8 +339,8 @@ export const news: INews[] = [
       <p><img src="/images/news/2025_10_18-li-talk/5.png" alt="Talk photo 5" style="max-width:100%;height:auto"/></p>
     </div>
   `,
-  top: false
-},
+    top: false
+  },
   {
     id: 76,
     title: "学术报告 | 人工智能在知识产权中的应用",
@@ -86,7 +354,7 @@ export const news: INews[] = [
         <p><big <span class="highlight-text">演讲人：</span> </big>刘嘉莹 大连理工大学经济管理学院创新与创业研究所准聘助理教授、硕士生导师 </p>
         <p><big <span class="highlight-text">报告时间：</span> </big>2025年8月4日（周一）9:00-11:00</p>
         <p><big <span class="highlight-text">报告地点：</span> </big>铂悦城B座915（校企合作产业基地）</p>
-        <p><big <span class="highlight-text">报告摘要：</span> </big>知识产权是衡量国家和地区创新能力的重要指标，也是盘活创新资源、提升创新效益的有效途径。近年来，随着我国产业转型升级步伐的加快以及企业对创新活动的重视，知识产权领域开始出现总量增长、交易活跃的趋势。大规模的科技成果数据中蕴藏着海量技术情报，为寻找技术突破口和挖掘潜在知识奠定了扎实的数据基础，但同时也给情报研究带来了新的机遇和挑战。本次报告面向科技成果转化机制和技术产权交易与服务智慧化需求，分享如何开展科技成果转化统合和分析创新研究，借助人工智能实现对多源异质知识产权大数据的有效整合、高效分析与深度挖掘，并探讨建立适用于知识产权大数据的理论体系。</p>
+        <p><big <span class="highlight-text"><span class="highlight-text">报告摘要：</span></span> </big>知识产权是衡量国家和地区创新能力的重要指标，也是盘活创新资源、提升创新效益的有效途径。近年来，随着我国产业转型升级步伐的加快以及企业对创新活动的重视，知识产权领域开始出现总量增长、交易活跃的趋势。大规模的科技成果数据中蕴藏着海量技术情报，为寻找技术突破口和挖掘潜在知识奠定了扎实的数据基础，但同时也给情报研究带来了新的机遇和挑战。本次报告面向科技成果转化机制和技术产权交易与服务智慧化需求，分享如何开展科技成果转化统合和分析创新研究，借助人工智能实现对多源异质知识产权大数据的有效整合、高效分析与深度挖掘，并探讨建立适用于知识产权大数据的理论体系。</p>
         <p><big <span class="highlight-text">演讲人简介：</span> </big> <big <span class="highlight-text">
         <br>刘嘉莹</span> </big>大连理工大学经济管理学院创新与创业研究所准聘助理教授，硕士生导师。本科、博士均毕业于大连理工大学软件学院软件工程专业。主要研究方向为知识产权数据挖掘与分析，创新网络等。在人工智能、数据挖掘领域国际权威期刊、会议如TKDE、TNNLS、TKDD、SIGIR等发表论文40余篇。目前主持国家自然科学青年基金项目、教育部人文社科青年项目以及省市级项目5项，入选第八届中国科协青年人才托举工程。</p>
         <p><img src="/images/news/2025-8-4-ljy-report1.png"/></p>
@@ -113,7 +381,7 @@ export const news: INews[] = [
 
       </div>
     `,
-    top:false
+    top: false
   },
   {
     id: 75,
@@ -173,7 +441,7 @@ export const news: INews[] = [
 
       </div>
     `,
-    top:false
+    top: false
   },
   {
     id: 74,
@@ -189,13 +457,13 @@ export const news: INews[] = [
         <p>恭喜CSSC实验室潘企宏老师、硕士生谈昊飞的论文被IJCAI 2025录用！</p>
         <p>恭喜CSSC实验室博士生翁文超的论文被IJCAI 2025录用！</p>
 
-        <p><big <span class="highlight-text">题目：</span> </big>《LLM-TPF: Multiscale Temporal Periodicity-Semantic Fusion LLMs for TimeSeries Forecasting》（潘企宏、谈昊飞）</p>
+        <p><big <span class="highligh<span class="highlight-text">t-text">题目：</span> </big>《LLM-TPF: Multiscale Temporal Periodicity-Semantic Fusion LLMs for TimeSeries Forecasting》（潘企宏、谈昊飞）</p>
 
         <br/>
         <p><big <span class="highlight-text">摘要：</span> </big>大型语言模型在各个领域都表现出了卓越的泛化能力和强大的性能。最近的研究突出了它们在时间序列预测中的巨大潜力。然而，时间序列数据往往表现出复杂的周期性特征，这对使这些模型能够有效地捕捉潜在模式构成了重大挑战。为了应对这一挑战，我们提出了一种新的框架LLM-TPF，该框架利用个性和共性融合来增强时间序列预测。在频域中，提取周期性特征以揭示数据的内在周期性，而文本原型用于指示时间趋势。在时域中，采用精心设计的提示来指导模型理解全局信息。通用性融合机制进一步聚合了跨维度的异构信息，并利用三种不同的语言模型独立处理不同类型的信息。大量的真实世界实验表明，LLM-TPF是一种用于时间序列预测的强大工具，与最先进的专业模型相比，它实现了卓越的性能，并在零样本场景中表现出非凡的泛化能力。</p>
 
         <br/>
-        <p><big <span class="highlight-text">题目：</span> </big>《Let's group: A Plug-and-Play SubGraph Learning method for Memory-Efficient Spatio-Temporal Graph Modeling》（翁文超）</p>
+        <p><big <span class="highligh<span class="highlight-text">t-text">题目：</span> </big>《Let's group: A Plug-and-Play SubGraph Learning method for Memory-Efficient Spatio-Temporal Graph Modeling》（翁文超）</p>
 
         <br/>
         <p><big <span class="highlight-text">摘要：</span> </big>时空图建模广泛应用于时空数据，分析数据之间的关系以实现准确的预测。然而，尽管越来越复杂的模型具有出色的预测性能，但它们复杂的架构在处理时空数据时会导致巨大的内存开销和计算复杂性，这限制了它们的实际应用。为了应对这些挑战，我们提出了一种即插即用的子图学习（SGL）方法，在不影响性能的情况下减少内存开销。具体来说，我们引入了一个子图分区模块（SGPM），它利用一组可学习的内存向量从图中选择具有相似特征的节点组，有效地将图划分为更小的子图。注意，对图进行分区可能会导致特征冗余，因为子图之间可能会出现重叠信息。为了克服这一点，我们设计了一个子图特征聚合模块（SGFAM），通过平均不同子图的节点特征来减轻冗余。在四个不同规模的流量网络数据集上的实验表明，SGL可以显著降低内存开销，平均GPU内存开销降低56.4%，同时保持稳健的预测性能。</p>
@@ -225,7 +493,7 @@ export const news: INews[] = [
 
       </div>
     `,
-    top:false
+    top: false
   },
   {
     id: 73,
@@ -240,7 +508,7 @@ export const news: INews[] = [
 <!--        <p><img src="/images/news/2025-1-20-zyc-paper.png"/></p>-->
         <p>恭喜CSSC实验室博士生翁文超的论文被TITS 2025录用！</p>
 
-        <p><big <span class="highlight-text">题目：</span> </big>《Pattern-Matching Dynamic Memory Network for Dual-Mode Traffic Prediction》（双模流量预测的模式匹配动态存储网络）</p>
+        <p><big <span class="highligh<span class="highlight-text">t-text">题目：</span> </big>《Pattern-Matching Dynamic Memory Network for Dual-Mode Traffic Prediction》（双模流量预测的模式匹配动态存储网络）</p>
 
         <br/>
         <p><big <span class="highlight-text">摘要：</span> </big>近年来，深度学习在交通预测领域越来越受到关注。现有的流量预测模型通常依赖于复杂度为O（N^2）的GCN或注意力机制来动态提取流量节点特征，这缺乏效率，也不是轻量级的。此外，这些模型通常只利用历史数据进行预测，而不考虑目标信息对预测的影响。为了解决这些问题，我们提出了一种模式匹配动态内存网络（PM-DMNet）。与传统的基于注意力和图卷积的方法不同，PM DMNet采用了一种新颖的动态记忆网络，通过训练将历史数据中最具代表性的流量模式存储在记忆矩阵中。它通过比较存储矩阵和当前流量状态之间的相似性来捕获流量模式特征。该方法不仅实现了出色的预测性能，而且将计算复杂度显著降低到O（N）。PM-DMNet还引入了两种预测方法：递归多步预测（RMP）和并行多步预报（PMP），它们利用预测目标的时间特征来辅助预测过程。此外，PMP中集成了转移注意力机制，转换历史数据特征以更好地与预测的目标状态对齐，从而更准确地捕捉趋势变化并减少误差。大量实验表明，所提出的模型优于现有的基准。</p>
@@ -261,7 +529,7 @@ export const news: INews[] = [
         <p><big <span class="highlight-text">Abstract：</span> </big>In recent years, deep learning has received increasing attention in the field of traffic prediction. Existing traffic prediction models typically rely on GCN or attention mechanisms with a complexity of O (N ^ 2) to dynamically extract traffic node features, which lacks efficiency and is not lightweight. In addition, these models typically only use historical data for prediction without considering the impact of target information on the prediction. To address these issues, we propose a Pattern Matching Dynamic Memory Network (PM DMNet). Unlike traditional methods based on attention and graph convolution, PM DMNet adopts a novel dynamic memory network that stores the most representative traffic patterns from historical data in a memory matrix through training. It captures traffic pattern features by comparing the similarity between the storage matrix and the current traffic state. This method not only achieves excellent predictive performance, but also significantly reduces computational complexity to O (N). PM DMNet also introduces two prediction methods: Recursive Multi Step Prediction (RMP) and Parallel Multi Step Prediction (PMP), which utilize the temporal characteristics of the predicted target to assist in the prediction process. In addition, PMP integrates a transfer attention mechanism that transforms historical data features to better align with the predicted target state, thereby more accurately capturing trend changes and reducing errors. Numerous experiments have shown that the proposed model outperforms existing benchmarks.</p>
       </div>
     `,
-    top:false
+    top: false
   },
   {
     id: 72,
@@ -276,7 +544,7 @@ export const news: INews[] = [
         <p><big <span class="highlight-text">演讲人：</span> </big>赵成成 控制科学与工程学院工业控制研究所特聘研究员 </p>
         <p><big <span class="highlight-text">报告时间：</span> </big>2025年5月8日（周四）16:00-17 :00</p>
         <p><big <span class="highlight-text">报告地点：</span> </big>浙江工业大学 计算机大楼A105</p>
-        <p><big <span class="highlight-text">报告摘要：</span> </big> 随着工业化与信息化深度融合，工业控制系统呈现出开放、互联、跨域等特点，其网络安全态势越来越严峻。考虑工控系统攻击呈现出的欺骗性、信息物理融合等特点，本报告将围绕典型应用，从威胁分析、威胁实时检测、弹性控制三个层面出发，探讨多阶段脆弱性分析策略，提出围绕已知威胁和未知威胁的实时感知技术，设计弹性控制与优化方法，为工控系统网络化、智能化提供关键安全保障。</p>
+        <p><big <span class="highlight-text"><span class="highlight-text">报告摘要：</span></span> </big> 随着工业化与信息化深度融合，工业控制系统呈现出开放、互联、跨域等特点，其网络安全态势越来越严峻。考虑工控系统攻击呈现出的欺骗性、信息物理融合等特点，本报告将围绕典型应用，从威胁分析、威胁实时检测、弹性控制三个层面出发，探讨多阶段脆弱性分析策略，提出围绕已知威胁和未知威胁的实时感知技术，设计弹性控制与优化方法，为工控系统网络化、智能化提供关键安全保障。</p>
         <p><big <span class="highlight-text">演讲人简介：</span> </big> <big <span class="highlight-text">
         <br>赵成成</span> </big> 2018年6月获浙江大学控制科学与工程专业博士学位。2018年12月，入职浙江大学控制学院工业控制研究所，从事博士后研究工作。2019年5月至2020年12月，赴加拿大维多利亚大学电子与计算机工程系从事博士后研究工作。回国后加入浙江大学控制科学与工程学院工业控制研究所，现任特聘研究员。赵成成博士长期致力于工控安全、信息物理系统安全等方向的研究，主持国家自然科学基金青年/面上、浙江省自然科学基金重点/杰出青年等项目。发表控制/通信领域旗舰期刊/会议论文50余篇，其中IEEE/ACM汇刊论文20余篇。研究成果获中国自动化学会自然科学一等奖、中国电子学会自然科学二等奖、中国科技产业化促进会科技创新奖一等奖等，入选第七届中国科协青年托举工程。长期受邀担任IEEE ICC和IEEE GLOBECOM等国际会议程序委员会委员，并担任Wireless Networks期刊编委。</p>
         <p><img src="/images/news/2025-5-8-赵成成-report1.png"/></p>
@@ -303,7 +571,7 @@ export const news: INews[] = [
 
       </div>
     `,
-    top:false
+    top: false
   },
   {
     id: 71,
@@ -318,7 +586,7 @@ export const news: INews[] = [
         <p><big <span class="highlight-text">演讲人：</span> </big>张玉超、张依媚、翁文超、倪辰昊、Wail Al-Asad（瓦乐）、Syauqie Muhammad Marier（邵齐）、Dominic（巴火）、周文峰、陈祥钒 </p>
         <p><big <span class="highlight-text">报告时间：</span> </big>2025年5月8日（周四）13:00-15 :30</p>
         <p><big <span class="highlight-text">报告地点：</span> </big>浙江工业大学 计算机大楼A105</p>
-        <p><big <span class="highlight-text">报告摘要：</span> </big> 本次博士生论坛会以城市科学与社会计算研究组内全体博士生为主讲人，围绕各自的研究任务和领域前沿进展进行了深入的工作分享。主讲人通过详细介绍研究背景、关键问题、方法创新及成果应用，展现了各自的研究特色与阶段性成果，同时将自己最新的论文成果与大家分享和讨论。活动中，组内成员积极参与讨论，在每一位主讲人分享后，其余成员提出问题、分享观点，碰撞出新的学术思路，进一步深化了组内的学术交流与协作，为后续研究提供了宝贵的启发与支持。</p>
+        <p><big <span class="highlight-text"><span class="highlight-text">报告摘要：</span></span> </big> 本次博士生论坛会以城市科学与社会计算研究组内全体博士生为主讲人，围绕各自的研究任务和领域前沿进展进行了深入的工作分享。主讲人通过详细介绍研究背景、关键问题、方法创新及成果应用，展现了各自的研究特色与阶段性成果，同时将自己最新的论文成果与大家分享和讨论。活动中，组内成员积极参与讨论，在每一位主讲人分享后，其余成员提出问题、分享观点，碰撞出新的学术思路，进一步深化了组内的学术交流与协作，为后续研究提供了宝贵的启发与支持。</p>
 <!--        <p><big <span class="highlight-text">演讲人简介：</span> </big> <big <span class="highlight-text">-->
 <!--        <br>高飞</span> </big> 国家优青。浙江大学控制学院长聘副教授，研究员，博士生导师。主要研究方向：空中机器人、轨迹规划、自主导航、集群协同、定位感知。近年来，以第一作者/通讯作者身份在Science Robotics, IEEE TRO，ACM TOG, RSS，ICRA等知名机器人期刊、会议发表论文70余篇；发表Science Robotics封面论文并被国内外媒体广泛报道；获IEEE TRO 2020年最佳论文荣誉提名奖、国际基础科学大会ICBS 2024前沿科学奖、IEEE ICRA 2024年最佳论文提名等学术荣誉；入选爱思唯尔数据库2023/24年度全球前2％顶尖科学家。</p>-->
         <p><img src="/images/news/2025-5-8-docs-report1.png"/></p>
@@ -345,7 +613,7 @@ export const news: INews[] = [
 
       </div>
     `,
-    top:false
+    top: false
   },
   {
     id: 70,
@@ -360,7 +628,7 @@ export const news: INews[] = [
         <p><img src="/images/news/2025-1-20-zyc-paper.png"/></p>
         <p>恭喜CSSC实验室博士生张玉超的论文被WWW 2025录用！</p>
 
-        <p><big <span class="highlight-text">题目：</span> </big>《Tackling Sparse Facts for Temporal Knowledge Graph Completion》（处理稀疏事实以补全时态知识图谱）</p>
+        <p><big <span class="highligh<span class="highlight-text">t-text">题目：</span> </big>《Tackling Sparse Facts for Temporal Knowledge Graph Completion》（处理稀疏事实以补全时态知识图谱）</p>
 
         <br/>
         <p><big <span class="highlight-text">摘要：</span> </big>时态知识图补全（TKGC）旨在通过解决时态知识图（TKG）中缺失的关系和实体来开发更全面的知识表示，从而增强下游任务的推理和预测能力。尽管如此，现实世界的知识——如社交网络互动的进展和新闻事件的展开——本质上是动态的，导致TKG中存在大量稀疏问题，严重损害了TKGC模型的性能。为了克服这一挑战，我们引入了自适应邻域增强层（ANEL），这是一种新的模块，可以毫不费力地集成到现有的TKGC模型中，从而大大提高稀疏实体的表示质量。ANEL首先通过基础模型导出初始实体嵌入，然后通过潜在关系模块揭示实体之间隐藏的语义关系，丰富知识图中的显式关系。此外，ANEL还包含一个自适应的潜在信息调整组件，该组件根据实体的关系结构动态校准潜在信息的影响：连接较少的实体从潜在信息中获得更大的利益，而连接较密集的实体对潜在增强的依赖性较低，确保了精确和有弹性的表示。我们在四个著名的基准数据集上进行了全面的实验，结果强调了ANEL在TKGC任务中的有效性和优越性。</p>
@@ -381,7 +649,7 @@ export const news: INews[] = [
         <p><big <span class="highlight-text">Abstract：</span> </big>Temporal Knowledge Graph Completion (TKGC) aims to develop a more comprehensive knowledge representation by addressing the missing relationships and entities in Temporal Knowledge Graph (TKG), thereby enhancing the inference and prediction capabilities of downstream tasks. However, knowledge in the real world, such as the progress of social network interactions and the unfolding of news events, is essentially dynamic, leading to a large number of sparsity problems in TKG, which seriously damages the performance of TKGC models. To overcome this challenge, we introduced the Adaptive Neighborhood Enhancement Layer (ANEL), a new module that can be seamlessly integrated into existing TKGC models, greatly improving the representation quality of sparse entities. ANEL first exports the initial entity embeddings through the basic model, and then reveals the hidden semantic relationships between entities through the latent relationship module, enriching the explicit relationships in the knowledge graph. In addition, ANEL also includes an adaptive latent information adjustment component that dynamically calibrates the impact of latent information based on the relationship structure of entities: entities with fewer connections benefit more from latent information, while entities with denser connections have lower dependence on latent enhancement, ensuring accurate and elastic representation. We conducted comprehensive experiments on four well-known benchmark datasets, and the results emphasized the effectiveness and superiority of ANEL in TKGC tasks.</p>
       </div>
     `,
-    top:false
+    top: false
   },
   {
     id: 69,
@@ -396,7 +664,7 @@ export const news: INews[] = [
         <p><big <span class="highlight-text">演讲人：</span> </big>高飞 浙江大学控制学院长聘副教授，研究员，博士生导师 </p>
         <p><big <span class="highlight-text">报告时间：</span> </big>2024年12月31日（周二）15:00-17:00</p>
         <p><big <span class="highlight-text">报告地点：</span> </big>浙江工业大学 计算机大楼A411</p>
-        <p><big <span class="highlight-text">报告摘要：</span> </big> 对于感知范围、计算能力、机动性能、资源功耗等受限的空中机器人系统（无人机），其在无先验信息、卫星导航拒止、障碍物稠密环境中的自主化、鲁棒化，协同化、智能化运动仍面临理论与技术上的重大挑战。观察自然界的飞行生物，我们发现鸟群可以组成庞大的集群，仅依靠它们的眼睛和大脑跨越数千公里完成自然迁徙，而鹰隼可以在长远的距离下锁定目标，穿梭于各种障碍物之间。本次报告，我将类比生物导航现象的作用机理，从敏锐感知、自主决策、飞行交互、集群智能等方面介绍团队在无人机单机与集群自主导航方法上所做出的最新创新贡献，展示在不依赖外部定位和计算设施，仅靠机载摄像头、计算芯片和传感器的无人机动态环境鲁棒感知、快速灵巧机动飞行、飞行吊载与抓握、集群避障编队等方面的最新研究成果。</p>
+        <p><big <span class="highlight-text"><span class="highlight-text">报告摘要：</span></span> </big> 对于感知范围、计算能力、机动性能、资源功耗等受限的空中机器人系统（无人机），其在无先验信息、卫星导航拒止、障碍物稠密环境中的自主化、鲁棒化，协同化、智能化运动仍面临理论与技术上的重大挑战。观察自然界的飞行生物，我们发现鸟群可以组成庞大的集群，仅依靠它们的眼睛和大脑跨越数千公里完成自然迁徙，而鹰隼可以在长远的距离下锁定目标，穿梭于各种障碍物之间。本次报告，我将类比生物导航现象的作用机理，从敏锐感知、自主决策、飞行交互、集群智能等方面介绍团队在无人机单机与集群自主导航方法上所做出的最新创新贡献，展示在不依赖外部定位和计算设施，仅靠机载摄像头、计算芯片和传感器的无人机动态环境鲁棒感知、快速灵巧机动飞行、飞行吊载与抓握、集群避障编队等方面的最新研究成果。</p>
         <p><big <span class="highlight-text">演讲人简介：</span> </big> <big <span class="highlight-text">
         <br>高飞</span> </big> 国家优青。浙江大学控制学院长聘副教授，研究员，博士生导师。主要研究方向：空中机器人、轨迹规划、自主导航、集群协同、定位感知。近年来，以第一作者/通讯作者身份在Science Robotics, IEEE TRO，ACM TOG, RSS，ICRA等知名机器人期刊、会议发表论文70余篇；发表Science Robotics封面论文并被国内外媒体广泛报道；获IEEE TRO 2020年最佳论文荣誉提名奖、国际基础科学大会ICBS 2024前沿科学奖、IEEE ICRA 2024年最佳论文提名等学术荣誉；入选爱思唯尔数据库2023/24年度全球前2％顶尖科学家。</p>
         <p><img src="/images/news/2024-12-31-高飞-report1.png"/></p>
@@ -423,7 +691,7 @@ export const news: INews[] = [
 
       </div>
     `,
-    top:false
+    top: false
   },
   {
     id: 68,
@@ -438,7 +706,7 @@ export const news: INews[] = [
         <p><big <span class="highlight-text">演讲人：</span> </big>廖依伊 浙江大学信电学院特聘研究员 </p>
         <p><big <span class="highlight-text">报告时间：</span> </big>2024年11月29日（周五）15:30-17:30</p>
         <p><big <span class="highlight-text">报告地点：</span> </big>浙江工业大学 计算机大楼A411</p>
-        <p><big <span class="highlight-text">报告摘要：</span> </big> 高写实度的视觉仿真平台对于端到端自动驾驶具有重要意义，人工设计的仿真平台往往与现实世界存在一定差异且设计代价高昂。近年来，神经渲染场技术的发展为基于现实场景构造高写实度的仿真平台成为可能，然而现有方法这类方法在可控性上难以匹配人工设计的仿真平台。本次报告将从重建和生成两个角度出发，探讨如何提高自动驾驶视觉仿真的写实度和可控性。</p>
+        <p><big <span class="highlight-text"><span class="highlight-text">报告摘要：</span></span> </big> 高写实度的视觉仿真平台对于端到端自动驾驶具有重要意义，人工设计的仿真平台往往与现实世界存在一定差异且设计代价高昂。近年来，神经渲染场技术的发展为基于现实场景构造高写实度的仿真平台成为可能，然而现有方法这类方法在可控性上难以匹配人工设计的仿真平台。本次报告将从重建和生成两个角度出发，探讨如何提高自动驾驶视觉仿真的写实度和可控性。</p>
         <p><big <span class="highlight-text">演讲人简介：</span> </big> <big <span class="highlight-text">
         <br>廖依伊</span> </big> 浙江大学信电学院特聘研究员。2018年获浙江大学博士学位，2018年到2021年在德国马普所从事博士后研究。研究兴趣主要为三维视觉与沉浸式媒体编码。在TPAMI、CVPR、ICCV、NeurIPS等期刊和会议发表文章四十余篇，谷歌学术引用4300余次。获ICRA 2024最佳机器人视觉论文奖，入选2023 百度 AI 华人女性青年学者。担任3DV 2025程序主席，CVPR 2023-2024、NeurIPS 2023领域主席，MPEG国际标准组织INVR专题组组长，IEEE 视频处理与通信技术委员会（VSPC）委员。</p>
         <p><img src="/images/news/2024-11-29-廖依伊-report1.png"/></p>
@@ -465,7 +733,7 @@ export const news: INews[] = [
 
       </div>
     `,
-    top:false
+    top: false
   },
   {
     id: 67,
@@ -480,7 +748,7 @@ export const news: INews[] = [
         <p><big <span class="highlight-text">演讲人：</span> </big>CSSC Lab二年级及以上博士生 </p>
         <p><big <span class="highlight-text">报告时间：</span> </big>2024年11月29日（周五）13:30-15:30</p>
         <p><big <span class="highlight-text">报告地点：</span> </big>浙江工业大学 计算机大楼A411</p>
-        <p><big <span class="highlight-text">报告摘要：</span> </big> 本次博士生论坛会以城市科学与社会计算研究组内二年级及以上博士生为主讲人，围绕各自的研究任务和领域前沿进展进行了深入的工作分享。主讲人通过详细介绍研究背景、关键问题、方法创新及成果应用，展现了各自的研究特色与阶段性成果。活动中，组内成员积极参与讨论，提出问题、分享观点，碰撞出新的学术思路，进一步深化了组内的学术交流与协作，为后续研究提供了宝贵的启发与支持。</p>
+        <p><big <span class="highlight-text"><span class="highlight-text">报告摘要：</span></span> </big> 本次博士生论坛会以城市科学与社会计算研究组内二年级及以上博士生为主讲人，围绕各自的研究任务和领域前沿进展进行了深入的工作分享。主讲人通过详细介绍研究背景、关键问题、方法创新及成果应用，展现了各自的研究特色与阶段性成果。活动中，组内成员积极参与讨论，提出问题、分享观点，碰撞出新的学术思路，进一步深化了组内的学术交流与协作，为后续研究提供了宝贵的启发与支持。</p>
         <p><big <span class="highlight-text">演讲人简介：</span> </big> <big <span class="highlight-text">
         <br>周文峰、张玉超、倪辰昊、顾文杰、Syauqie（邵齐）、Dominic（巴火）</span> </big> </p>
         <p><img src="/images/news/2024-11-29-phd-report1.png"/></p>
@@ -507,7 +775,7 @@ export const news: INews[] = [
 
       </div>
     `,
-    top:false
+    top: false
   },
   {
     id: 66,
@@ -522,7 +790,7 @@ export const news: INews[] = [
         <p><big <span class="highlight-text">演讲人：</span> </big>朱芸 浙江海康智联科技有限公司技术研发中心副主任 </p>
         <p><big <span class="highlight-text">报告时间：</span> </big>2024年9月28日（周六）9:30-10:30</p>
         <p><big <span class="highlight-text">报告地点：</span> </big>浙江工业大学 计算机大楼A105</p>
-        <p><big <span class="highlight-text">报告摘要：</span> </big> 车路协同发展现状、关键技术和典型案例。介绍目前车路协同的发展现状，包括技术路线、行业组织课题研究情况、行业互联互通活动举办情况、行业标准制定情况、目前行业的主要问题等，同时剖析车路协同行业相关的关键技术，分析技术的重要性和难点，包括协议栈、定位、单车智能融合、跨网协同等。最后，介绍车路协同的典型实践案例，包括车路协同建设方案、应用功能、建设效果等。</p>
+        <p><big <span class="highlight-text"><span class="highlight-text">报告摘要：</span></span> </big> 车路协同发展现状、关键技术和典型案例。介绍目前车路协同的发展现状，包括技术路线、行业组织课题研究情况、行业互联互通活动举办情况、行业标准制定情况、目前行业的主要问题等，同时剖析车路协同行业相关的关键技术，分析技术的重要性和难点，包括协议栈、定位、单车智能融合、跨网协同等。最后，介绍车路协同的典型实践案例，包括车路协同建设方案、应用功能、建设效果等。</p>
         <p><big <span class="highlight-text">演讲人简介：</span> </big> <big <span class="highlight-text">
         <br>朱芸</span> </big> 浙江海康智联科技有限公司技术研发中心副主任，主要研究方向为车路协同。硕士毕业于浙江大学，曾任职华为技术有限公司、中电海康集团有限公司，有多年软件开发和研发管理工作经验。授权国家发明专利多项、软著几十项，同时参与多项行业标准定制与课题研究。先后获得公司知识产权先进工作者、党员先锋岗、优秀部门、春雨人才等称号。作为公司车路协同的带头人和开拓者，完成公司车路协同产品从0到1的开发，并参与多个国家级项目的开发与交付。目前作为公司技术研发负责人，带领团队进行车路协同产品、边缘计算产品、平台产品等的研发，总计完成十余款产品的研发并成功面市，支撑公司完成上百个项目的顺利交付。</p>
         <p><img src="/images/news/2024-9-28-朱芸-report.jpg"/></p>
@@ -545,7 +813,7 @@ export const news: INews[] = [
 
       </div>
     `,
-    top:false
+    top: false
   },
   {
     id: 65,
@@ -560,7 +828,7 @@ export const news: INews[] = [
         <p><img src="/images/news/2024-6-5-cxf-paper.png"/></p>
         <p>恭喜CSSC实验室硕士生陈祥钒的论文被ACL 2024录用！</p>
 
-        <p><big <span class="highlight-text">题目：</span> </big>《Pinpointing Diffusion Grid Noise to Enhance Aspect Sentiment Quad Prediction》（精确捕捉扩散网格噪声来提升属性情感四元组预测）</p>
+        <p><big <span class="highligh<span class="highlight-text">t-text">题目：</span> </big>《Pinpointing Diffusion Grid Noise to Enhance Aspect Sentiment Quad Prediction》（精确捕捉扩散网格噪声来提升属性情感四元组预测）</p>
 
         <br/>
         <p><big <span class="highlight-text">摘要：</span> </big>方面情感四元预测（ASQP）在基于方面的情感分析（ABSA）中得到了极大的关注。目前的ASQP研究主要依靠预先训练的生成语言模型来生成模板化序列，通常辅以基于网格的辅助方法。尽管做出了这些努力，但发电不稳定的持续挑战仍未解决，目前的研究对网格方法的有效性仍未充分探索。为此，我们引入Grid Diffusion Pinpoint网络（GDP），一个基于T5的生成模型，旨在解决发电不稳定性问题。该模型由三个新模块组成，包括扩散模糊学习（DVL），以促进有效的模型学习并增强整体鲁棒性；一致性似然学习（CLL），用于辨别情感元素的特征和共性，从而减少分布式噪声的影响；以及GDP-FOR，一种新的生成模板，使模型能够以更自然的方式生成输出。在四个数据集上进行的大量实验证明了我们的方法在解决ASQP任务方面的显著有效性。</p>
@@ -581,7 +849,7 @@ export const news: INews[] = [
         <p><big <span class="highlight-text">Abstract：</span> </big>Aspent Sentiment Quaternary Prediction (ASQP) has received great attention in aspect-based sentiment analysis (ABSA). Current ASQP research relies heavily on pre-trained generative language models to generate templated sequences, often supplemented by grid-based auxiliary methods. Despite these efforts, the ongoing challenge of unstable power generation remains unresolved, and the effectiveness of the grid approach has not been fully explored in current research. To this end, we introduce the Grid Diffusion Pinpoint Network (GDP), a T5-based generative model designed to address generation instability. The model consists of three new modules, including diffusion fuzzy learning (DVL), to facilitate effective model learning and enhance overall robustness; Consistent Likelihood Learning (CLL), which is used to identify the features and commonalities of emotional elements, thereby reducing the impact of distributed noise; and GDP-FOR, a new generation template that enables models to generate outputs in a more natural way. A large number of experiments on four datasets have demonstrated the remarkable effectiveness of our method in solving ASQP tasks.</p>
       </div>
     `,
-    top:false
+    top: false
   },
   {
     id: 64,
@@ -596,7 +864,7 @@ export const news: INews[] = [
         <p><img src="/images/news/2024-05-16-lyh-paper.png"/></p>
         <p>恭喜CSSC实验室博士生刘璎辉的论文被IJCAI 2024录用！</p>
 
-        <p><big <span class="highlight-text">题目：</span> </big>《KDDC: Knowledge-Driven Disentangled Causal Metric Learning for Pre-Travel Out-of-Town Recommendation》（KDDC：用于旅行前的城外推荐的知识驱动的解开因果度量学习）</p>
+        <p><big <span class="highligh<span class="highlight-text">t-text">题目：</span> </big>《KDDC: Knowledge-Driven Disentangled Causal Metric Learning for Pre-Travel Out-of-Town Recommendation》（KDDC：用于旅行前的城外推荐的知识驱动的解开因果度量学习）</p>
 
         <br/>
         <p><big <span class="highlight-text">摘要：</span> </big>开发旅行前推荐系统是为了向计划离开家乡但尚未决定目的地的用户提供各种城外兴趣点（POI）。现有的城外推荐系统的工作原理是构建用户的潜在偏好，并从他们的签到序列中推断旅行意图。然而，仍有两个挑战阻碍了这些方法的性能：i) 用户的交互数据（包括家乡和外地签到）往往很少，而来自不同地区的候选 POI 包含各种语义信息；ii) 用户签到的原因不仅包括兴趣，还包括从众性，这两者很容易纠缠在一起并被忽略。为了填补这些空白，我们提出了一种知识驱动的因果分解度量学习框架（KDDC），该框架通过增强 POI 语义表示来缓解交互数据的稀疏性，并考虑两种原因（即从众性和兴趣）的分布，从而实现旅行前推荐。具体来说，我们通过分段交互方法对构建的 POI 属性知识图进行预训练，并通过关系异质性聚合 POI 语义信息。此外，我们还设计了一种分离的因果度量学习方法来建模和推断与用户相关的表征。在两个真实的全球数据集上进行的广泛实验表明，我们的 KDDC 始终优于最先进的基线。</p>
@@ -617,7 +885,7 @@ export const news: INews[] = [
         <p><big <span class="highlight-text">Abstract：</span> </big>The pre-trip recommendation system was developed to provide a variety of out-of-town points of interest (POIs) to users who are planning to leave their hometown but have not yet decided on a destination. Existing out-of-town recommender systems work by constructing users' potential preferences and inferring travel intent from their check-in sequences. However, there are still two challenges that hinder the performance of these approaches: i) user interaction data (including home and out-of-town check-ins) tends to be scarce, and candidate POIs from different regions contain a variety of semantic information; ii) The reasons for users to check in include not only interest but also herdity, which can easily become entangled and overlooked. To fill these gaps, we propose a knowledge-driven Measure Learning Framework for Causal Decomposition (KDDC) that mitigates the sparsity of interaction data by enhancing the semantic representation of POIs and considers the distribution of two reasons, i.e., conformity and interest, to achieve pre-trip recommendations. Specifically, we pre-train the constructed POI attribute knowledge graph through the segmented interaction method, and aggregate the POI semantic information through relational heterogeneity. In addition, we design a detached causal measure learning method to model and infer user-relevant representations. Extensive experiments on two real-world global datasets have shown that our KDDC consistently outperforms state-of-the-art baselines.</p>
       </div>
     `,
-    top:false
+    top: false
   },
   {
     id: 63,
@@ -632,7 +900,7 @@ export const news: INews[] = [
 
         <p>恭喜CSSC实验室硕士生沈哲辉的论文被TITS录用！</p>
 
-        <p><big <span class="highlight-text">题目：</span> </big>《Exploring Bus Stop Mobility Pattern: A Multi-Pattern Deep Learning Prediction Framework》（探索公交车站点移动模式:一个多模式的深度学习交通预测框架）</p>
+        <p><big <span class="highligh<span class="highlight-text">t-text">题目：</span> </big>《Exploring Bus Stop Mobility Pattern: A Multi-Pattern Deep Learning Prediction Framework》（探索公交车站点移动模式:一个多模式的深度学习交通预测框架）</p>
 
         <br/>
         <p><big <span class="highlight-text">摘要：</span> </big>交通网络中的时空预测任务是解决各种交通问题的核心。一方面，交通的流动模式可以反映在人群的出行行为中。在大多数交通预测任务中，移动模式的重要性常常被忽视。另一方面，交通预测也有多种预测场景，包括短期预测和长期预测，相关研究无法同时解决两种场景下的问题。针对现有工作的问题，我们提出了一种多模式流量预测框架MPGNNFormer。首先，我们构建一个新的公交车站距离网络来模拟车站之间的关系。然后，我们使用基于图神经网络的深度聚类方法来提取公交车站的移动模式。最后，我们设计了一个基于变压器的时空预测模型（STGNNFormer），充分利用时间依赖性和空间依赖性来预测公交车站流量。之后，我们进行了一系列实验，在真实的公交车数据集上评估和测试它们，包括分析移动模式并比较预测结果。实验结果证明MPGNNFormer在交通网络停流预测中能够在保证预测精度的同时提高预测场景中的计算效率。</p>
@@ -653,7 +921,7 @@ export const news: INews[] = [
         <p><big <span class="highlight-text">Abstract：</span> </big>The spatio-temporal prediction task in the transportation network is the core of solving various traffic problems. On the one hand, the flow pattern of traffic can be reflected in the travel behavior of people. The importance of movement patterns is often overlooked in most traffic prediction tasks. On the other hand, there are multiple prediction scenarios for traffic forecasting, including short-term forecasting and long-term forecasting, and related studies cannot solve the problems in both scenarios at the same time. In order to solve the problems of the existing work, we propose a multi-modal traffic prediction framework MPGNNFormer. First, we construct a new bus stop distance network to simulate the relationship between stations. Then, we use a deep clustering method based on graph neural networks to extract the movement patterns of bus stops. Finally, we designed a transformer-based spatiotemporal prediction model (STGNNFormer) to make full use of the time dependence and spatial dependence to predict bus station traffic. After that, we conducted a series of experiments to evaluate and test them on a real bus dataset, including analyzing movement patterns and comparing the predictions. Experimental results show that MPGNNFormer can improve the computational efficiency in the prediction scenario while ensuring the prediction accuracy in the traffic network stop prediction.</p>
       </div>
     `,
-    top:false
+    top: false
   },
   {
     id: 62,
@@ -668,7 +936,7 @@ export const news: INews[] = [
         <p><img src="/images/news/2023-9-26-zwy-paper.png"/></p>
         <p>恭喜CSSC实验室博士生张文熠的论文被TMC 2023录用！</p>
 
-        <p><big <span class="highlight-text">题目：</span> </big>《FedAWR: An Interactive Federated Active Learning Framework for Air Writing Recognition》（FedAWR:面向空中写作识别的交互式联邦主动学习框架）</p>
+        <p><big <span class="highligh<span class="highlight-text">t-text">题目：</span> </big>《FedAWR: An Interactive Federated Active Learning Framework for Air Writing Recognition》（FedAWR:面向空中写作识别的交互式联邦主动学习框架）</p>
 
         <br/>
         <p><big <span class="highlight-text">摘要：</span> </big>虚拟现实和增强现实等技术的快速发展，加上 COVID-19 大流行导致直接接触的减少，导致了一种更先进的交互模式的出现：空中手写。这种新形式的人机交互允许用户通过在空中自由书写来输入文本。然而，在实际场景中部署和应用现有的空气手写识别系统仍然存在挑战，特别是在实时性能、隐私保护和标签稀缺性方面。为了应对这些挑战，我们提出了一个名为FedAWR的联合主动学习框架，用于空中手写识别任务。FedAWR 利用分布式学习从网络边缘的多个用户设备在云中训练共享的全局模型，同时将用户的手写数据保留在本地以确保隐私。此外，FedAWR 采用交互式主动学习策略，在在线联邦学习过程中收集用户提供的注释以进行迭代训练，为每个客户引导个性化模型。为了进一步增强交互性和实时性能，我们设计了一个轻量级的识别模型，该模型集成到 FedAWR 中。最后，在真实世界的空气手写数据集上进行了广泛的实验，以验证FedAWR的优越性。</p>
@@ -689,7 +957,7 @@ export const news: INews[] = [
         <p><big <span class="highlight-text">Abstract：</span> </big>The rapid development of technologies such as virtual reality and augmented reality, combined with the reduction in direct contact due to the COVID-19 pandemic, has led to the emergence of a more advanced mode of interaction: aerial handwriting. This new form of human-computer interaction allows users to enter text by writing freely in the air. However, there are still challenges in deploying and applying existing air handwriting recognition systems in real-world scenarios, especially in terms of real-time performance, privacy protection, and tag scarcity. To address these challenges, we propose a federated active learning framework called FedAWR for over-the-air handwriting recognition tasks. FedAWR leverages distributed learning to train a shared global model in the cloud from multiple user devices at the edge of the network, while keeping the user's handwritten data local for privacy. In addition, FedAWR employs an interactive active learning strategy that collects user-provided annotations for iterative training during the online federated learning process, leading to a personalized model for each customer. To further enhance interactivity and real-time performance, we designed a lightweight recognition model that is integrated into FedAWR. Finally, extensive experiments were conducted on real-world air-handwritten datasets to verify the superiority of FedAWR.</p>
       </div>
     `,
-    top:false
+    top: false
   },
   {
     id: 61,
@@ -704,7 +972,7 @@ export const news: INews[] = [
         <p><big <span class="highlight-text">演讲人：</span> </big>张大庆 北京大学讲席教授，欧洲科学院院士 </p>
         <p><big <span class="highlight-text">报告时间：</span> </big>2023年12月14日（周四）13：30-15:30</p>
         <p><big <span class="highlight-text">报告地点：</span> </big>浙江工业大学 计算机大楼A411</p>
-        <p><big <span class="highlight-text">报告摘要：</span> </big> 基于WiFi/4G/5G CSI的无线非接触感知研究经过学术界和产业界过去10年的努力，取得了长足的进展并开始以产品形式落地应用。回顾过去十年泛在WiFi/4G/5G非接触感知的研究，国内外许多团队探索了各种无线感知技术和新型应用，在实验室环境开展了大量实验验证。不同于众多团队聚焦无线感知技术和应用的创新，我们试图通过提出新的基础理论和模型来理解无线感知的机理并回答领域最基本的理论问题，通过理论模型的创新带动关键感知技术和应用的突破；尝试构建完整的无线感知理论技术体系，重新审视传统无线感知技术并理解他们的适用条件，为理解无线电磁波的各种参数与感知应用性能之间的定量关系并为无线感知应用在实际环境中真正落地奠定理论技术基础。本报告将回顾总结团队在无线非接触感知理论技术体系方面的研究，包括菲涅尔区反射和衍射模型、速度与多普勒速度之间的定量模型、CSI天线商模型和载波商模型、感知信噪比与感知极限、感知边界和感知信号质量之间的关系，以及如何理解和解决位置朝向依赖性问题等，也将介绍团队开发的一系列无线感知应用系统。</p>
+        <p><big <span class="highlight-text"><span class="highlight-text">报告摘要：</span></span> </big> 基于WiFi/4G/5G CSI的无线非接触感知研究经过学术界和产业界过去10年的努力，取得了长足的进展并开始以产品形式落地应用。回顾过去十年泛在WiFi/4G/5G非接触感知的研究，国内外许多团队探索了各种无线感知技术和新型应用，在实验室环境开展了大量实验验证。不同于众多团队聚焦无线感知技术和应用的创新，我们试图通过提出新的基础理论和模型来理解无线感知的机理并回答领域最基本的理论问题，通过理论模型的创新带动关键感知技术和应用的突破；尝试构建完整的无线感知理论技术体系，重新审视传统无线感知技术并理解他们的适用条件，为理解无线电磁波的各种参数与感知应用性能之间的定量关系并为无线感知应用在实际环境中真正落地奠定理论技术基础。本报告将回顾总结团队在无线非接触感知理论技术体系方面的研究，包括菲涅尔区反射和衍射模型、速度与多普勒速度之间的定量模型、CSI天线商模型和载波商模型、感知信噪比与感知极限、感知边界和感知信号质量之间的关系，以及如何理解和解决位置朝向依赖性问题等，也将介绍团队开发的一系列无线感知应用系统。</p>
         <p><big <span class="highlight-text">演讲人简介：</span> </big> <big <span class="highlight-text">
         <br>张大庆</span> </big> 北京大学讲席教授，欧洲科学院院士，IEEE Fellow，中国计算机学会普适计算专委会主任。主要研究方向包括普适计算、移动计算、智能物联网和智慧康养。在顶级国际期刊、会议发表学术论文 400余篇，文章总引用27600余次，H因子84, 国际国内专利40余项。所创的基于OWL的情境模型被国际普适计算、移动计算、服务计算等领域广泛采用，并成为国际、国内智慧城市的情境标准。早期工作曾获得IEEE PerCom 2013、IEEE UIC 2019和FCS期刊2023年授予的“十年最具影响力论文奖”，以及ACM UbiComp 2015、2016 最佳论文提名奖；近期主要从事无线感知的研究，在菲涅尔区感知模型与多普勒速度、速度和位置朝向的映射关系、无线感知的感知边界、感知极限、感知信号质量、移动场景的感知模型、量子无线感知等方面取得了一系列国际原创的成果；先后获得ACM IMWUT 2021杰出论文奖，ACM MobiCom 2022 最佳论文奖第二名和CCF TPCI 2023最佳论文奖等。张大庆教授是普适计算权威国际期刊ACM IMWUT的指导委员会七位委员之一, 担任过10多个国际会议的大会或程序委员会主席, 应邀在30多个国际会议做大会特邀报告。。</p>
         <p><img src="/images/news/2023-12-14-张大庆-report.png"/></p>
@@ -727,7 +995,7 @@ export const news: INews[] = [
 
       </div>
     `,
-    top:false
+    top: false
   },
   {
     id: 60,
@@ -742,7 +1010,7 @@ export const news: INews[] = [
         <p><big <span class="highlight-text">演讲人：</span> </big>胡卫明 博导、中国科学院自动化研究所研究院</p>
         <p><big <span class="highlight-text">报告时间：</span> </big>2023年11月10日（周日）14:00-15:00</p>
         <p><big <span class="highlight-text">报告地点：</span> </big>浙江工业大学 计算机大楼A411</p>
-        <p><big <span class="highlight-text">报告摘要：</span> </big> 针对公共安全大数据多源、异质、时变、隐匿等复杂性特点导致的语义计算复杂、时空线索挖掘复杂和推理过程解释难问题，从模型构建、算法设计、关键技术和软件研制等方面进行网络大数据跨模态语义理解与事件推理方法研究。在大数据的跨模态语义理解方面，研究了基于局部文本错误建模的图像文本细粒度语义对齐、基于语义增强在线掩码图像恢复的图像文本预训练、基于文本知识引导的视频描述方法；在大数据多模态事理图谱与推理方面，研究了多模态事件抽取技术、篇章级复杂论元处理技术和基于多模态事理图谱的敏感视频搜索技术；在系统研发上，开发了网络多媒体数据的采集、建模和风控平台。</p>
+        <p><big <span class="highlight-text"><span class="highlight-text">报告摘要：</span></span> </big> 针对公共安全大数据多源、异质、时变、隐匿等复杂性特点导致的语义计算复杂、时空线索挖掘复杂和推理过程解释难问题，从模型构建、算法设计、关键技术和软件研制等方面进行网络大数据跨模态语义理解与事件推理方法研究。在大数据的跨模态语义理解方面，研究了基于局部文本错误建模的图像文本细粒度语义对齐、基于语义增强在线掩码图像恢复的图像文本预训练、基于文本知识引导的视频描述方法；在大数据多模态事理图谱与推理方面，研究了多模态事件抽取技术、篇章级复杂论元处理技术和基于多模态事理图谱的敏感视频搜索技术；在系统研发上，开发了网络多媒体数据的采集、建模和风控平台。</p>
         <p><big <span class="highlight-text">演讲人简介：</span> </big> <big <span class="highlight-text">
         <br>胡卫明</span> </big> 中国科学院自动化研究所多模态人工智能系统全国重点实验室研究员、博士生导师、视频内容安全研究团队负责人，国家杰出青年科学基金获得者、中组部万人计划科技创新领军人才入选者、科技部中青年科技创新领军人才入选者、人社部百千万人才工程国家级人选、国家有突出贡献中青年专家、享受国务院政府特殊津贴、国家863重点专项项目首席专家，IEEE Trans. on PAMI、ACM Trans. on PML和IEEE Trans. on Cybernetics的Associate Editors。目前研究方向为网络多媒体敏感内容识别等，主持了国家自然科学基金重点项目、国家863重点专项项目、目标导向类课题等四十余项科研项目。已在PAMI、IJCV等国际刊物、国内一级刊物以及ICCV、ECCV、CVPR等重要国际学术会议上发表论文300余篇，获授权发明专利50余项。带领团队完成的敏感多媒体识别等技术实际应用于一百余家企事业单位，已在实战发挥作用，取得了显著的经济效益和社会效益。以第一完成人获国家自然科学二等奖、北京市科学技术(技术发明类)一等奖、北京市发明专利一等奖和吴文俊人工智能科学技术一等奖。</p>
 
@@ -765,7 +1033,7 @@ export const news: INews[] = [
 
       </div>
     `,
-    top:false
+    top: false
   },
   {
     id: 59,
@@ -805,7 +1073,7 @@ export const news: INews[] = [
     <p>Ioannidis, John P.A. (2023), "October 2023 data-update for "Updated science-wide author databases of standardized citation indicators"", Elsevier Data Repository, V6, DOI: 10.17632/ btchxktzyw.6</p>
   </div>
     `,
-    top:true
+    top: true
   },
   {
     id: 58,
@@ -820,7 +1088,7 @@ export const news: INews[] = [
         <p><big <span class="highlight-text">演讲人：</span> </big>Ivan Lee  University of South Australia</p>
         <p><big <span class="highlight-text">报告时间：</span> </big>2023年6月11日(周日)上午09：30-10：30</p>
         <p><big <span class="highlight-text">报告地点：</span> </big>浙江工业大学 计算机大楼A411</p>
-        <p><big <span class="highlight-text">报告摘要：</span> </big> Advances in intelligent sensors and multimedia systems supported by machine learning have found practical applications such as surveillance, monitoring, and quality inspection. These technologies can also be utilised in AgTech, assisting farmers to produce products that address the increasing demand of quality food. This presentation will begin with an overview of UniSA's past and recent work on intelligent sensor and multimedia systems. Then, specific AgTech projects, including almond quality and toxic analysis using RGB and hyperspectral imaging, machine-learning based tomato yield prediction, vision-based snail/slug tracking for pest control, and synchrotron-based analysis of wheat grain micronutrient and soil-root interactions.</p>
+        <p><big <span class="highlight-text"><span class="highlight-text">报告摘要：</span></span> </big> Advances in intelligent sensors and multimedia systems supported by machine learning have found practical applications such as surveillance, monitoring, and quality inspection. These technologies can also be utilised in AgTech, assisting farmers to produce products that address the increasing demand of quality food. This presentation will begin with an overview of UniSA's past and recent work on intelligent sensor and multimedia systems. Then, specific AgTech projects, including almond quality and toxic analysis using RGB and hyperspectral imaging, machine-learning based tomato yield prediction, vision-based snail/slug tracking for pest control, and synchrotron-based analysis of wheat grain micronutrient and soil-root interactions.</p>
         <p><big <span class="highlight-text">演讲人简介：</span> </big> <big <span class="highlight-text">
         <br>Ivan Lee</span> </big> is an Associate Professor at University of South Australia, and a REDI Fellow. He received BE, MCom, ME, and PhD degrees from the University of Sydney, Australia. He was a software development engineer at Cisco Systems, a software engineer at Remotek Corporation, and an Assistant Professor at Ryerson University. His research interests include intelligent sensor, multimedia system, and data analytics. He has served as a Chief Investigator of 28 funded projects in Australia and in Canada. His research findings have been disseminated in over 150 peer-reviewed publications. He was a recipient of The Vannevar Bush Best Paper Honorable Mention of 2020 Jointed Conference on Digital Libraries (JCDL); the Lockheed Martin Best Paper Award of 2015 SPIE Defense + Security, Automatic Target Recognition XXV; and the Best Paper Award of 2007 Pacific-Rim Conference on Multimedia. He currently serves on the committee of National Computational Merit Allocation Scheme (NCMAS) in Australia.</p>
 
@@ -843,7 +1111,7 @@ export const news: INews[] = [
         <p><img src="/images/news/2023-06-11-Ivan_Lee-report.png"/></p>
       </div>
     `,
-    top:false
+    top: false
   },
   {
     id: 57,
@@ -858,17 +1126,17 @@ export const news: INews[] = [
         <p><big <span class="highlight-text">演讲人：</span> </big>Ivan Lee  University of South Australia</p>
         <p><big <span class="highlight-text">报告时间：</span> </big>2023年6月2日(周五)上午09：30-11：30</p>
         <p><big <span class="highlight-text">报告地点：</span> </big>浙江工业大学 计算机大楼A411</p>
-        <p><big <span class="highlight-text">报告摘要：</span> </big> 机器学习算法在金融、交通、科学等领域有广泛深入的应用。实际应用中的数据存在不同类型的缺失、偏差及异质性问题，例如存在高度随机或者块状缺失，训练数据和测试数据之间存在高度异质，多方数据联合建模时在特征维度、统计分布、建模任务等方面存在显著差异等。这为机器学习应用带来严重挑战，会大幅度降低算法模型的准确度和鲁棒性。针对上述问题，我们提出了创新的鲁棒机器学习算法，实现对单方数据的准确填充和建模；通过优化模型结构及求解过程，提升差异化多任务建模的准确性；提出双通道联合表征个性化联邦学习、小重叠场景纵向联邦学习等算法，提升多方数据建模的准确性。最后，报告也会对群体共识智能等前沿研究主题做开放性探讨。</p>
+        <p><big <span class="highlight-text"><span class="highlight-text">报告摘要：</span></span> </big> 机器学习算法在金融、交通、科学等领域有广泛深入的应用。实际应用中的数据存在不同类型的缺失、偏差及异质性问题，例如存在高度随机或者块状缺失，训练数据和测试数据之间存在高度异质，多方数据联合建模时在特征维度、统计分布、建模任务等方面存在显著差异等。这为机器学习应用带来严重挑战，会大幅度降低算法模型的准确度和鲁棒性。针对上述问题，我们提出了创新的鲁棒机器学习算法，实现对单方数据的准确填充和建模；通过优化模型结构及求解过程，提升差异化多任务建模的准确性；提出双通道联合表征个性化联邦学习、小重叠场景纵向联邦学习等算法，提升多方数据建模的准确性。最后，报告也会对群体共识智能等前沿研究主题做开放性探讨。</p>
         <p><big <span class="highlight-text">演讲人简介：</span> </big> <big <span class="highlight-text">
         <br>杨耀</span> </big> 之江实验室智能计算平台研究中心研究专家，研究方向为人工智能、隐私计算，以及上述前沿技术在科学、金融等领域的应用。博士毕业于上海交通大学，曾任加拿大国家研究院访问学者，有多年大型IT企业工作经验。累计在SIGIR, ACM MM, WWW, Knowledge Based System, Prog. Quantum Electron., APL等重要国际会议与期刊上发表20多篇高水平论文，授权国家发明专利15项。当前作为课题负责人牵头科技部重点项目计划机密计算项目课题，并作为项目负责人承担之江实验室揭榜挂帅项目《跨机构隐私保护机器学习平台开发和算法模型研究》，曾作为研发骨干参与完成国家重点研究计划重点支持项目《知识产权信息共享与运营服务应用示范》，带领团队研发了分布式可扩展的机器学习和联邦学习平台，并在深度学习的理论研究及算法模型创新方面做出一定工作。研发的算法平台和模型应用金融、互联网、自然科学等多类场景，显著的经济和社会效益。</p>
 
         <p><img src="/images/news/2023-06-02-yy-report.png"/></p>
       </div>
       `,
-      title_en: "Academic Talk | Research on trusted shared intelligence for highly biased and heterogeneous data",
-      author_en: "Yuwei He",
-      summary_en: "",
-      content_en: `
+    title_en: "Academic Talk | Research on trusted shared intelligence for highly biased and heterogeneous data",
+    author_en: "Yuwei He",
+    summary_en: "",
+    content_en: `
       <div style="text-align: justify;">
           <p>On June 02, 2023, at 9:30，the <big <span class="highlight-text">Research Group of Urban Science and Social Computing, Zhejiang University of Technology(CSSC Lab)</span></big> held an academic lecture，and <big <span class="highlight-text">Yao Yang</span></big>,Research expert of Intelligent Computing Platform Research Center of Zhijiang Laboratory,shared“<big <span class="highlight-text">Research on trusted shared intelligence for highly biased and heterogeneous data</span></big>”as the keynote speaker.The cutting-edge topics of trusted shared intelligence research were discussed.</p>
           <p><big <span class="highlight-text">Reported by：</span> </big>Yao Yang  Research expert of Intelligent Computing Platform Research Center of Zhijiang Laboratory</p>
@@ -881,7 +1149,7 @@ export const news: INews[] = [
     <p><img src="/images/news/2023-06-02-yy-report.png"/></p>
   </div>
     `,
-    top:false
+    top: false
   },
   {
     id: 56,
@@ -896,17 +1164,17 @@ export const news: INews[] = [
         <p><big <span class="highlight-text">演讲人：</span> </big>刘宇擎  工学博士</p>
         <p><big <span class="highlight-text">报告时间：</span> </big>2023年5月23日(周二)上午10：00-11：00</p>
         <p><big <span class="highlight-text">报告地点：</span> </big>浙江工业大学 计算机大楼A411</p>
-        <p><big <span class="highlight-text">报告摘要：</span> </big> 图像是人们感知和交互信息的重要载体，随着超高清显示设备的发展和智能移动终端的普及，人们对高质量图像的需求逐渐增加。图像超分辨率方法指通过数字图像处理等手段，对采集到的低分辨率、缺少细节的图像进行内容恢复，生成高分辨率、细节丰富的图像。尽管近些年基于深度学习的超分辨率方法在画质提升上取得一定进展，但现阶段工作参数量和计算量较高，不能满足用户对处理速度的需求，缺少与主观体验一致的图像质量评价方法。该报告从内容建模的角度出发，讨论高效图像超分辨率的相关技术，并探索算法在移动终端上的部署方案。</p>
+        <p><big <span class="highlight-text"><span class="highlight-text">报告摘要：</span></span> </big> 图像是人们感知和交互信息的重要载体，随着超高清显示设备的发展和智能移动终端的普及，人们对高质量图像的需求逐渐增加。图像超分辨率方法指通过数字图像处理等手段，对采集到的低分辨率、缺少细节的图像进行内容恢复，生成高分辨率、细节丰富的图像。尽管近些年基于深度学习的超分辨率方法在画质提升上取得一定进展，但现阶段工作参数量和计算量较高，不能满足用户对处理速度的需求，缺少与主观体验一致的图像质量评价方法。该报告从内容建模的角度出发，讨论高效图像超分辨率的相关技术，并探索算法在移动终端上的部署方案。</p>
         <p><big <span class="highlight-text">演讲人简介：</span> </big> <big <span class="highlight-text">
         <br>刘宇擎</span> </big> 工学博士。主要研究方向为深度学习、图像/视频质量增强。参与国家自然科学基金项目、国家重点研发专项、中国工程院战略咨询项目等5项，累计发表SCI期刊论文10篇。受邀担任IEEE TIP、IEEE TCSVT、ICME、ICASSP等高水平国际期刊和会议审稿人或程序委员，参与中国信通院关于实时音视频、金融音视频、元宇宙等多项标准制定讨论。曾获《中国计算机学会通讯（CCCF）》突出贡献奖，2023年移动智能影像处理（MIPI）竞赛双赛道冠军。</p>
 
         <p><img src="/images/news/2023-5-23-lyq-report.png"/></p>
       </div>
       `,
-      title_en: "Academic Talk | Research on efficient image super-resolution method based on content modeling",
-      author_en: "Yuwei He",
-      summary_en: "",
-      content_en: `
+    title_en: "Academic Talk | Research on efficient image super-resolution method based on content modeling",
+    author_en: "Yuwei He",
+    summary_en: "",
+    content_en: `
       <div style="text-align: justify;">
           <p>On May 23, 2023, at 9:30，the <big <span class="highlight-text">Research Group of Urban Science and Social Computing, Zhejiang University of Technology(CSSC Lab)</span></big> held an academic lecture，and <big <span class="highlight-text">Yuqin Liu</span></big>,Dalian University of Technology,shared“<big <span class="highlight-text">Research on efficient image super-resolution method based on content modeling</span></big>”as the keynote speaker.The cutting-edge topics of efficient image super-resolution design were discussed.</p>
           <p><big <span class="highlight-text">Reported by：</span> </big>Yuqin Liu  Doctor of Engineering</p>
@@ -919,7 +1187,7 @@ export const news: INews[] = [
     <p><img src="/images/news/2023-5-23-lyq-report.png"/></p>
   </div>
     `,
-    top:false
+    top: false
   },
   {
     id: 55,
@@ -934,17 +1202,17 @@ export const news: INews[] = [
         <p><big <span class="highlight-text">演讲人：</span> </big>刘晗  大连理工大学长聘副教授</p>
         <p><big <span class="highlight-text">报告时间：</span> </big>2023年4月28日(周五)下午15:00-16:00</p>
         <p><big <span class="highlight-text">报告地点：</span> </big>浙江工业大学 计算机大楼A411</p>
-        <p><big <span class="highlight-text">报告摘要：</span> </big> 2022年11月30日，OpenAI研发的聊天机器人程序ChatGPT横空出世。ChatGPT发布后的五天时间里，收获了100万用户。推出仅仅两个月，月活跃用户就成功过亿，成为历史上增长最快的消费者应用程序。ChatGPT作为全新的对话式通用人工智能工具，在多个领域均表现出了非常惊艳的语言理解、生成、知识推理能力。该报告主要围绕ChatGPT的相关背景、关键技术、未来发展几个方面进行讨论，进而探索如何利用大模型赋能交叉学科领域，引领各行各业的发展。</p>
+        <p><big <span class="highlight-text"><span class="highlight-text">报告摘要：</span></span> </big> 2022年11月30日，OpenAI研发的聊天机器人程序ChatGPT横空出世。ChatGPT发布后的五天时间里，收获了100万用户。推出仅仅两个月，月活跃用户就成功过亿，成为历史上增长最快的消费者应用程序。ChatGPT作为全新的对话式通用人工智能工具，在多个领域均表现出了非常惊艳的语言理解、生成、知识推理能力。该报告主要围绕ChatGPT的相关背景、关键技术、未来发展几个方面进行讨论，进而探索如何利用大模型赋能交叉学科领域，引领各行各业的发展。</p>
         <p><big <span class="highlight-text">演讲人简介：</span> </big> <big <span class="highlight-text">
         <br>刘晗</span> </big> 工学博士，大连理工大学长聘副教授，曾任香港理工大学博士后研究员。主要研究方向为人工智能、机器学习，具体包括对话系统、小样本/零样本学习、对抗样本生成、图神经网络等。主持在研国家自然科学基金项目，GF科技创新特区项目，星海骨干项目，企事业单位委托项目等5项，参与在研国家重点研发计划青年科学家等多项国家级纵向项目5项。已发表CCF A/B类等高水平学术论文40余篇，包括多篇TKDE、KDD、AAAI、IJCAI、SIGIR、WWW、CVPR、ACL等国际顶级期刊和会议论文。多次受邀担任TPAMI、AI、AAAI、IJCAI、KDD、CVPR、ICCV、ECCV、ACL、EMNLP等20余种高水平国际期刊和会议审稿人或程序委员。2019年入选香港创新及科技基金博士专才库计划，2020年入选大连市新引进高层次人才，2021年入选大连理工大学星海人才培育计划，2022年华为昇腾AI创新大赛赛区金奖、全国铜奖2022年字节跳动安全AI挑战赛（对抗文本攻击赛道）全国冠军。</p>
 
         <p><img src="/images/news/2023-4-28-lh-report.png"/></p>
       </div>
       `,
-      title_en: "Academic Talk | Initial exploration of ChatGPT",
-      author_en: "Yuwei He",
-      summary_en: "",
-      content_en: `
+    title_en: "Academic Talk | Initial exploration of ChatGPT",
+    author_en: "Yuwei He",
+    summary_en: "",
+    content_en: `
       <div style="text-align: justify;">
           <p>On April 28, 2023, at 15:30，the <big <span class="highlight-text">Research Group of Urban Science and Social Computing, Zhejiang University of Technology(CSSC Lab)</span></big> held an academic lecture，and <big <span class="highlight-text">Han Liu</span></big>,Tenured associate professor at Dalian University of Technology,shared“<big <span class="highlight-text">Initial exploration of ChatGPT</span></big>”as the keynote speaker.The cutting-edge topics of ChatGPT were discussed.</p>
           <p><big <span class="highlight-text">Reported by：</span> </big>Han Liu  Tenured associate professor at Dalian University of Technology</p>
@@ -957,7 +1225,7 @@ export const news: INews[] = [
     <p><img src="/images/news/2023-4-28-lh-report.png"/></p>
   </div>
     `,
-    top:false
+    top: false
   },
   {
     id: 54,
@@ -976,10 +1244,10 @@ export const news: INews[] = [
         <p><img src="/images/news/2023-3-10-hx-report.png"/></p>
       </div>
       `,
-      title_en: "Academic Talk | Application of reinforcement learning and graph convolution in traffic signal control",
-      author_en: "Yuwei He",
-      summary_en: "",
-      content_en: `
+    title_en: "Academic Talk | Application of reinforcement learning and graph convolution in traffic signal control",
+    author_en: "Yuwei He",
+    summary_en: "",
+    content_en: `
       <div style="text-align: justify;">
           <p>On March 28, 2023, at 9:30，the <big <span class="highlight-text">Research Group of Urban Science and Social Computing, Zhejiang University of Technology(CSSC Lab)</span></big> held an academic lecture，and <big <span class="highlight-text">Xiao Han</span></big>,City University of Hong Kong,shared“<big <span class="highlight-text">Application of reinforcement learning and graph convolution in traffic signal control</span></big>”as the keynote speaker.The cutting-edge topics of machine learning were discussed.</p>
           <p><big <span class="highlight-text">Reported by：</span> </big>Xiao Han  City University of Hong Kong</p>
@@ -990,7 +1258,7 @@ export const news: INews[] = [
     <p><img src="/images/news/2023-3-10-hx-report.png"/></p>
   </div>
     `,
-    top:false
+    top: false
   },
   {
     id: 53,
@@ -1005,14 +1273,14 @@ export const news: INews[] = [
         <p><big <span class="highlight-text">演讲人：</span> </big>周俊杰  浙江浙大中控信息产业有限公司副总裁、智慧交通事业群常务副总经理学博士</p>
         <p><big <span class="highlight-text">报告时间：</span> </big>2023年3月6日(周一)上午9:45-11:15</p>
         <p><big <span class="highlight-text">报告地点：</span> </big>浙江工业大学 计算机大楼A411</p>
-        <p><big <span class="highlight-text">报告摘要：</span> </big> 智能交通是信息技术在交通管控中的典型应用。本报告重点介绍基于数字孪生、深度学习、大数据、物联网等新技术城市交通控制技术以及相应的软硬件产品，并结合重点工程项目介绍典型应用场景。最后简单介绍基于行业需求的智能交通产业发展方向。</p>
+        <p><big <span class="highlight-text"><span class="highlight-text">报告摘要：</span></span> </big> 智能交通是信息技术在交通管控中的典型应用。本报告重点介绍基于数字孪生、深度学习、大数据、物联网等新技术城市交通控制技术以及相应的软硬件产品，并结合重点工程项目介绍典型应用场景。最后简单介绍基于行业需求的智能交通产业发展方向。</p>
 
       </div>
       `,
-      title_en: "Academic Talk | Development and typical applications of urban intelligent transportation",
-      author_en: "Yuwei He",
-      summary_en: "",
-      content_en: `
+    title_en: "Academic Talk | Development and typical applications of urban intelligent transportation",
+    author_en: "Yuwei He",
+    summary_en: "",
+    content_en: `
       <div style="text-align: justify;">
           <p>On March 06, 2023, at 15:30，the <big <span class="highlight-text">Research Group of Urban Science and Social Computing, Zhejiang University of Technology(CSSC Lab)</span></big> held an academic lecture，and <big <span class="highlight-text">Junjie Zhou</span></big>,Vice President of Zhejiang Supcon Information Technology Co.,Ltd,shared“<big <span class="highlight-text">Development and typical applications of urban intelligent transportation</span></big>”as the keynote speaker.The cutting-edge topics of efficient image super-resolution design were discussed.</p>
           <p><big <span class="highlight-text">Reported by：</span> </big>Junjie Zhou  Dr. Xue, Vice President of Zhejiang University SUPCON Information Industry Co., Ltd. and Executive Deputy General Manager of Intelligent Transportation Business Group </p>
@@ -1022,7 +1290,7 @@ export const news: INews[] = [
 
   </div>
     `,
-    top:false
+    top: false
   },
   {
     id: 52,
@@ -1037,7 +1305,7 @@ export const news: INews[] = [
         <p><img src="/images/news/2023-02-28-zzc-paper.png"/></p>
         <p>恭喜CSSC实验室硕士生朱柘潮的论文被Information Fusion 2023录用！</p>
 
-        <p><big <span class="highlight-text">题目：</span> </big>《Multimodal Sentiment Analysis with Fusion Methods: A Survey》（基于融合方法的多模态情感分析：综述）</p>
+        <p><big <span class="highligh<span class="highlight-text">t-text">题目：</span> </big>《Multimodal Sentiment Analysis with Fusion Methods: A Survey》（基于融合方法的多模态情感分析：综述）</p>
 
         <br/>
         <p><big <span class="highlight-text">摘要：</span> </big>情感分析是一种新兴的技术，旨在探索人们对实体的态度。可应用于产品评论分析、舆情分析、精神疾病分析、风险评估分析等不同领域和场景。传统的情感分析仅包含文本模态信息，通过推断句子内部的语义关系来提取情感信息。然而，一些特殊的表达，如讽刺和夸张，很难仅通过词汇来检测。多模态情感分析除包含文本外，还包含丰富的视觉和听觉信息，使用融合分析更准确地推断隐式情感极性(积极、中介、消极)。多模态情感分析的主要挑战是跨模态情感信息的融合，因此重点研究不同融合方法的框架和特点。此外，还讨论了多模态情感分析的发展现状、流行的数据集、特征提取算法、应用领域以及存在的挑战。希望我们的工作将帮助研究人员了解多模态情感分析领域的最新进展，并从文中提供的有用见解中得到启发，以开发有效的模型。</p>
@@ -1058,7 +1326,7 @@ export const news: INews[] = [
         <p><big <span class="highlight-text">Abstract：</span> </big>Sentiment analysis is an emerging technique that aims to explore people's attitudes towards entities. It can be applied to different fields and scenarios such as product review analysis, public opinion analysis, mental illness analysis, risk assessment analysis, etc. Traditional sentiment analysis contains only textual modal information, extracting sentiment information by inferring semantic relationships within sentences. However, some special expressions, such as sarcasm and exaggeration, are difficult to detect by words alone. Multimodal sentiment analysis contains a wealth of visual and auditory information in addition to text, using fusion analysis to more accurately infer implicit sentiment polarities (positive, mediated, negative). The main challenge of multimodal sentiment analysis is the fusion of cross-modal sentiment information, so the framework and characteristics of different fusion methods are studied. In addition, the development status of multimodal sentiment analysis, popular datasets, feature extraction algorithms, application fields, and existing challenges are discussed. Hopefully, our work will help researchers understand the latest advances in the field of multimodal sentiment analysis and be inspired by the useful insights provided in the article to develop effective models.</p>
       </div>
     `,
-    top:false
+    top: false
   },
   {
     id: 51,
@@ -1073,7 +1341,7 @@ export const news: INews[] = [
         <p><img src="/images/news/2023-02-28-zwf-paper.png"/></p>
         <p>恭喜CSSC实验室博士生周文峰的论文被Neurocomputing 2023录用！</p>
 
-        <p><big <span class="highlight-text">题目：</span> </big>Bidirectional spatial-temporal traffic data imputation via graph attention recurrent neural network》（基于图注意力递归神经网络的双向时空交通数据插补）</p>
+        <p><big <span class="highligh<span class="highlight-text">t-text">题目：</span> </big>Bidirectional spatial-temporal traffic data imputation via graph attention recurrent neural network》（基于图注意力递归神经网络的双向时空交通数据插补）</p>
 
         <br/>
         <p><big <span class="highlight-text">摘要：</span> </big>交通数据在智能交通系统（ITS）中占有重要地位。但是，收集的流量数据通常不完整。本文提出一种基于多视角时空学习（MST-GAN）的生成对抗网络（GAN）模型来修复数据。为了达到从时间、空间和时空三个角度插值数据的效果，我们利用具有独立参数的链式生成器逐步细化对时间和空间特征的学习。此外，我们通过多个生成器和一个鉴别器之间的对抗，实现了多视角特征的高级融合。我们在两个真实数据集上进行了实验，表明MST-GAN模型在不同缺失模式下的插补效果优于其他基线模型。例如，在随机缺失场景中，均方根误差（RMSE）小于7.5%，平均绝对误差（MAE）小于5%，远低于其他模型的最佳性能误差。</p>
@@ -1094,7 +1362,7 @@ export const news: INews[] = [
         <p><big <span class="highlight-text">Abstract：</span> </big>Traffic data plays an important role in Intelligent Transportation Systems (ITS). However, the traffic data collected is often incomplete. In this paper, we propose a Generative Adversarial Network (GAN) model based on Multi-View Spatiotemporal Learning (MST-GAN) to repair data. In order to interpolate data from the perspectives of time, space and space-time, we use a chain generator with independent parameters to gradually refine the learning of temporal and spatial features. In addition, we achieved advanced fusion of multi-view features through the confrontation between multiple generators and one discriminator. Experiments on two real datasets show that the imputation effect of the MST-GAN model in different deletion modes is better than that of other baseline models. For example, in the random missing scenario, the root mean square error (RMSE) is less than 7.5% and the mean absolute error (MAE) is less than 5%, which is much lower than the optimal performance error of other models.</p>
       </div>
     `,
-    top:false
+    top: false
   },
   {
     id: 50,
@@ -1105,7 +1373,7 @@ export const news: INews[] = [
     content:
       `
       <div style="text-align: justify;">
-        <p>论文题目：</p>
+     <span class="highlight-text">   <p>论文题目：</p>
         <p>《Dynamic graph convolutional recurrent imputation network for spatiotemporal traﬃc missing data》</p>
         <br/>
         <p>摘要：</p>
@@ -1127,7 +1395,7 @@ export const news: INews[] = [
     </p>
   </div>
     `,
-    top:false
+    top: false
   },
   {
     id: 49,
@@ -1142,7 +1410,7 @@ export const news: INews[] = [
         <p><img src="/images/news/2022-12-01-hzq-paper.png"/></p>
         <p>恭喜CSSC实验室硕士生黄志强的论文被TCSS 2022录用！</p>
 
-        <p><big <span class="highlight-text">题目：</span> </big>《Urban Overtourism Detection with Graph Temporal Convolutional Networks》（基于图时序卷积网络的城市过度旅游检测）</p>
+        <p><big <span class="highligh<span class="highlight-text">t-text">题目：</span> </big>《Urban Overtourism Detection with Graph Temporal Convolutional Networks》（基于图时序卷积网络的城市过度旅游检测）</p>
 
         <br/>
         <p><big <span class="highlight-text">摘要：</span> </big>在现实世界的智能交通系统中，传感器采集的时空交通数据往往呈现出缺失或损坏的数据，严重阻碍了交通数据研究的发展。缺失数据插补是一个经典的研究课题，涵盖了广泛的方法。然而，这些方法在两个方面通常不成熟：道路网络随时间变化的动态空间依赖性，以及信息的提取和利用多样化数据。在这项研究中，我们设计了一种新颖的深度学习架构——动态图卷积递归值网络（DGCRIN）——作为插补缺失交通数据的工具。DGCRIN 采用图生成器和动态图卷积门控循环单元 （DGCGRU） 对道路网络的动态时空依赖性进行细粒度建模。此外，辅助GRU学习数据缺失的模式信息，并引入具有衰减机制的融合层来融合各种信息。这种架构使 DGCRIN 能够高度适应涉及缺失数据的复杂场景。在两个数据集上的大量实验证明了DGCRIN优于多个基线模型。</p>
@@ -1163,7 +1431,7 @@ export const news: INews[] = [
         <p><big <span class="highlight-text">Abstract：</span> </big>In real-world intelligent transportation systems, the spatiotemporal traffic data collected by sensors often presents missing or damaged data, which seriously hinders the development of traffic data research. Missing data imputation is a classic research topic that covers a wide range of methods. However, these approaches are often immature in two ways: the dynamic spatial dependence of road networks over time, and the extraction and utilization of diverse data for information. In this study, we designed a novel deep learning architecture—a dynamic graph convolutional recursive value network (DGCRIN)—as a tool to impose missing traffic data. DGCRIN uses a graph generator and a dynamic graph convolutional gated recurrent unit (DGCGRU) to model the dynamic spatiotemporal dependencies of the road network on a fine-grained basis. In addition, the GRU is assisted to learn the missing schema information of the data, and a fusion layer with attenuation mechanism is introduced to fuse various information. This architecture allows DGCRIN to be highly adaptable to complex scenarios involving missing data. A large number of experiments on two datasets have demonstrated that DGCRIN is superior to multiple baseline models.</p>
       </div>
     `,
-    top:false
+    top: false
   },
   {
     id: 48,
@@ -1187,7 +1455,7 @@ export const news: INews[] = [
     <p><img src="/images/news/graduate_zhudifeng.jpg"/></p>
   </div>
     `,
-    top:false
+    top: false
   },
   {
     id: 47,
@@ -1201,7 +1469,7 @@ export const news: INews[] = [
         <p>报告主题：水声传感器网络中源节点位置隐私保护算法</p>
         <p>报告地点：计算机大楼A401</p>
         <br/>
-        <p>报告摘要：</p>
+        <p><span class="highlight-text">报告摘要：</span></p>
         <p>
         随着智慧海洋的兴起，当今海洋正朝着数字化、生态化、安全化与和谐化发展，其中海洋安全，尤其是数据源（源节点）的位置安全，对于支撑智慧海洋的建设至关重要，表现出很强的研究及应用价值。源节点位置保护过程中面临的安全问题，特别是外部攻击者根据水下数据传输的时空相关性发现源节点位置的问题，成为制约水下源节点位置隐私保护技术发展的关键性因素。本报告将介绍实验室团队在水声传感器网络中源节点位置隐私保护算法研究中所取得的成果。首先介绍相关研究背景，并在此基础上介绍一种基于分层结构的源节点位置隐私保护算法；接着从均衡网络安全期和数据传播时延角度，介绍一种基于位置推送的源节点位置隐私保护算法；最后，在上述所提算法的基础上，考虑水下多信道干扰因素，介绍一种基于多信道干扰的源节点位置隐私保护算法。本报告介绍的研究工作对探索水声传感器网络的源节点位置隐私保护技术及应用具有重要的理论价值和实际意义。
         </p>
@@ -1232,7 +1500,7 @@ export const news: INews[] = [
     <p><img src="/images/news/2022-11-18-hgj-report.jpg"/></p>
   </div>
     `,
-    top:false
+    top: false
   },
   {
     id: 46,
@@ -1244,7 +1512,7 @@ export const news: INews[] = [
       `
       <div style="text-align: justify;">
         <p>报告时间：2022年11月12日（周六）09:00- 11:40</p>
-        <p>报告摘要：</p>
+        <p><span class="highlight-text">报告摘要：</span></p>
         <p>研讨会议程：</p>
         <table border="1" style="text-align: center;">
           <tr>
@@ -1351,7 +1619,7 @@ export const news: INews[] = [
       <br/>
     </div>
     `,
-    top:false,
+    top: false,
   },
   {
     id: 45,
@@ -1362,7 +1630,7 @@ export const news: INews[] = [
     content:
       `
       <div style="text-align: justify;">
-        <p>论文题目：</p>
+     <span class="highlight-text">   <p>论文题目：</p>
         <p>《Traffic Flow Imputation Based on Multi-Perspective Spatiotemporal Generative Adversarial Networks》</p>
         <br/>
         <p>摘要：</p>
@@ -1383,7 +1651,7 @@ export const news: INews[] = [
     </p>
   </div>
     `,
-    top:false
+    top: false
   },
   {
     id: 44,
@@ -1396,7 +1664,7 @@ export const news: INews[] = [
       <div style="text-align: justify;">
         <p>报告主题：可信图学习</p>
         <br/>
-        <p>报告摘要：</p>
+        <p><span class="highlight-text">报告摘要：</span></p>
         <p>
         图（或网络）被广泛用作连接数据的网络结构的流行表示。
         图表数据可以在社会系统、生态系统、生物网络、知识图表和信息系统等广泛领域中找到。
@@ -1437,7 +1705,7 @@ export const news: INews[] = [
     <p><img src="/images/news/2022-11-04-xf-report.jpg"/></p>
   </div>
     `,
-    top:false
+    top: false
   },
   {
     id: 43,
@@ -1450,7 +1718,7 @@ export const news: INews[] = [
       <div style="text-align: justify;">
         <p>报告主题：面向任务型对话系统的小样本/零样本学习</p>
         <br/>
-        <p>报告摘要：</p>
+        <p><span class="highlight-text">报告摘要：</span></p>
         <p>
         任务型对话系统旨在利用人机对话的方式，准确捕捉用户在特定领域的需求，进而提供特定服务。
         任务型对话系统应用十分广泛，相关产品已经在众多领域展现出巨大的商业潜力，例如：在线客服、车载系统、手机助手、智能家居、地图导航等。
@@ -1518,7 +1786,7 @@ export const news: INews[] = [
     <p><img src="/images/news/2022-10-21-lh-report.jpg"/></p>
   </div>
     `,
-    top:false
+    top: false
   },
   {
     id: 42,
@@ -1531,7 +1799,7 @@ export const news: INews[] = [
       <div style="text-align: justify;">
         <p>报告主题：异步联邦强化学习方法研究</p>
         <br/>
-        <p>报告摘要：</p>
+        <p><span class="highlight-text">报告摘要：</span></p>
         <p>
         联邦学习由于能够进行数据隐私保护为基础的大规模分布式学习目前备受重视。
         然而，实际使用联邦学习时，由于存在设备异构性和Non-IID数据（不完全独立分布式），客户端节点之间的特性将影响联邦学习的效果。
@@ -1582,7 +1850,7 @@ export const news: INews[] = [
     <p><img src="/images/news/2022-10-09-zws-report.jpg"/></p>
   </div>
     `,
-    top:false
+    top: false
   },
   {
     id: 41,
@@ -1593,7 +1861,7 @@ export const news: INews[] = [
     content:
       `
       <div style="text-align: justify;">
-        <p>论文题目：</p>
+     <span class="highlight-text">   <p>论文题目：</p>
         <p>《TAP: Traffic Accident Profiling via Multi-task Spatio-Temporal Graph Representation Learning》</p>
         <br/>
         <p>摘要：</p>
@@ -1634,7 +1902,7 @@ export const news: INews[] = [
     </p>
   </div>
     `,
-    top:false
+    top: false
   },
   {
     id: 40,
@@ -1668,8 +1936,8 @@ export const news: INews[] = [
     <br/>
   </div>
     `,
-    top:false,
-    hide_en:true
+    top: false,
+    hide_en: true
   },
   {
     id: 39,
@@ -1681,7 +1949,7 @@ export const news: INews[] = [
       `
       <div style="text-align: justify;">
         <p>报告时间：2022年7月22日（周五）13:30- 16:35</p>
-        <p>报告摘要：</p>
+        <p><span class="highlight-text">报告摘要：</span></p>
         <p>研讨会议程：</p>
         <table border="1" style="text-align: center;">
           <tr>
@@ -1788,7 +2056,7 @@ export const news: INews[] = [
       <br/>
     </div>
     `,
-    top:false,
+    top: false,
   },
   {
     id: 38,
@@ -1800,7 +2068,7 @@ export const news: INews[] = [
       `
       <div style="text-align: justify;">
         <p>报告主题：The Power of Data: Transforming and Optimizing Data Representation Space</p>
-        <p>报告摘要：</p>
+        <p><span class="highlight-text">报告摘要：</span></p>
         <p>In the past years, research has been focusing on optimizing model space in AI. Deep learning models have successfully applied to almost every area.  Models trained with millions of parameters and sophisticated neural architectures are now used routinely.  It seems models play more role than data. We investigate a question: Can optimizing data space be as powerful as optimizing model space? Relevant representation learning techniques can automatically reconstruct data representation space.  But the techniques needs more explainable and traceable explicitness, and flexible optimal. In this talk, we will propose a concept of self-optimizing data geometry. We will introduce explainable and optimal representation space reconstruction from a selection perspective and a generation perspective. Finally, we will discuss our future work.</p>
         <p>报告人简介：</p>
         <p>
@@ -1824,7 +2092,7 @@ export const news: INews[] = [
     <br/>
   </div>
     `,
-    top:false,
+    top: false,
   },
   {
     id: 37,
@@ -1835,7 +2103,7 @@ export const news: INews[] = [
     content:
       `
       <div style="text-align: justify;">
-        <p>报告摘要：</p>
+        <p><span class="highlight-text">报告摘要：</span></p>
         <p>知识图谱是人工智能的重要基石。各领域大规模知识图谱的构建与应用已对知识图谱存储与查询技术提出了新挑战。
         本报告将介绍知识图谱存储与查询技术的最新进展，包括：知识图谱数据模型和查询语言、知识图谱存储管理和查询处理、知识图谱数据库管理系统等。
         同时介绍团队近年来在知识图谱存储与查询方向上所取得的研究成果。</p>
@@ -1864,8 +2132,8 @@ export const news: INews[] = [
         <p><img src="/images/news/zzzpapercite.png"/></p>
       </div>
     `,
-    top:false,
-    hide_en:true
+    top: false,
+    hide_en: true
   },
   {
     id: 36,
@@ -1889,7 +2157,7 @@ export const news: INews[] = [
         <p><img src="/images/news/zzzpapercite.png"/></p>
       </div>
     `,
-    top:false,
+    top: false,
   },
   {
     id: 35,
@@ -1900,7 +2168,7 @@ export const news: INews[] = [
     content:
       `
       <div style="text-align: justify;">
-        <h2>论文题目：</h2>
+      <span class="highlight-text">  <h2>论文题目：</h2>
         <p>《Motif Discovery based Traffic Pattern Mining in Attributed Road Networks》</p>
         <h2>摘要：</h2>
         <p>With the development of intelligent transportation systems, clustering methods are now being adopted for traffic pattern recognition to discover the time-varying laws in road networks; this had attracted significant attention from the industry and academia over the past decades. Existing methods mainly focus on the mobility pattern and spatiotemporal dimension, ignoring the complex relationships among these segments in road networks. The main issues can be divided into two categories: deep integration of the structural and attribute information; global spatial dependencies for clustering structural properties. To address these issues, a clustering method for motif-based attributed road networks is proposed. A higher-order connectivity model based on motif discovery is designed, and a weighted matrix of adjacent segments is defined in the road networks. Moreover, a clustering model for motif-based attributed road networks is constructed, considering the joint relationship between node structure and features. In this study, a set of experiments were conducted on two real-world datasets. The results indicated that the performance of the proposed method is superior to that of the state-of-the-art methods.</p>
@@ -1917,7 +2185,7 @@ export const news: INews[] = [
         <p>With the development of intelligent transportation systems, clustering methods are now being adopted for traffic pattern recognition to discover the time-varying laws in road networks; this had attracted significant attention from the industry and academia over the past decades. Existing methods mainly focus on the mobility pattern and spatiotemporal dimension, ignoring the complex relationships among these segments in road networks. The main issues can be divided into two categories: deep integration of the structural and attribute information; global spatial dependencies for clustering structural properties. To address these issues, a clustering method for motif-based attributed road networks is proposed. A higher-order connectivity model based on motif discovery is designed, and a weighted matrix of adjacent segments is defined in the road networks. Moreover, a clustering model for motif-based attributed road networks is constructed, considering the joint relationship between node structure and features. In this study, a set of experiments were conducted on two real-world datasets. The results indicated that the performance of the proposed method is superior to that of the state-of-the-art methods.</p>
       </div>
     `,
-    top:false,
+    top: false,
   },
   {
     id: 34,
@@ -1943,8 +2211,8 @@ export const news: INews[] = [
       and will be implemented from January 24, 2022. The document stipulates urban road holography The basic requirements, content, main methods and implementation of the construction of smart intersections are
       applicable to holographic smart intersections on urban roads.</p>
     `,
-    top:false,
-    hide_en:true
+    top: false,
+    hide_en: true
   },
   {
     id: 33,
@@ -1975,7 +2243,7 @@ export const news: INews[] = [
     summary: "",
     content:
       `
-      <p><strong>论文题目：</strong></p>
+      <p><s<span class="highlight-text">trong>论文题目：</strong></p>
       <p>《Multi-Feature Representation based COVID-19 Risk Stage Evaluation with Transfer Learning》</p>
       <p><strong>摘要：</strong></p>
       <p>
@@ -2003,7 +2271,7 @@ export const news: INews[] = [
     summary: "论文题目为《A Multi-attribute Decision Making Approach based on Information Extraction for Real Estate Buyer Profiling》",
     content:
       `
-      <p><strong>论文题目：</strong></p>
+      <p><s<span class="highlight-text">trong>论文题目：</strong></p>
       <p>《A Multi-attribute Decision Making Approach based on Information Extraction for Real Estate Buyer Profiling》</p>
       <p><strong>摘要：</strong></p>
       <p>
@@ -2162,7 +2430,7 @@ export const news: INews[] = [
       `
       `,
     top: false,
-    hide_en:true
+    hide_en: true
   },
   {
     id: 27,
@@ -2207,9 +2475,9 @@ export const news: INews[] = [
       `
       `,
     top: false,
-    hide_en:true
+    hide_en: true
   },
-	{
+  {
     id: 25,
     title: "热烈祝贺孔祥杰教授晋升为CCF杰出会员",
     author: "卞纪新",
@@ -2297,7 +2565,7 @@ export const news: INews[] = [
     summary: "论文题目为《Spatial-Temporal-Cost Combination based Taxi Driving Fraud Detection for Collaborative Internet of Vehicles》",
     content:
       `
-      <p><strong>论文题目：</strong></p>
+      <p><s<span class="highlight-text">trong>论文题目：</strong></p>
       <p>《Spatial-Temporal-Cost Combination based Taxi Driving Fraud Detection for Collaborative Internet of Vehicles》</p>
       <p><strong>摘要：</strong></p>
       <p>
