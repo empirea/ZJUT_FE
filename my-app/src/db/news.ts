@@ -33,6 +33,47 @@ interface INews {
 
 export const news: INews[] = [
   {
+    id: 79,
+    title: "学术报告 | Multimedia in Action: Supporting Interdisciplinary Applications inSurveillance, Health, and Material Research",
+    author: "周润佳",
+    create_date: "2025-10-28",
+    summary: "浙江工业大学城市科学与社会计算研究组(CSSC Lab)于 2025年10月28日9:30举办了学术讲座，南澳大利亚大学副教授Ivan Lee作为主讲人分享了“Multimedia in Action: SupportingInterdisciplinary Applications inSurveillance, Health, and Material Research”，共同探讨了多媒体跨学科应用的前沿课题。",
+    content: `
+      <div style="text-align: justify;">
+        <p>学术报告 | Multimedia in Action: Supporting Interdisciplinary Applications inSurveillance, Health, and Material Research</p>
+        <p><big><span class="highlight-text">时间：</span></big>2025-10-28 <big><span class="highlight-text">作者：</span></big>周润佳</p>
+        <p><span class="highlight-text">浙江工业大学城市科学与社会计算研究组(CSSC Lab)</span> 于 2025年10月28日9:30举办了学术讲座，南澳大利亚大学副教授Ivan Lee作为主讲人分享了“<span class="highlight-text">Multimedia in Action: Supporting Interdisciplinary Applications in Surveillance, Health, and Material Research</span>”，共同探讨了多媒体跨学科应用的前沿课题。</p>
+        <p><big><span class="highlight-text">报告时间：</span></big>2025年10月28日（周二）9:30-10:30</p>
+        <p><big><span class="highlight-text">报告地点：</span></big>浙江工业大学 计算机大楼A411</p>
+        <p><big><span class="highlight-text">演讲人：</span></big>Ivan Lee  University of South Australia</p>
+        <p><big><span class="highlight-text">报告摘要：</span></big></p>
+        <p>This report explores the pivotal role of multimedia technologies in advancing interdisciplinary applications across surveillance, health, and material research. In surveillance systems, integrated audio-visual data and AI-driven analytics enhance real-time threat detection and situational awareness. Within healthcare, medical imaging (e.g., MRI, ultrasound) combined with interactive multimedia platforms enables precise diagnosis, remote patient monitoring, and medical education. For material research, high-resolution imaging and simulation-based multimedia tools facilitate the observation of microstructures and the prediction of material properties, accelerating innovation. The findings highlight multimedia’s ability to bridge disciplinary gaps, optimize processes, and drive breakthroughs in these critical fields, underscoring its value as a cross-cutting technological enabler.</p>
+        <p><big><span class="highlight-text">演讲人简介：</span></big></p>
+        <p>Ivan Lee is an Associate Professor at University of South Australia, and a REDI Fellow. He received BE, MCom, ME, and PhD degrees from the University of Sydney, Australia. He was a software development engineer at Cisco Systems, a software engineer at Remotek Corporation, and an Assistant Professor at Ryerson University. His research interests include intelligent sensor, multimedia system, and data analytics. He has served as a Chief Investigator of 28 funded projects in Australia and in Canada. His research findings have been disseminated in over 150 peer-reviewed publications. He was a recipient of The Vannevar Bush Best Paper Honorable Mention of 2020 Jointed Conference on Digital Libraries (JCDL); the Lockheed Martin Best Paper Award of 2015 SPIE Defense + Security, Automatic Target Recognition XXV; and the Best Paper Award of 2007 Pacific-Rim Conference on Multimedia. He currently serves on the committee of National Computational Merit Allocation Scheme (NCMAS) in Australia.（结尾有一张图片public/images/news/2025-10-28-lvan-report.png）</p>
+        <p><img src="/images/news/2025-10-28-lvan-report.png" alt="Multimedia in Action - Ivan Lee" style="max-width:100%;height:auto"/></p>
+      </div>
+    `,
+    title_en: "Academic Talk | Multimedia in Action: Supporting Interdisciplinary Applications inSurveillance, Health, and Material Research",
+    author_en: "Runjia Zhou",
+    summary_en: "CSSC Lab held an academic talk at 9:30 on October 28, 2025, with A/Prof. Ivan Lee (University of South Australia) sharing “Multimedia in Action: SupportingInterdisciplinary Applications inSurveillance, Health, and Material Research.”",
+    content_en: `
+      <div style="text-align: justify;">
+        <p>Academic Talk | Multimedia in Action: Supporting Interdisciplinary Applications inSurveillance, Health, and Material Research</p>
+        <p><big><span class="highlight-text">Time:</span></big> 2025-10-28  <big><span class="highlight-text">Author:</span></big> Runjia Zhou</p>
+        <p><span class="highlight-text">CSSC Lab</span> held an academic seminar at 9:30 on October 28, 2025. A/Prof. Ivan Lee from the University of South Australia delivered a talk titled “<span class="highlight-text">Multimedia in Action: Supporting Interdisciplinary Applications in Surveillance, Health, and Material Research</span>,” discussing frontier topics in cross-disciplinary multimedia applications.</p>
+        <p><big><span class="highlight-text">Talk Time:</span></big> Tuesday, October 28, 2025, 9:30–10:30</p>
+        <p><big><span class="highlight-text">Venue:</span></big> Room A411, Computer Building, Zhejiang University of Technology</p>
+        <p><big><span class="highlight-text">Speaker:</span></big> Ivan Lee  University of South Australia</p>
+        <p><big><span class="highlight-text">Abstract:</span></big></p>
+        <p>This report explores the pivotal role of multimedia technologies in advancing interdisciplinary applications across surveillance, health, and material research. In surveillance systems, integrated audio-visual data and AI-driven analytics enhance real-time threat detection and situational awareness. Within healthcare, medical imaging (e.g., MRI, ultrasound) combined with interactive multimedia platforms enables precise diagnosis, remote patient monitoring, and medical education. For material research, high-resolution imaging and simulation-based multimedia tools facilitate the observation of microstructures and the prediction of material properties, accelerating innovation. The findings highlight multimedia’s ability to bridge disciplinary gaps, optimize processes, and drive breakthroughs in these critical fields, underscoring its value as a cross-cutting technological enabler.</p>
+        <p><big><span class="highlight-text">Speaker Bio:</span></big></p>
+        <p>Ivan Lee is an Associate Professor at University of South Australia, and a REDI Fellow. He received BE, MCom, ME, and PhD degrees from the University of Sydney, Australia. He was a software development engineer at Cisco Systems, a software engineer at Remotek Corporation, and an Assistant Professor at Ryerson University. His research interests include intelligent sensor, multimedia system, and data analytics. He has served as a Chief Investigator of 28 funded projects in Australia and in Canada. His research findings have been disseminated in over 150 peer-reviewed publications. He was a recipient of The Vannevar Bush Best Paper Honorable Mention of 2020 Jointed Conference on Digital Libraries (JCDL); the Lockheed Martin Best Paper Award of 2015 SPIE Defense + Security, Automatic Target Recognition XXV; and the Best Paper Award of 2007 Pacific-Rim Conference on Multimedia. He currently serves on the committee of National Computational Merit Allocation Scheme (NCMAS) in Australia. (Image at the end: public/images/news/2025-10-28-lvan-report.png)</p>
+        <p><img src="/images/news/2025-10-28-lvan-report.png" alt="Multimedia in Action - Ivan Lee" style="max-width:100%;height:auto"/></p>
+      </div>
+    `,
+    top: false,
+  },
+  {
     id: 78,
     title: "学术报告 | 大模型前沿科研应用",
     author: "周润佳",
