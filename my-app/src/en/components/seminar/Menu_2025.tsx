@@ -41,6 +41,10 @@ export function Menu_2025() {
     setTime(2025)
   }
 
+  function change_2026(){
+    setTime(2026)
+  }
+
   const allSeminarsCount = allSeminars.length;
 
   const totalPage = Math.ceil(allSeminarsCount / perPage);
@@ -115,6 +119,11 @@ export function Menu_2025() {
       </div>
       <div className="cy-title fl">
         <ul>
+          <li>
+            <Link onClick={change_2026} to={`${HREF.SEMINAR_2026}`}>
+              2026
+            </Link>
+          </li>
           <li>
             <Link onClick={change_2025} to={`${HREF.SEMINAR_2025}`} className="ej-current">
               2025

@@ -30,6 +30,7 @@ import Menu_2023 from "../seminar/Menu_2023";
 import SeminarPage from "../seminar/SeminarPage";
 import Menu_2024 from "../seminar/Menu_2024";
 import Menu_2025 from "../seminar/Menu_2025";
+import Menu_2026 from "../seminar/Menu_2026";
 
 function NotHomepage() {
   return (
@@ -78,9 +79,11 @@ function NotHomepage() {
           <Route exact path={HREF.OTHERS} component={Recreation} />
           <Route exact path={HREF.OTHERS_RECREATION} component={Recreation} />
           <Route exact path={HREF.OTHERS_LINK} component={OthersLink} />
+          <Route exact path={HREF.SEMINAR} component={Menu_2026} />
+          <Route exact path={HREF.SEMINAR_2026} component={Menu_2026} />
+          <Route exact path={HREF.SEMINAR_2026+"/:index?"} component={Menu_2026} />
           <Route exact path={HREF.SEMINAR_2025} component={Menu_2025} />
           <Route exact path={HREF.SEMINAR_2025+"/:index?"} component={Menu_2025} />
-          <Route exact path={HREF.SEMINAR} component={Menu_2023} />
           <Route exact path={HREF.SEMINAR_2024} component={Menu_2024} />
           <Route exact path={HREF.SEMINAR_2024+"/:index?"} component={Menu_2024} />
 

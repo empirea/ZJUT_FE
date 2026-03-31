@@ -67,6 +67,11 @@ export function SeminarPage() {
       <div className="cy-title fl">
         <ul>
           <li>
+            <Link to={`${HREF.SEMINAR_2026}`} className={year===2026 ? "ej-current":undefined}>
+              2026
+            </Link>
+          </li>
+          <li>
             <Link to={`${HREF.SEMINAR_2025}`} className={year===2025 ? "ej-current":undefined}>
               2025
             </Link>

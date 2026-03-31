@@ -21,6 +21,942 @@ interface ISeminar {
 
 export const seminars: ISeminar[] = [
   {
+    id: 170,
+    title: "2026年CSSC小组第13次研讨会",
+    author: "周润佳",
+    create_date: "2026-3-20",
+    summary: "报告主题：工作进度汇报文献汇报",
+    content: `<p><strong>报告时间：</strong></p>
+<p>社会计算组：2026年3月20日，上午10:30</p>
+<p><strong>报告地点：</strong></p><p>计算机楼A318</p>
+<p><strong>主持人：</strong></p><p>沈国江教授、孔祥杰教授、刘志教授、王蒙蒙老师、杜嘉欣老师</p>
+<p><strong>汇报人：</strong></p>
+<p>社会计算组：李宇龙</p>
+<p><strong>报告主题：</strong></p>
+<p>工作进度汇报</p>
+<p>文献汇报</p>
+`,
+    title_en: "The 13th seminar of CSSC group in 2026",
+    author_en: "Runjia Zhou",
+    summary_en: "Report topic: Work progress report and literature report.",
+    content_en: `<p><strong>Report time:</strong></p>
+<p>Social Computing Group: March 20, 2026, 10:30 am</p>
+<p><strong>Report location:</strong></p><p>Computer Building A318</p>
+<p><strong>Moderator:</strong></p><p>Prof. Guojiang Shen, Prof. Xiangjie Kong, Prof. Zhi Liu, Mengmeng Wang, Jiaxin Du</p>
+<p><strong>Reporter:</strong></p>
+<p>Social Computing Group: Yulong Li</p>
+<p><strong>Theme:</strong></p>
+<p>Work progress report.</p>
+<p>Literature report.</p>
+`,
+    top: false,
+    year: 2026,
+  },
+  {
+    id: 169,
+    title: "2026年CSSC小组第12次研讨会",
+    author: "周润佳",
+    create_date: "2026-3-18",
+    summary: "报告主题：工作进度汇报文献汇报",
+    content: `<p><strong>报告时间：</strong></p>
+<p>移动计算组：2026年3月18日，下午6:30</p>
+<p><strong>报告地点：</strong></p><p>计算机楼A318</p>
+<p><strong>主持人：</strong></p><p>沈国江教授、孔祥杰教授、刘志教授、王蒙蒙老师、杜嘉欣老师</p>
+<p><strong>汇报人：</strong></p>
+<p>移动计算组：周润佳、刘博韬</p>
+<p><strong>报告主题：</strong></p>
+<p>工作进度汇报</p>
+<p>文献汇报</p>
+`,
+    title_en: "The 12th seminar of CSSC group in 2026",
+    author_en: "Runjia Zhou",
+    summary_en: "Report topic: Work progress report and literature report.",
+    content_en: `<p><strong>Report time:</strong></p>
+<p>Mobile Computing Group: March 18, 2026, 6:30 pm</p>
+<p><strong>Report location:</strong></p><p>Computer Building A318</p>
+<p><strong>Moderator:</strong></p><p>Prof. Guojiang Shen, Prof. Xiangjie Kong, Prof. Zhi Liu, Mengmeng Wang, Jiaxin Du</p>
+<p><strong>Reporter:</strong></p>
+<p>Mobile Computing Group: Runjia Zhou, Botao Liu</p>
+<p><strong>Theme:</strong></p>
+<p>Work progress report.</p>
+<p>Literature report.</p>
+`,
+    top: false,
+    year: 2026,
+  },
+  {
+    id: 168,
+    title: "2026年CSSC小组第11次研讨会",
+    author: "周润佳",
+    create_date: "2026-3-17",
+    summary: "报告主题：工作进度汇报文献汇报",
+    content: `<p><strong>报告时间：</strong></p>
+<p>自然语言处理组：2026年3月17日，上午8:30</p>
+<p>交通智能感知与控制组：2026年3月17日，上午10:30</p>
+<p><strong>报告地点：</strong></p><p>计算机楼A318</p>
+<p><strong>主持人：</strong></p><p>沈国江教授、孔祥杰教授、刘志教授、王蒙蒙老师、杜嘉欣老师</p>
+<p><strong>汇报人：</strong></p>
+<p>自然语言处理组：Syauqie（邵齐）</p>
+<p>交通智能感知与控制组：张恺煜</p>
+<p><strong>报告主题：</strong></p>
+<p>工作进度汇报</p>
+<p>文献汇报</p>
+`,
+    title_en: "The 11th seminar of CSSC group in 2026",
+    author_en: "Runjia Zhou",
+    summary_en: "Report topic: Work progress report and literature report.",
+    content_en: `<p><strong>Report time:</strong></p>
+<p>Natural Language Processing Group: March 17, 2026, 8:30 am</p>
+<p>Traffic Intelligent Perception and Control Group: March 17, 2026, 10:30 am</p>
+<p><strong>Report location:</strong></p><p>Computer Building A318</p>
+<p><strong>Moderator:</strong></p><p>Prof. Guojiang Shen, Prof. Xiangjie Kong, Prof. Zhi Liu, Mengmeng Wang, Jiaxin Du</p>
+<p><strong>Reporter:</strong></p>
+<p>Natural Language Processing Group: Syauqie (Shao Qi)</p>
+<p>Traffic Intelligent Perception and Control Group: Kaiyu Zhang</p>
+<p><strong>Theme:</strong></p>
+<p>Work progress report.</p>
+<p>Literature report.</p>
+`,
+    top: false,
+    year: 2026,
+  },
+  {
+    id: 167,
+    title: "2026年CSSC小组第10次研讨会",
+    author: "周润佳",
+    create_date: "2026-3-13",
+    summary: "报告主题：工作进度汇报文献汇报",
+    content: `<p><strong>报告时间：</strong></p>
+<p>社会计算组：2026年3月13日，上午10:30</p>
+<p><strong>报告地点：</strong></p><p>计算机楼A318</p>
+<p><strong>主持人：</strong></p><p>沈国江教授、孔祥杰教授、刘志教授、王蒙蒙老师、杜嘉欣老师</p>
+<p><strong>汇报人：</strong></p>
+<p>社会计算组：邓兆林</p>
+<p><strong>报告主题：</strong></p>
+<p>工作进度汇报</p>
+<p>文献汇报</p>
+`,
+    title_en: "The 10th seminar of CSSC group in 2026",
+    author_en: "Runjia Zhou",
+    summary_en: "Report topic: Work progress report and literature report.",
+    content_en: `<p><strong>Report time:</strong></p>
+<p>Social Computing Group: March 13, 2026, 10:30 am</p>
+<p><strong>Report location:</strong></p><p>Computer Building A318</p>
+<p><strong>Moderator:</strong></p><p>Prof. Guojiang Shen, Prof. Xiangjie Kong, Prof. Zhi Liu, Mengmeng Wang, Jiaxin Du</p>
+<p><strong>Reporter:</strong></p>
+<p>Social Computing Group: Zhaolin Deng</p>
+<p><strong>Theme:</strong></p>
+<p>Work progress report.</p>
+<p>Literature report.</p>
+`,
+    top: false,
+    year: 2026,
+  },
+  {
+    id: 166,
+    title: "2026年CSSC小组第9次研讨会",
+    author: "周润佳",
+    create_date: "2026-3-11",
+    summary: "报告主题：工作进度汇报文献汇报学期工作总结",
+    content: `<p><strong>报告时间：</strong></p>
+<p>移动计算组：2026年3月11日，下午6:30</p>
+<p><strong>报告地点：</strong></p><p>计算机楼A318</p>
+<p><strong>主持人：</strong></p><p>沈国江教授、孔祥杰教授、刘志教授、王蒙蒙老师、杜嘉欣老师</p>
+<p><strong>汇报人：</strong></p>
+<p>移动计算组：高宇坚、郑茹丹</p>
+<p><strong>报告主题：</strong></p>
+<p>工作进度汇报</p>
+<p>文献汇报</p>
+<p>学期工作总结</p>
+`,
+    title_en: "The 9th seminar of CSSC group in 2026",
+    author_en: "Runjia Zhou",
+    summary_en: "Report topic: Work progress report, literature report and semester work summary.",
+    content_en: `<p><strong>Report time:</strong></p>
+<p>Mobile Computing Group: March 11, 2026, 6:30 pm</p>
+<p><strong>Report location:</strong></p><p>Computer Building A318</p>
+<p><strong>Moderator:</strong></p><p>Prof. Guojiang Shen, Prof. Xiangjie Kong, Prof. Zhi Liu, Mengmeng Wang, Jiaxin Du</p>
+<p><strong>Reporter:</strong></p>
+<p>Mobile Computing Group: Yujian Gao, Rudan Zheng</p>
+<p><strong>Theme:</strong></p>
+<p>Work progress report.</p>
+<p>Literature report.</p>
+<p>Semester work summary.</p>
+`,
+    top: false,
+    year: 2026,
+  },
+  {
+    id: 165,
+    title: "2026年CSSC小组第8次研讨会",
+    author: "周润佳",
+    create_date: "2026-3-10",
+    summary: "报告主题：工作进度汇报文献汇报",
+    content: `<p><strong>报告时间：</strong></p>
+<p>自然语言处理组：2026年3月10日，上午8:30</p>
+<p>交通智能感知与控制组：2026年3月10日，上午10:30</p>
+<p><strong>报告地点：</strong></p><p>计算机楼A318</p>
+<p><strong>主持人：</strong></p><p>沈国江教授、孔祥杰教授、刘志教授、王蒙蒙老师、杜嘉欣老师</p>
+<p><strong>汇报人：</strong></p>
+<p>自然语言处理组：赵宏彦</p>
+<p>交通智能感知与控制组：王浩楠</p>
+<p><strong>报告主题：</strong></p>
+<p>工作进度汇报</p>
+<p>文献汇报</p>
+`,
+    title_en: "The 8th seminar of CSSC group in 2026",
+    author_en: "Runjia Zhou",
+    summary_en: "Report topic: Work progress report and literature report.",
+    content_en: `<p><strong>Report time:</strong></p>
+<p>Natural Language Processing Group: March 10, 2026, 8:30 am</p>
+<p>Traffic Intelligent Perception and Control Group: March 10, 2026, 10:30 am</p>
+<p><strong>Report location:</strong></p><p>Computer Building A318</p>
+<p><strong>Moderator:</strong></p><p>Prof. Guojiang Shen, Prof. Xiangjie Kong, Prof. Zhi Liu, Mengmeng Wang, Jiaxin Du</p>
+<p><strong>Reporter:</strong></p>
+<p>Natural Language Processing Group: Hongyan Zhao</p>
+<p>Traffic Intelligent Perception and Control Group: Haonan Wang</p>
+<p><strong>Theme:</strong></p>
+<p>Work progress report.</p>
+<p>Literature report.</p>
+`,
+    top: false,
+    year: 2026,
+  },
+  {
+    id: 164,
+    title: "2026年CSSC小组第7次研讨会",
+    author: "周润佳",
+    create_date: "2026-2-4",
+    summary: "报告主题：工作进度汇报文献汇报",
+    content: `<p><strong>报告时间：</strong></p>
+<p>自然语言处理组：2026年2月4日，上午8:30</p>
+<p><strong>报告地点：</strong></p><p>计算机楼A318</p>
+<p><strong>主持人：</strong></p><p>沈国江教授、孔祥杰教授、刘志教授、王蒙蒙老师、杜嘉欣老师</p>
+<p><strong>汇报人：</strong></p>
+<p>自然语言处理组：Syauqie（邵齐）、Dominic(巴火）</p>
+<p><strong>报告主题：</strong></p>
+<p>工作进度汇报</p>
+<p>文献汇报</p>
+`,
+    title_en: "The 7th seminar of CSSC group in 2026",
+    author_en: "Runjia Zhou",
+    summary_en: "Report topic: Work progress report and literature report.",
+    content_en: `<p><strong>Report time:</strong></p>
+<p>Natural Language Processing Group: February 4, 2026, 8:30 am</p>
+<p><strong>Report location:</strong></p><p>Computer Building A318</p>
+<p><strong>Moderator:</strong></p><p>Prof. Guojiang Shen, Prof. Xiangjie Kong, Prof. Zhi Liu, Mengmeng Wang, Jiaxin Du</p>
+<p><strong>Reporter:</strong></p>
+<p>Natural Language Processing Group: Syauqie (Shao Qi), Dominic (Ba Huo)</p>
+<p><strong>Theme:</strong></p>
+<p>Work progress report.</p>
+<p>Literature report.</p>
+`,
+    top: false,
+    year: 2026,
+  },
+  {
+    id: 163,
+    title: "2026年CSSC小组第6次研讨会",
+    author: "周润佳",
+    create_date: "2026-2-2",
+    summary: "报告主题：工作进度汇报文献汇报学期工作总结",
+    content: `<p><strong>报告时间：</strong></p>
+<p>移动计算组：2026年2月2日，下午6:30</p>
+<p><strong>报告地点：</strong></p><p>计算机楼A318</p>
+<p><strong>主持人：</strong></p><p>沈国江教授、孔祥杰教授、刘志教授、王蒙蒙老师、杜嘉欣老师</p>
+<p><strong>汇报人：</strong></p>
+<p>移动计算组：高宇坚、郑茹丹 </p>
+<p><strong>报告主题：</strong></p>
+<p>工作进度汇报</p>
+<p>文献汇报</p>
+<p>学期工作总结</p>
+`,
+    title_en: "The 6th seminar of CSSC group in 2026",
+    author_en: "Runjia Zhou",
+    summary_en: "Report topic: Work progress report, literature report and semester work summary.",
+    content_en: `<p><strong>Report time:</strong></p>
+<p>Mobile Computing Group: February 2, 2026, 6:30 pm</p>
+<p><strong>Report location:</strong></p><p>Computer Building A318</p>
+<p><strong>Moderator:</strong></p><p>Prof. Guojiang Shen, Prof. Xiangjie Kong, Prof. Zhi Liu, Mengmeng Wang, Jiaxin Du</p>
+<p><strong>Reporter:</strong></p>
+<p>Mobile Computing Group: Yujian Gao, Rudan Zheng</p>
+<p><strong>Theme:</strong></p>
+<p>Work progress report.</p>
+<p>Literature report.</p>
+<p>Semester work summary.</p>
+`,
+    top: false,
+    year: 2026,
+  },
+  {
+    id: 162,
+    title: "2026年CSSC小组第5次研讨会",
+    author: "周润佳",
+    create_date: "2026-1-23",
+    summary: "报告主题：工作进度汇报文献汇报",
+    content: `<p><strong>报告时间：</strong></p>
+<p>社会计算组：2026年1月23日，上午10:30</p>
+<p>交通智能感知与控制组：2026年1月23日，上午10:30</p>
+<p><strong>报告地点：</strong></p><p>计算机楼A318</p>
+<p><strong>主持人：</strong></p><p>沈国江教授、孔祥杰教授、刘志教授、王蒙蒙老师、杜嘉欣老师</p>
+<p><strong>汇报人：</strong></p>
+<p>社会计算组：徐晨洋、宁凯丽</p>
+<p>交通智能感知与控制组：冯彪</p>
+<p><strong>报告主题：</strong></p>
+<p>工作进度汇报</p>
+<p>文献汇报</p>
+`,
+    title_en: "The 5th seminar of CSSC group in 2026",
+    author_en: "Runjia Zhou",
+    summary_en: "Report topic: Work progress report and literature report.",
+    content_en: `<p><strong>Report time:</strong></p>
+<p>Social Computing Group: January 23, 2026, 10:30 am</p>
+<p>Traffic Intelligent Perception and Control Group: January 23, 2026, 10:30 am</p>
+<p><strong>Report location:</strong></p><p>Computer Building A318</p>
+<p><strong>Moderator:</strong></p><p>Prof. Guojiang Shen, Prof. Xiangjie Kong, Prof. Zhi Liu, Mengmeng Wang, Jiaxin Du</p>
+<p><strong>Reporter:</strong></p>
+<p>Social Computing Group: Chenyang Xu, Kaili Ning</p>
+<p>Traffic Intelligent Perception and Control Group: Biao Feng</p>
+<p><strong>Theme:</strong></p>
+<p>Work progress report.</p>
+<p>Literature report.</p>
+`,
+    top: false,
+    year: 2026,
+  },
+  {
+    id: 161,
+    title: "2026年CSSC小组第4次研讨会",
+    author: "周润佳",
+    create_date: "2026-1-22",
+    summary: "报告主题：工作进度汇报文献汇报",
+    content: `<p><strong>报告时间：</strong></p>
+<p>自然语言处理组组：2026年1月22日，上午8:30</p>
+<p><strong>报告地点：</strong></p><p>计算机楼A318</p>
+<p><strong>主持人：</strong></p><p>沈国江教授、孔祥杰教授、刘志教授、王蒙蒙老师、杜嘉欣老师</p>
+<p><strong>汇报人：</strong></p>
+<p>自然语言处理组：陈祥钒</p>
+<p><strong>报告主题：</strong></p>
+<p>工作进度汇报</p>
+<p>文献汇报</p>
+`,
+    title_en: "The 4th seminar of CSSC group in 2026",
+    author_en: "Runjia Zhou",
+    summary_en: "Report topic: Work progress report and literature report.",
+    content_en: `<p><strong>Report time:</strong></p>
+<p>Natural Language Processing Group: January 22, 2026, 8:30 am</p>
+<p><strong>Report location:</strong></p><p>Computer Building A318</p>
+<p><strong>Moderator:</strong></p><p>Prof. Guojiang Shen, Prof. Xiangjie Kong, Prof. Zhi Liu, Mengmeng Wang, Jiaxin Du</p>
+<p><strong>Reporter:</strong></p>
+<p>Natural Language Processing Group: Xiangfan Chen</p>
+<p><strong>Theme:</strong></p>
+<p>Work progress report.</p>
+<p>Literature report.</p>
+`,
+    top: false,
+    year: 2026,
+  },
+  {
+    id: 160,
+    title: "2026年CSSC小组第3次研讨会",
+    author: "周润佳",
+    create_date: "2026-1-19",
+    summary: "报告主题：工作进度汇报文献汇报",
+    content: `<p><strong>报告时间：</strong></p>
+<p>移动计算组：2026年1月19日，下午6:30</p>
+<p><strong>报告地点：</strong></p><p>计算机楼A318</p>
+<p><strong>主持人：</strong></p><p>沈国江教授、孔祥杰教授、刘志教授、王蒙蒙老师、杜嘉欣老师</p>
+<p><strong>汇报人：</strong></p>
+<p>移动计算组：张锦帆、戴哲豪</p>
+<p><strong>报告主题：</strong></p>
+<p>工作进度汇报</p>
+<p>文献汇报</p>
+`,
+    title_en: "The 3rd seminar of CSSC group in 2026",
+    author_en: "Runjia Zhou",
+    summary_en: "Report topic: Work progress report and literature report.",
+    content_en: `<p><strong>Report time:</strong></p>
+<p>Mobile Computing Group: January 19, 2026, 6:30 pm</p>
+<p><strong>Report location:</strong></p><p>Computer Building A318</p>
+<p><strong>Moderator:</strong></p><p>Prof. Guojiang Shen, Prof. Xiangjie Kong, Prof. Zhi Liu, Mengmeng Wang, Jiaxin Du</p>
+<p><strong>Reporter:</strong></p>
+<p>Mobile Computing Group: Jinfan Zhang, Zhehao Dai</p>
+<p><strong>Theme:</strong></p>
+<p>Work progress report.</p>
+<p>Literature report.</p>
+`,
+    top: false,
+    year: 2026,
+  },
+  {
+    id: 158,
+    title: "2026年CSSC小组第1次研讨会",
+    author: "周润佳",
+    create_date: "2026-1-5",
+    summary: "报告主题：工作进度汇报文献汇报",
+    content: `<p><strong>报告时间：</strong></p>
+<p>自然语言处理组：2026年1月9日上午8:30</p>
+<p>移动计算组：2026年1月9日，下午6:30</p>
+<p><strong>报告地点：</strong></p><p>计算机楼A318</p>
+<p><strong>主持人：</strong></p><p>沈国江教授、孔祥杰教授、刘志教授、王蒙蒙老师、杜嘉欣老师</p>
+<p><strong>汇报人：</strong></p>
+<p>移动计算组： 张文熠、倪辰昊</p>
+<p>自然语言处理组：吴怀静、翟子豪</p>
+<p><strong>报告主题：</strong></p>
+<p>工作进度汇报</p>
+<p>文献汇报</p>
+`,
+    title_en: "The 1st seminar of CSSC group in 2026",
+    author_en: "Runjia Zhou",
+    summary_en: "Report topic: Work progress report and literature report.",
+    content_en: `<p><strong>Report time:</strong></p>
+<p>Natural Language Processing Group: January 9, 2026, 8:30 am</p>
+<p>Mobile Computing Group: January 9, 2026, 6:30 pm</p>
+<p><strong>Report location:</strong></p><p>Computer Building A318</p>
+<p><strong>Moderator:</strong></p><p>Prof. Guojiang Shen, Prof. Xiangjie Kong, Prof. Zhi Liu, Mengmeng Wang, Jiaxin Du</p>
+<p><strong>Reporter:</strong></p>
+<p>Mobile Computing Group: Wenyi Zhang, Chenhao Ni</p>
+<p>Natural Language Processing Group: Huaijing Wu, Zihao Zhai</p>
+<p><strong>Theme:</strong></p>
+<p>Work progress report.</p>
+<p>Literature report.</p>
+`,
+    top: false,
+    year: 2026,
+  },
+  {
+    id: 155,
+    title: "2025年CSSC小组第58次研讨会",
+    author: "周润佳",
+    create_date: "2025-12-31",
+    summary: "报告主题：工作进度汇报文献汇报",
+    content: `<p><strong>报告时间：</strong></p>
+<p>自然语言处理组：2025年12月18日上午8:30</p>
+<p><strong>报告地点：</strong></p><p>计算机楼A318</p>
+<p><strong>主持人：</strong></p><p>沈国江教授、孔祥杰教授、刘志教授、王蒙蒙老师、杜嘉欣老师</p>
+<p><strong>汇报人：</strong></p>
+<p>自然语言处理组：陈建林</p>
+<p><strong>报告主题：</strong></p>
+<p>工作进度汇报</p>
+<p>文献汇报</p>
+`,
+    title_en: "The 58th seminar of CSSC group in 2025",
+    author_en: "Runjia Zhou",
+    summary_en: "Report topic: Work progress report and literature report.",
+    content_en: `<p><strong>Report time:</strong></p>
+<p>Natural Language Processing Group: December 18, 2025, 8:30 am</p>
+<p><strong>Report location:</strong></p><p>Computer Building A318</p>
+<p><strong>Moderator:</strong></p><p>Prof. Guojiang Shen, Prof. Xiangjie Kong, Prof. Zhi Liu, Mengmeng Wang, Jiaxin Du</p>
+<p><strong>Reporter:</strong></p>
+<p>Natural Language Processing Group: Jianlin Chen</p>
+<p><strong>Theme:</strong></p>
+<p>Work progress report.</p>
+<p>Literature report.</p>
+`,
+    top: false,
+    year: 2025,
+  },
+  {
+    id: 157,
+    title: "2025年CSSC小组第60次研讨会",
+    author: "周润佳",
+    create_date: "2025-12-29",
+    summary: "报告主题：工作进度汇报文献汇报",
+    content: `<p><strong>报告时间：</strong></p>
+<p>移动计算组：2025年12月29日，下午6:30</p>
+<p><strong>报告地点：</strong></p><p>计算机楼A318</p>
+<p><strong>主持人：</strong></p><p>沈国江教授、孔祥杰教授、刘志教授、王蒙蒙老师、杜嘉欣老师</p>
+<p><strong>汇报人：</strong></p>
+<p>移动计算组：韩旭涛、胡逾越、郭旭 </p>
+<p><strong>报告主题：</strong></p>
+<p>工作进度汇报</p>
+<p>文献汇报</p>
+`,
+    title_en: "The 60th seminar of CSSC group in 2025",
+    author_en: "Runjia Zhou",
+    summary_en: "Report topic: Work progress report and literature report.",
+    content_en: `<p><strong>Report time:</strong></p>
+<p>Mobile Computing Group: December 29, 2025, 6:30 pm</p>
+<p><strong>Report location:</strong></p><p>Computer Building A318</p>
+<p><strong>Moderator:</strong></p><p>Prof. Guojiang Shen, Prof. Xiangjie Kong, Prof. Zhi Liu, Mengmeng Wang, Jiaxin Du</p>
+<p><strong>Reporter:</strong></p>
+<p>Mobile Computing Group: Xutao Han, Yuyue Hu, Xu Guo</p>
+<p><strong>Theme:</strong></p>
+<p>Work progress report.</p>
+<p>Literature report.</p>
+`,
+    top: false,
+    year: 2025,
+  },
+  {
+    id: 159,
+    title: "2026年CSSC小组第2次研讨会",
+    author: "周润佳",
+    create_date: "2025-12-19",
+    summary: "报告主题：工作进度汇报文献汇报",
+    content: `<p><strong>报告时间：</strong></p>
+<p>社会计算组：2026年1月9日 上午10:30</p>
+<p>交通智能感知与控制组：2026年1月9日 上午10:30</p>
+<p><strong>报告地点：</strong></p><p>计算机楼A318</p>
+<p><strong>主持人：</strong></p><p>沈国江教授、孔祥杰教授、刘志教授、王蒙蒙老师、杜嘉欣老师</p>
+<p><strong>汇报人：</strong></p>
+<p>交通智能感知与控制组：谈昊飞</p>
+<p>社会计算组：吴佳文</p>
+<p><strong>报告主题：</strong></p>
+<p>工作进度汇报</p>
+<p>文献汇报</p>
+`,
+    title_en: "The 2nd seminar of CSSC group in 2026",
+    author_en: "Runjia Zhou",
+    summary_en: "Report topic: Work progress report and literature report.",
+    content_en: `<p><strong>Report time:</strong></p>
+<p>Social Computing Group: January 9, 2026, 10:30 am</p>
+<p>Traffic Intelligent Perception and Control Group: January 9, 2026, 10:30 am</p>
+<p><strong>Report location:</strong></p><p>Computer Building A318</p>
+<p><strong>Moderator:</strong></p><p>Prof. Guojiang Shen, Prof. Xiangjie Kong, Prof. Zhi Liu, Mengmeng Wang, Jiaxin Du</p>
+<p><strong>Reporter:</strong></p>
+<p>Traffic Intelligent Perception and Control Group: Haofei Tan</p>
+<p>Social Computing Group: Jiawen Wu</p>
+<p><strong>Theme:</strong></p>
+<p>Work progress report.</p>
+<p>Literature report.</p>
+`,
+    top: false,
+    year: 2026,
+  },
+  {
+    id: 156,
+    title: "2025年CSSC小组第59次研讨会",
+    author: "周润佳",
+    create_date: "2025-12-19",
+    summary: "报告主题：工作进度汇报文献汇报",
+    content: `<p><strong>报告时间：</strong></p>
+<p>社会计算组：2025年12月19日 上午10:30</p>
+<p>交通智能感知与控制组：2025年12月19日 上午10:30</p>
+<p><strong>报告地点：</strong></p><p>计算机楼A318</p>
+<p><strong>主持人：</strong></p><p>沈国江教授、孔祥杰教授、刘志教授、王蒙蒙老师、杜嘉欣老师</p>
+<p><strong>汇报人：</strong></p>
+<p>交通智能感知与控制组：舒灿</p>
+<p>社会计算组：周昊</p>
+<p><strong>报告主题：</strong></p>
+<p>工作进度汇报</p>
+<p>文献汇报</p>
+`,
+    title_en: "The 59th seminar of CSSC group in 2025",
+    author_en: "Runjia Zhou",
+    summary_en: "Report topic: Work progress report and literature report.",
+    content_en: `<p><strong>Report time:</strong></p>
+<p>Social Computing Group: December 19, 2025, 10:30 am</p>
+<p>Traffic Intelligent Perception and Control Group: December 19, 2025, 10:30 am</p>
+<p><strong>Report location:</strong></p><p>Computer Building A318</p>
+<p><strong>Moderator:</strong></p><p>Prof. Guojiang Shen, Prof. Xiangjie Kong, Prof. Zhi Liu, Mengmeng Wang, Jiaxin Du</p>
+<p><strong>Reporter:</strong></p>
+<p>Traffic Intelligent Perception and Control Group: Can Shu</p>
+<p>Social Computing Group: Hao Zhou</p>
+<p><strong>Theme:</strong></p>
+<p>Work progress report.</p>
+<p>Literature report.</p>
+`,
+    top: false,
+    year: 2025,
+  },
+  {
+    id: 154,
+    title: "2025年CSSC小组第57次研讨会",
+    author: "周润佳",
+    create_date: "2025-12-15",
+    summary: "报告主题：工作进度汇报文献汇报",
+    content: `<p><strong>报告时间：</strong></p>
+<p>移动计算组：2025年12月15日，下午6:30</p>
+<p><strong>报告地点：</strong></p><p>计算机楼A318</p>
+<p><strong>主持人：</strong></p><p>沈国江教授、孔祥杰教授、刘志教授、王蒙蒙老师、杜嘉欣老师</p>
+<p><strong>汇报人：</strong></p>
+<p>移动计算组：周润佳、刘博涛</p>
+<p><strong>报告主题：</strong></p>
+<p>工作进度汇报</p>
+<p>文献汇报</p>
+`,
+    title_en: "The 57th seminar of CSSC group in 2025",
+    author_en: "Runjia Zhou",
+    summary_en: "Report topic: Work progress report and literature report.",
+    content_en: `<p><strong>Report time:</strong></p>
+<p>Mobile Computing Group: December 15, 2025, 6:30 pm</p>
+<p><strong>Report location:</strong></p><p>Computer Building A318</p>
+<p><strong>Moderator:</strong></p><p>Prof. Guojiang Shen, Prof. Xiangjie Kong, Prof. Zhi Liu, Mengmeng Wang, Jiaxin Du</p>
+<p><strong>Reporter:</strong></p>
+<p>Mobile Computing Group: Runjia Zhou, Botao Liu</p>
+<p><strong>Theme:</strong></p>
+<p>Work progress report.</p>
+<p>Literature report.</p>
+`,
+    top: false,
+    year: 2025,
+  },
+  {
+    id: 153,
+    title: "2025年CSSC小组第56次研讨会",
+    author: "周润佳",
+    create_date: "2025-12-05",
+    summary: "报告主题：工作进度汇报文献汇报",
+    content: `<p><strong>报告时间：</strong></p>
+<p>社会计算组：2025年12月5日，上午10:30</p>
+<p>交通智能感知与控制组：2025年12月5日，上午10:30</p>
+<p><strong>报告地点：</strong></p><p>计算机楼A318</p>
+<p><strong>主持人：</strong></p><p>沈国江教授、孔祥杰教授、刘志教授、王蒙蒙老师、杜嘉欣老师</p>
+<p><strong>汇报人：</strong></p>
+<p>1.交通智能感知与控制组：吴一楠</p>
+<p><strong>报告主题：</strong></p>
+<p>1.工作进度汇报</p>
+<p>2.文献汇报</p>
+`,
+    title_en: "The 56th seminar of CSSC group in 2025",
+    author_en: "Runjia Zhou",
+    summary_en: "Report topic: Work progress report and literature report.",
+    content_en: `<p><strong>Report time:</strong></p>
+<p>Social Computing Group: December 5, 2025, 10:30 am</p>
+<p>Traffic Intelligent Perception and Control Group: December 5, 2025, 10:30 am</p>
+<p><strong>Report location:</strong></p><p>Computer Building A318</p>
+<p><strong>Moderator:</strong></p><p>Prof. Guojiang Shen, Prof. Xiangjie Kong, Prof. Zhi Liu, Mengmeng Wang, Jiaxin Du</p>
+<p><strong>Reporter:</strong></p>
+<p>1.Traffic Intelligent Perception and Control Group: Yinan Wu</p>
+<p><strong>Theme:</strong></p>
+<p>1.Work progress report.</p>
+<p>2.Literature report.</p>
+`,
+    top: false,
+    year: 2025,
+  },
+  {
+    id: 152,
+    title: "2025年CSSC小组第55次研讨会",
+    author: "周润佳",
+    create_date: "2025-12-04",
+    summary: "报告主题：工作进度汇报文献汇报",
+    content: `<p><strong>报告时间：</strong></p>
+<p>自然语言处理组组：2025年12月4日，上午8:30</p>
+<p><strong>报告地点：</strong></p><p>计算机楼A318</p>
+<p><strong>主持人：</strong></p><p>沈国江教授、孔祥杰教授、刘志教授、王蒙蒙老师、杜嘉欣老师</p>
+<p><strong>汇报人：</strong></p>
+<p>1.自然语言处理组：李卓伦</p>
+<p><strong>报告主题：</strong></p>
+<p>1.工作进度汇报</p>
+<p>2.文献汇报</p>
+`,
+    title_en: "The 55th seminar of CSSC group in 2025",
+    author_en: "Runjia Zhou",
+    summary_en: "Report topic: Work progress report and literature report.",
+    content_en: `<p><strong>Report time:</strong></p>
+<p>Natural Language Processing Group: December 4, 2025, 8:30 am</p>
+<p><strong>Report location:</strong></p><p>Computer Building A318</p>
+<p><strong>Moderator:</strong></p><p>Prof. Guojiang Shen, Prof. Xiangjie Kong, Prof. Zhi Liu, Mengmeng Wang, Jiaxin Du</p>
+<p><strong>Reporter:</strong></p>
+<p>1.Natural Language Processing Group: Zhuolun Li</p>
+<p><strong>Theme:</strong></p>
+<p>1.Work progress report.</p>
+<p>2.Literature report.</p>
+`,
+    top: false,
+    year: 2025,
+  },
+  {
+    id: 151,
+    title: "2025年CSSC小组第54次研讨会",
+    author: "周润佳",
+    create_date: "2025-11-27",
+    summary: "报告主题：工作进度汇报文献汇报",
+    content: `<p><strong>报告时间：</strong></p>
+<p>自然语言处理组：2025年11月27日，下午6:30</p>
+<p>移动计算组：2025年11月27日，下午6:30</p>
+<p><strong>报告地点：</strong></p><p>计算机楼A318</p>
+<p><strong>主持人：</strong></p><p>沈国江教授、孔祥杰教授、刘志教授、王蒙蒙老师、杜嘉欣老师</p>
+<p><strong>汇报人：</strong></p>
+<p>1.自然语言处理组：吴怀静</p>
+<p>2.移动计算组：郑茹丹、高宇坚</p>
+<p><strong>报告主题：</strong></p>
+<p>1.工作进度汇报</p>
+<p>2.文献汇报</p>
+`,
+    title_en: "The 54th seminar of CSSC group in 2025",
+    author_en: "Runjia Zhou",
+    summary_en: "Report topic: Work progress report and literature report.",
+    content_en: `<p><strong>Report time:</strong></p>
+<p>Natural Language Processing Group: November 27, 2025, 6:30 pm</p>
+<p>Mobile Computing Group: November 27, 2025, 6:30 pm</p>
+<p><strong>Report location:</strong></p><p>Computer Building A318</p>
+<p><strong>Moderator:</strong></p><p>Prof. Guojiang Shen, Prof. Xiangjie Kong, Prof. Zhi Liu, Mengmeng Wang, Jiaxin Du</p>
+<p><strong>Reporter:</strong></p>
+<p>1.Natural Language Processing Group: Huaijing Wu</p>
+<p>2.Mobile Computing Group: Rudan Zheng, Yujian Gao</p>
+<p><strong>Theme:</strong></p>
+<p>1.Work progress report.</p>
+<p>2.Literature report.</p>
+`,
+    top: false,
+    year: 2025,
+  },
+  {
+    id: 150,
+    title: "2025年CSSC小组第53次研讨会",
+    author: "周润佳",
+    create_date: "2025-11-21",
+    summary: "报告主题：工作进度汇报文献汇报",
+    content: `<p><strong>报告时间：</strong></p>
+<p>社会计算组：2025年11月21日，上午10:30</p>
+<p>交通智能感知与控制组：2025年11月21日，上午10:30</p>
+<p><strong>报告地点：</strong></p><p>计算机楼A318</p>
+<p><strong>主持人：</strong></p><p>沈国江教授、孔祥杰教授、刘志教授、王蒙蒙老师、杜嘉欣老师</p>
+<p><strong>汇报人：</strong></p>
+<p>1.社会计算组：谈昊飞</p>
+<p><strong>报告主题：</strong></p>
+<p>1.工作进度汇报</p>
+<p>2.文献汇报</p>
+`,
+    title_en: "The 53rd seminar of CSSC group in 2025",
+    author_en: "Runjia Zhou",
+    summary_en: "Report topic: Work progress report and literature report.",
+    content_en: `<p><strong>Report time:</strong></p>
+<p>Social Computing Group: November 21, 2025, 10:30 am</p>
+<p>Traffic Intelligent Perception and Control Group: November 21, 2025, 10:30 am</p>
+<p><strong>Report location:</strong></p><p>Computer Building A318</p>
+<p><strong>Moderator:</strong></p><p>Prof. Guojiang Shen, Prof. Xiangjie Kong, Prof. Zhi Liu, Mengmeng Wang, Jiaxin Du</p>
+<p><strong>Reporter:</strong></p>
+<p>1.Social Computing Group: Haofei Tan</p>
+<p><strong>Theme:</strong></p>
+<p>1.Work progress report.</p>
+<p>2.Literature report.</p>
+`,
+    top: false,
+    year: 2025,
+  },
+  {
+    id: 149,
+    title: "2025年CSSC小组第52次研讨会",
+    author: "周润佳",
+    create_date: "2025-11-20",
+    summary: "报告主题：工作进度汇报文献汇报",
+    content: `<p><strong>报告时间：</strong></p>
+<p>自然语言处理组组：2025年11月20日，上午8:30</p>
+<p><strong>报告地点：</strong></p><p>计算机楼A318</p>
+<p><strong>主持人：</strong></p><p>沈国江教授、孔祥杰教授、刘志教授、王蒙蒙老师、杜嘉欣老师</p>
+<p><strong>汇报人：</strong></p>
+<p>1.自然语言处理组：翟子豪</p>
+<p><strong>报告主题：</strong></p>
+<p>1.工作进度汇报</p>
+<p>2.文献汇报</p>
+`,
+    title_en: "The 52nd seminar of CSSC group in 2025",
+    author_en: "Runjia Zhou",
+    summary_en: "Report topic: Work progress report and literature report.",
+    content_en: `<p><strong>Report time:</strong></p>
+<p>Natural Language Processing Group: November 20, 2025, 8:30 am</p>
+<p><strong>Report location:</strong></p><p>Computer Building A318</p>
+<p><strong>Moderator:</strong></p><p>Prof. Guojiang Shen, Prof. Xiangjie Kong, Prof. Zhi Liu, Mengmeng Wang, Jiaxin Du</p>
+<p><strong>Reporter:</strong></p>
+<p>1.Natural Language Processing Group: Zihao Zhai</p>
+<p><strong>Theme:</strong></p>
+<p>1.Work progress report.</p>
+<p>2.Literature report.</p>
+`,
+    top: false,
+    year: 2025,
+  },
+  {
+    id: 148,
+    title: "2025年CSSC小组第51次研讨会",
+    author: "周润佳",
+    create_date: "2025-11-17",
+    summary: "报告主题：工作进度汇报文献汇报",
+    content: `<p><strong>报告时间：</strong></p>
+<p>移动计算组：2025年11月17日，下午6:30</p>
+<p><strong>报告地点：</strong></p><p>计算机楼A318</p>
+<p><strong>主持人：</strong></p><p>沈国江教授、孔祥杰教授、刘志教授、王蒙蒙老师、杜嘉欣老师</p>
+<p><strong>汇报人：</strong></p>
+<p>1.移动计算组：刘博韬</p>
+<p><strong>报告主题：</strong></p>
+<p>1.工作进度汇报</p>
+<p>2.文献汇报</p>
+`,
+    title_en: "The 51st seminar of CSSC group in 2025",
+    author_en: "Runjia Zhou",
+    summary_en: "Report topic: Work progress report and literature report.",
+    content_en: `<p><strong>Report time:</strong></p>
+<p>Mobile Computing Group: November 17, 2025, 6:30 pm</p>
+<p><strong>Report location:</strong></p><p>Computer Building A318</p>
+<p><strong>Moderator:</strong></p><p>Prof. Guojiang Shen, Prof. Xiangjie Kong, Prof. Zhi Liu, Mengmeng Wang, Jiaxin Du</p>
+<p><strong>Reporter:</strong></p>
+<p>1.Mobile Computing Group: Botao Liu</p>
+<p><strong>Theme:</strong></p>
+<p>1.Work progress report.</p>
+<p>2.Literature report.</p>
+`,
+    top: false,
+    year: 2025,
+  },
+  {
+    id: 147,
+    title: "2025年CSSC小组第50次研讨会",
+    author: "周润佳",
+    create_date: "2025-11-14",
+    summary: "报告主题：工作进度汇报文献汇报",
+    content: `<p><strong>报告时间：</strong></p>
+<p>社会计算组：2025年11月14日，上午10:30</p>
+<p>交通智能感知与控制组：2025年11月14日，上午10:30</p>
+<p><strong>报告地点：</strong></p><p>计算机楼A318</p>
+<p><strong>主持人：</strong></p><p>沈国江教授、孔祥杰教授、刘志教授、王蒙蒙老师、杜嘉欣老师</p>
+<p><strong>汇报人：</strong></p>
+<p>1.社会计算组：沈钰琦</p>
+<p><strong>报告主题：</strong></p>
+<p>1.工作进度汇报</p>
+<p>2.文献汇报</p>
+`,
+    title_en: "The 50th seminar of CSSC group in 2025",
+    author_en: "Runjia Zhou",
+    summary_en: "Report topic: Work progress report and literature report.",
+    content_en: `<p><strong>Report time:</strong></p>
+<p>Social Computing Group: November 14, 2025, 10:30 am</p>
+<p>Traffic Intelligent Perception and Control Group: November 14, 2025, 10:30 am</p>
+<p><strong>Report location:</strong></p><p>Computer Building A318</p>
+<p><strong>Moderator:</strong></p><p>Prof. Guojiang Shen, Prof. Xiangjie Kong, Prof. Zhi Liu, Mengmeng Wang, Jiaxin Du</p>
+<p><strong>Reporter:</strong></p>
+<p>1.Social Computing Group: Yuqi Shen</p>
+<p><strong>Theme:</strong></p>
+<p>1.Work progress report.</p>
+<p>2.Literature report.</p>
+`,
+    top: false,
+    year: 2025,
+  },
+  {
+    id: 146,
+    title: "2025年CSSC小组第49次研讨会",
+    author: "周润佳",
+    create_date: "2025-11-13",
+    summary: "报告主题：工作进度汇报文献汇报",
+    content: `<p><strong>报告时间：</strong></p>
+<p>自然语言处理组组：2025年11月13日，上午8:30</p>
+<p><strong>报告地点：</strong></p><p>计算机楼A318</p>
+<p><strong>主持人：</strong></p><p>沈国江教授、孔祥杰教授、刘志教授、王蒙蒙老师、杜嘉欣老师</p>
+<p><strong>汇报人：</strong></p>
+<p>1.自然语言处理组：Musenga</p>
+<p><strong>报告主题：</strong></p>
+<p>1.工作进度汇报</p>
+<p>2.文献汇报</p>
+`,
+    title_en: "The 49th seminar of CSSC group in 2025",
+    author_en: "Runjia Zhou",
+    summary_en: "Report topic: Work progress report and literature report.",
+    content_en: `<p><strong>Report time:</strong></p>
+<p>Natural Language Processing Group: November 13, 2025, 8:30 am</p>
+<p><strong>Report location:</strong></p><p>Computer Building A318</p>
+<p><strong>Moderator:</strong></p><p>Prof. Guojiang Shen, Prof. Xiangjie Kong, Prof. Zhi Liu, Mengmeng Wang, Jiaxin Du</p>
+<p><strong>Reporter:</strong></p>
+<p>1.Natural Language Processing Group: Musenga</p>
+<p><strong>Theme:</strong></p>
+<p>1.Work progress report.</p>
+<p>2.Literature report.</p>
+`,
+    top: false,
+    year: 2025,
+  },
+  {
+    id: 145,
+    title: "2025年CSSC小组第48次研讨会",
+    author: "周润佳",
+    create_date: "2025-11-10",
+    summary: "报告主题：工作进度汇报文献汇报",
+    content: `<p><strong>报告时间：</strong></p>
+<p>移动计算组：2025年11月10日，下午6:30</p>
+<p><strong>报告地点：</strong></p><p>计算机楼A318</p>
+<p><strong>主持人：</strong></p><p>沈国江教授、孔祥杰教授、刘志教授、王蒙蒙老师、杜嘉欣老师</p>
+<p><strong>汇报人：</strong></p>
+<p>1.移动计算组：郭旭，胡逾越</p>
+<p><strong>报告主题：</strong></p>
+<p>1.工作进度汇报</p>
+<p>2.文献汇报</p>
+`,
+    title_en: "The 48th seminar of CSSC group in 2025",
+    author_en: "Runjia Zhou",
+    summary_en: "Report topic: Work progress report and literature report.",
+    content_en: `<p><strong>Report time:</strong></p>
+<p>Mobile Computing Group: November 10, 2025, 6:30 pm</p>
+<p><strong>Report location:</strong></p><p>Computer Building A318</p>
+<p><strong>Moderator:</strong></p><p>Prof. Guojiang Shen, Prof. Xiangjie Kong, Prof. Zhi Liu, Mengmeng Wang, Jiaxin Du</p>
+<p><strong>Reporter:</strong></p>
+<p>1.Mobile Computing Group: Xu Guo, Yuyue Hu</p>
+<p><strong>Theme:</strong></p>
+<p>1.Work progress report.</p>
+<p>2.Literature report.</p>
+`,
+    top: false,
+    year: 2025,
+  },
+  {
+    id: 144,
+    title: "2025年CSSC小组第47次研讨会",
+    author: "周润佳",
+    create_date: "2025-11-07",
+    summary: "报告主题：工作进度汇报文献汇报",
+    content: `<p><strong>报告时间：</strong></p>
+<p>社会计算组：2025年11月7日，上午10:30</p>
+<p>交通智能感知与控制组：2025年11月7日，上午10:30</p>
+<p><strong>报告地点：</strong></p><p>计算机楼A318</p>
+<p><strong>主持人：</strong></p><p>沈国江教授、孔祥杰教授、刘志教授、王蒙蒙老师、杜嘉欣老师</p>
+<p><strong>汇报人：</strong></p>
+<p>1.社会计算组：舒灿</p>
+<p><strong>报告主题：</strong></p>
+<p>1.工作进度汇报</p>
+<p>2.文献汇报</p>
+`,
+    title_en: "The 47th seminar of CSSC group in 2025",
+    author_en: "Runjia Zhou",
+    summary_en: "Report topic: Work progress report and literature report.",
+    content_en: `<p><strong>Report time:</strong></p>
+<p>Social Computing Group: November 7, 2025, 10:30 am</p>
+<p>Traffic Intelligent Perception and Control Group: November 7, 2025, 10:30 am</p>
+<p><strong>Report location:</strong></p><p>Computer Building A318</p>
+<p><strong>Moderator:</strong></p><p>Prof. Guojiang Shen, Prof. Xiangjie Kong, Prof. Zhi Liu, Mengmeng Wang, Jiaxin Du</p>
+<p><strong>Reporter:</strong></p>
+<p>1.Social Computing Group: Can Shu</p>
+<p><strong>Theme:</strong></p>
+<p>1.Work progress report.</p>
+<p>2.Literature report.</p>
+`,
+    top: false,
+    year: 2025,
+  },
+  {
+    id: 143,
+    title: "2025年CSSC小组第46次研讨会",
+    author: "周润佳",
+    create_date: "2025-11-06",
+    summary: "报告主题：工作进度汇报文献汇报",
+    content: `<p><strong>报告时间：</strong></p>
+<p>自然语言处理组组：2025年11月6日，上午8:30</p>
+<p><strong>报告地点：</strong></p><p>计算机楼A318</p>
+<p><strong>主持人：</strong></p><p>沈国江教授、孔祥杰教授、刘志教授、王蒙蒙老师、杜嘉欣老师</p>
+<p><strong>汇报人：</strong></p>
+<p>1.自然语言处理组：邵奇</p>
+<p><strong>报告主题：</strong></p>
+<p>1.工作进度汇报</p>
+<p>2.文献汇报</p>
+`,
+    title_en: "The 46th seminar of CSSC group in 2025",
+    author_en: "Runjia Zhou",
+    summary_en: "Report topic: Work progress report and literature report.",
+    content_en: `<p><strong>Report time:</strong></p>
+<p>Natural Language Processing Group: November 6, 2025, 8:30 am</p>
+<p><strong>Report location:</strong></p><p>Computer Building A318</p>
+<p><strong>Moderator:</strong></p><p>Prof. Guojiang Shen, Prof. Xiangjie Kong, Prof. Zhi Liu, Mengmeng Wang, Jiaxin Du</p>
+<p><strong>Reporter:</strong></p>
+<p>1.Natural Language Processing Group: Shao Qi</p>
+<p><strong>Theme:</strong></p>
+<p>1.Work progress report.</p>
+<p>2.Literature report.</p>
+`,
+    top: false,
+    year: 2025,
+  },
+  {
     id: 142,
     title: "2025年CSSC小组第45次研讨会",
     author: "周润佳",
@@ -480,7 +1416,7 @@ export const seminars: ISeminar[] = [
     top: false,
     year: 2025,
   },
-    {
+  {
     id: 128,
     title: "2025年CSSC小组第31次研讨会",
     author: "周润佳",

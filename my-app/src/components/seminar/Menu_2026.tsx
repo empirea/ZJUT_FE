@@ -2,19 +2,15 @@ import { HREF, fetchSeminars } from "../../db";
 import React,{useState} from "react";
 import { Link, useParams } from "react-router-dom";
 
-export function Menu_2025() {
+export function Menu_2026() {
   const {index} = useParams<{index: string}>();
   const perPage = 5;
 
-  const currentYear=2025;
-
-  const [time,setTime] = useState(2021)
-
-  // const to_2020 = ()=> setYear
+  const [time,setTime] = useState(2026)
 
   const result = fetchSeminars();
   const allSeminars = result.filter((val)=>{
-    return val.year === 2025
+    return val.year === 2026
   })
 
   function change_2020(){
@@ -38,10 +34,10 @@ export function Menu_2025() {
   function change_2025(){
     setTime(2025)
   }
-
   function change_2026(){
     setTime(2026)
   }
+
   const allSeminarsCount = allSeminars.length;
 
   const totalPage = Math.ceil(allSeminarsCount / perPage);
@@ -75,10 +71,10 @@ export function Menu_2025() {
         </>
       ) : (
         <>
-          <Link className="Prev" to={`${HREF.SEMINAR_2025}/1`}>
+          <Link className="Prev" to={`${HREF.SEMINAR_2026}/1`}>
             首页
           </Link>
-          <Link className="Prev" to={`${HREF.SEMINAR_2025}/${currPage - 1}`}>
+          <Link className="Prev" to={`${HREF.SEMINAR_2026}/${currPage - 1}`}>
             前一页
           </Link>
         </>
@@ -90,10 +86,10 @@ export function Menu_2025() {
         </>
       ) : (
         <>
-          <Link className="Prev" to={`${HREF.SEMINAR_2025}/${currPage + 1}`}>
+          <Link className="Prev" to={`${HREF.SEMINAR_2026}/${currPage + 1}`}>
             下一页
           </Link>
-          <Link className="Prev" to={`${HREF.SEMINAR_2025}/${totalPage}`}>
+          <Link className="Prev" to={`${HREF.SEMINAR_2026}/${totalPage}`}>
             尾页
           </Link>
         </>
@@ -110,19 +106,17 @@ export function Menu_2025() {
           <Link to={HREF.INDEX}>主页</Link>
           &gt;
           <Link to={HREF.SEMINAR}>研讨会</Link>
-          {/* &gt;
-          <Link to={HREF.SEMINAR_PAGE}>{time}</Link> */}
         </div>
       </div>
       <div className="cy-title fl">
         <ul>
           <li>
-            <Link onClick={change_2026} to={`${HREF.SEMINAR_2026}`}>
+            <Link onClick={change_2026} to={`${HREF.SEMINAR_2026}`} className="ej-current">
               2026
             </Link>
           </li>
           <li>
-            <Link onClick={change_2025} to={`${HREF.SEMINAR_2025}`} className="ej-current">
+            <Link onClick={change_2025} to={`${HREF.SEMINAR_2025}`}>
               2025
             </Link>
           </li>
@@ -171,4 +165,4 @@ export function Menu_2025() {
 }
 
 
-export default Menu_2025;
+export default Menu_2026;

@@ -2,19 +2,15 @@ import { HREF, fetchSeminars } from "../../db";
 import React,{useState} from "react";
 import { Link, useParams } from "react-router-dom";
 
-export function Menu_2025() {
+export function Menu_2026() {
   const {index} = useParams<{index: string}>();
   const perPage = 5;
 
-  const currentYear=2025;
-
-  const [time,setTime] = useState(2021)
-
-  // const to_2020 = ()=> setYear
+  const [time,setTime] = useState(2026)
 
   const result = fetchSeminars();
   const allSeminars = result.filter((val)=>{
-    return val.year === 2025
+    return val.year === 2026
   })
 
   function change_2020(){
@@ -32,9 +28,11 @@ export function Menu_2025() {
   function change_2023(){
     setTime(2023)
   }
+
   function change_2024(){
     setTime(2024)
   }
+
   function change_2025(){
     setTime(2025)
   }
@@ -42,6 +40,7 @@ export function Menu_2025() {
   function change_2026(){
     setTime(2026)
   }
+
   const allSeminarsCount = allSeminars.length;
 
   const totalPage = Math.ceil(allSeminarsCount / perPage);
@@ -56,10 +55,10 @@ export function Menu_2025() {
   const lis = seminars.map((seminar, index) => {
     return (
       <li id={`line_u5_${index}`} key={index}>
-        <Link to={`${HREF.SEMINAR_PAGE}/${seminar.id}`} title={seminar.title}>
+        <Link to={`${HREF.SEMINAR_PAGE}/${seminar.id}`} title={seminar.title_en}>
           <div className="list-txt fl">
-            <h3>{seminar.title}</h3>
-            <p>{seminar.summary}</p>
+            <h3>{seminar.title_en}</h3>
+            <p>{seminar.summary_en}</p>
           </div>
         </Link>
       </li>
@@ -70,31 +69,31 @@ export function Menu_2025() {
     <div>
       {currPage === 1 ? (
         <>
-          <span className="PrevDisabled">首页</span>
-          <span className="PrevDisabled">前一页</span>
+          <span className="PrevDisabled">First</span>
+          <span className="PrevDisabled">Prev</span>
         </>
       ) : (
         <>
-          <Link className="Prev" to={`${HREF.SEMINAR_2025}/1`}>
-            首页
+          <Link className="Prev" to={`${HREF.SEMINAR_2026}/1`}>
+            First
           </Link>
-          <Link className="Prev" to={`${HREF.SEMINAR_2025}/${currPage - 1}`}>
-            前一页
+          <Link className="Prev" to={`${HREF.SEMINAR_2026}/${currPage - 1}`}>
+            Prev
           </Link>
         </>
       )}
       {currPage === totalPage ? (
         <>
-          <span className="NextDisabled">下一页</span>
-          <span className="NextDisabled">尾页</span>
+          <span className="NextDisabled">Next</span>
+          <span className="NextDisabled">End</span>
         </>
       ) : (
         <>
-          <Link className="Prev" to={`${HREF.SEMINAR_2025}/${currPage + 1}`}>
-            下一页
+          <Link className="Prev" to={`${HREF.SEMINAR_2026}/${currPage + 1}`}>
+            Next
           </Link>
-          <Link className="Prev" to={`${HREF.SEMINAR_2025}/${totalPage}`}>
-            尾页
+          <Link className="Prev" to={`${HREF.SEMINAR_2026}/${totalPage}`}>
+            End
           </Link>
         </>
       )}
@@ -104,25 +103,23 @@ export function Menu_2025() {
   return (
     <React.Fragment>
       <div className="local fl">
-        <h3>研讨会</h3>
+        <h3>Seminar</h3>
         <div className="dqwz fr">
-          当前位置：
-          <Link to={HREF.INDEX}>主页</Link>
+          Current Position:
+          <Link to={HREF.INDEX}>Home</Link>
           &gt;
-          <Link to={HREF.SEMINAR}>研讨会</Link>
-          {/* &gt;
-          <Link to={HREF.SEMINAR_PAGE}>{time}</Link> */}
+          <Link to={HREF.SEMINAR}>Seminar</Link>
         </div>
       </div>
       <div className="cy-title fl">
         <ul>
           <li>
-            <Link onClick={change_2026} to={`${HREF.SEMINAR_2026}`}>
+            <Link onClick={change_2026} to={`${HREF.SEMINAR_2026}`} className="ej-current">
               2026
             </Link>
           </li>
           <li>
-            <Link onClick={change_2025} to={`${HREF.SEMINAR_2025}`} className="ej-current">
+            <Link onClick={change_2025} to={`${HREF.SEMINAR_2025}`}>
               2025
             </Link>
           </li>
@@ -132,7 +129,7 @@ export function Menu_2025() {
             </Link>
           </li>
           <li>
-            <Link onClick={change_2023} to={`${HREF.SEMINAR_2023}`} >
+            <Link onClick={change_2023} to={`${HREF.SEMINAR_2023}`}>
               2023
             </Link>
           </li>
@@ -159,16 +156,17 @@ export function Menu_2025() {
           <tbody>
             <tr>
               <td align="left" width="1%">
-                共{seminarsCount}项 &nbsp;&nbsp;{currPage}/{totalPage}&nbsp;
+                total {seminarsCount} &nbsp;&nbsp;{currPage}/{totalPage}&nbsp;
               </td>
               <td align="left">{pagination}</td>
             </tr>
           </tbody>
         </table>
       </div>
+
     </React.Fragment>
   );
 }
 
 
-export default Menu_2025;
+export default Menu_2026;
