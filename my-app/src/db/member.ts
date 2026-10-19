@@ -807,6 +807,18 @@ export const undergraduate: IMember[] = [
     name_en: "Yizhe Chen",
     titleDisplay_en: ["2022 Undergraduate"],
     directions_en: [],
+  },
+  {
+    name: "裘立涵",
+    title: "undergraduate",
+    titleDisplay: ["24级本科生"],
+    email: "qiulihan@zjut.edu.cn",
+    directions: [],
+    homepageUrl: null,
+    photoSrc: "/images/members/undergraduate/qlh.jpg",
+    name_en: "Lihan Qiu",
+    titleDisplay_en: ["2024 Undergraduate"],
+    directions_en: [],
   }
 ]
 
@@ -1479,7 +1491,7 @@ export const alumni: IMember[] = [
     email: "runjiazhou86@outlook.com",
     directions: [],
     homepageUrl: null,
-    photoSrc: "/images/members/master/zrj.png",
+    photoSrc: "/images/members/master/zrj.jpg",
     name_en: "Runjia Zhou",
     titleDisplay_en: ["2025 Master Student"],
     directions_en: [],
@@ -1527,7 +1539,7 @@ export const alumni: IMember[] = [
     email: "jie11wen@163.com",
     directions: [],
     homepageUrl: null,
-    photoSrc: "/images/members/master/wlj.png",
+    photoSrc: "/images/members/master/wlj.jpg",
     name_en: "Lanjie Wen",
     titleDisplay_en: ["2025 Master Student"],
     directions_en: [],

@@ -33,6 +33,173 @@ interface INews {
 
 export const news: INews[] = [
   {
+    id: 84,
+    title: "CSSC实验室1篇论文被TMC 2026录用",
+    author: "周润佳",
+    create_date: "2026-04-12",
+    summary: "",
+    content: `
+      <div style="text-align: justify;">
+        <p>IEEE移动计算汇刊（IEEE Transactions on Mobile Computing，简称 TMC）是移动计算与无线网络领域最具影响力的国际学术期刊之一，由 IEEE Computer Society 出版，属于中国计算机学会推荐的 A 类国际期刊。该期刊主要研究用户、设备、数据和计算资源在移动环境下的组织、通信与协同问题，涵盖移动计算架构、无线通信网络、移动边缘计算、物联网、车联网、移动感知、资源调度以及移动智能应用等方向。由于其对理论创新、系统设计和实验验证均有较高要求，TMC 是移动计算和边缘智能研究领域的重要成果发表平台。</p>
+        <p>恭喜CSSC实验室硕士生张锦帆的论文被TMC 2026录用！</p>
+        <p><big><span class="highlight-text">题目：</span></big>《Mobility-Aware Collaborative Task Offloading for Parallel Tasks in Vehicular Edge Computing》（面向移动性车辆边缘计算的并行任务协作与任务卸载）</p>
+        <br/>
+        <p><big><span class="highlight-text">摘要：</span></big>车联网技术的飞速发展导致车辆数据生成量呈爆炸式增长，对延迟敏感型应用提出了更高的计算要求。通过将计算任务卸载到路侧单元（RSU），车辆边缘计算（VEC）为这些延迟敏感型应用提供了一种高效的解决方案。然而，现有的任务卸载方案通常忽略了车辆移动性导致的时变拓扑结构，从而存在任务中断的风险。此外，现有的任务卸载模型主要关注串行任务的处理，未能充分考虑并行任务之间的关系，导致多任务VEC场景下资源利用效率低下，并可能出现延迟累积。为此，我们提出了一种面向VEC的移动性感知并行任务协同卸载方案（CoTOP）。该方案结合车辆移动性检测，基于深度强化学习设计了一种协同任务卸载模型，实现了RSU之间的有效协调，从而降低了任务处理延迟。此外，该方案还引入了一种任务优先级算法来优化资源分配。实验结果表明，CoTOP 在任务处理延迟、能耗和完成率方面明显优于现有方案。</p>
+      </div>
+    `,
+    title_en: "One paper from CSSC Lab was accepted by TMC 2026",
+    author_en: "Runjia Zhou",
+    summary_en: "",
+    content_en: `
+      <div style="text-align: justify;">
+        <p>IEEE Transactions on Mobile Computing (TMC), published by the IEEE Computer Society, is one of the most influential international journals in mobile computing and wireless networking and is classified as a CCF-recommended Class A international journal. It focuses on the organization, communication, and coordination of users, devices, data, and computing resources in mobile environments, covering mobile computing architectures, wireless communication networks, mobile edge computing, the Internet of Things, vehicular networks, mobile sensing, resource scheduling, and mobile intelligent applications. With high standards for theoretical innovation, system design, and experimental validation, TMC is an important publication venue for mobile computing and edge intelligence research.</p>
+        <p>Congratulations to Jinfan Zhang, a master's student at CSSC Lab, whose paper has been accepted by TMC 2026!</p>
+        <p><big><span class="highlight-text">Title:</span></big> 《Mobility-Aware Collaborative Task Offloading for Parallel Tasks in Vehicular Edge Computing》</p>
+        <br/>
+        <p><big><span class="highlight-text">Abstract:</span></big> The rapid development of the Internet of Vehicles has led to explosive growth in vehicular data and placed greater computational demands on latency-sensitive applications. By offloading computing tasks to roadside units (RSUs), vehicular edge computing (VEC) provides an efficient solution for these applications. However, existing task-offloading schemes often ignore time-varying topology caused by vehicle mobility, creating a risk of task interruption. Existing models also focus primarily on serial tasks and do not fully consider the relationships among parallel tasks, leading to inefficient resource utilization and accumulated delay in multi-task VEC scenarios. To address these issues, this paper proposes CoTOP, a mobility-aware collaborative offloading scheme for parallel tasks in VEC. CoTOP combines vehicle mobility detection with a deep-reinforcement-learning-based collaborative task-offloading model to coordinate RSUs effectively and reduce task-processing delay. It also introduces a task-priority algorithm to optimize resource allocation. Experimental results show that CoTOP significantly outperforms existing schemes in processing delay, energy consumption, and completion rate.</p>
+      </div>
+    `,
+    top: false,
+  },
+  {
+    id: 83,
+    title: "CSSC实验室1篇论文被TCCN 2026录用",
+    author: "周润佳",
+    create_date: "2026-03-26",
+    summary: "",
+    content: `
+      <div style="text-align: justify;">
+        <p>IEEE Transactions on Cognitive Communications and Networking（简称 TCCN）是认知通信与智能网络领域具有重要影响力的国际学术期刊之一，由 IEEE Communications Society 出版，属于中国计算机学会（CCF）推荐的B类国际期刊。该期刊主要关注通信网络与人工智能、机器学习、认知技术的深度融合问题，涵盖认知无线通信、智能网络优化、资源管理、网络切片、边缘计算、物联网、车联网、6G 网络以及自主网络等方向。TCCN 致力于推动通信系统从传统的固定配置模式向具备感知、学习和自适应能力的智能化网络演进，强调通信理论创新、算法设计以及实际系统验证。由于其在智能通信、网络优化和下一代无线网络研究领域具有较高的学术影响力，TCCN 已成为认知通信与智能网络方向的重要成果发表平台。</p>
+        <p>恭喜CSSC实验室硕士生张锦帆的论文被TCCN 2026录用！</p>
+        <p><big><span class="highlight-text">题目：</span></big>《Dependency-Aware Fine-Grained Task Offloading in Vehicular Edge Computing: A DRL Approach With Spatiotemporal State Representation》（车辆边缘计算中基于依赖关系的细粒度任务卸载：一种结合时空状态表示的强化学习方法）</p>
+        <br/>
+        <p><big><span class="highlight-text">摘要：</span></big>车联网技术的飞速发展使得车载数据呈指数级增长，车载边缘计算（VEC）也由此成为面向低时延车载应用的关键范式。任务卸载作为车载边缘计算的核心技术，可将计算任务迁移至高性能路侧单元（RSU），有效降低计算时延，满足时延敏感型应用的严苛需求，进而大幅提升服务质量（QoS）。但现有任务卸载方案忽略复杂任务之间的依赖关系，容易造成任务处理时延升高。此外，多数算法对动态环境的适配能力较差，无法根据车载边缘计算的实际状态动态调整卸载策略，最终导致服务质量下降。针对上述问题，本文提出一种基于时空状态表示深度强化学习的依赖感知细粒度任务卸载方案（DFTOS）。该方案考虑任务依赖关系，采用有向无环图对车载任务进行建模；为更好应对环境动态变化，DFTOS 重构状态空间，并将重构后的状态表征输入近端策略优化（PPO）算法，以此生成最优任务卸载策略。实验结果表明，相较于其他任务卸载算法，DFTOS 在服务质量与能耗方面均表现更优。</p>
+      </div>
+    `,
+    title_en: "One paper from CSSC Lab was accepted by TCCN 2026",
+    author_en: "Runjia Zhou",
+    summary_en: "",
+    content_en: `
+      <div style="text-align: justify;">
+        <p>IEEE Transactions on Cognitive Communications and Networking (TCCN), published by the IEEE Communications Society, is an influential international journal in cognitive communications and intelligent networking and is classified as a CCF-recommended Class B international journal. It focuses on the integration of communication networks with artificial intelligence, machine learning, and cognitive technologies, including cognitive radio, intelligent network optimization, resource management, network slicing, edge computing, the Internet of Things, vehicular networks, 6G, and autonomous networks. TCCN promotes the evolution of communication systems from fixed configurations toward intelligent networks with sensing, learning, and adaptive capabilities, emphasizing advances in communication theory, algorithm design, and real-system validation.</p>
+        <p>Congratulations to Jinfan Zhang, a master's student at CSSC Lab, whose paper has been accepted by TCCN 2026!</p>
+        <p><big><span class="highlight-text">Title:</span></big> 《Dependency-Aware Fine-Grained Task Offloading in Vehicular Edge Computing: A DRL Approach With Spatiotemporal State Representation》</p>
+        <br/>
+        <p><big><span class="highlight-text">Abstract:</span></big> The rapid development of the Internet of Vehicles has led to exponential growth in vehicular data, making vehicular edge computing (VEC) a key paradigm for low-latency in-vehicle applications. Task offloading, a core VEC technology, migrates computing tasks to high-performance roadside units (RSUs), reducing latency and improving quality of service (QoS) for delay-sensitive applications. However, existing schemes often ignore dependencies among complex tasks, increasing processing delay, while many algorithms adapt poorly to dynamic environments and cannot adjust offloading strategies according to actual VEC conditions. This paper proposes DFTOS, a dependency-aware fine-grained task-offloading scheme based on deep reinforcement learning with spatiotemporal state representation. It models task dependencies using directed acyclic graphs, reconstructs the state space to address environmental dynamics, and feeds the resulting representation into a proximal policy optimization (PPO) algorithm to generate optimal offloading strategies. Experiments show that DFTOS outperforms other task-offloading algorithms in both QoS and energy consumption.</p>
+      </div>
+    `,
+    top: false,
+  },
+  {
+    id: 82,
+    title: "CSSC实验室1篇论文被AAAI 2026录用",
+    author: "周润佳",
+    create_date: "2026-03-14",
+    summary: "",
+    content: `
+      <div style="text-align: justify;">
+        <p>美国人工智能协会（AAAI Conference on Artificial Intelligence，简称AAAI）是人工智能领域最具影响力的国际学术会议之一，由美国人工智能协会主办，属于中国计算机学会（CCF）推荐的 A 类国际会议。AAAI 会议涵盖机器学习、深度学习、自然语言处理、计算机视觉、知识表示与推理、多智能体系统、智能规划及人工智能应用等多个研究方向，集中展示人工智能领域最新的理论成果、关键技术和应用进展。由于其学术影响力高、投稿竞争激烈、论文评审严格，AAAI 已成为全球人工智能研究人员交流前沿成果和了解领域发展趋势的重要平台。</p>
+        <p>恭喜CSSC实验室博士生张依媚的论文被AAAI 2026录用！</p>
+        <p><big><span class="highlight-text">题目：</span></big>《Improving Region Representation Learning from Urban Imagery with Noisy Long-Caption Supervision》（基于带噪声长文本描述监督的城市影像区域表征学习改进方法）</p>
+        <br/>
+        <p><big><span class="highlight-text">摘要：</span></big>区域表征学习在城市计算领域起到至关重要的作用，该技术能够从未标注的城市数据中提取具备实际意义的特征。正如人脸表观年龄可以反映一个人的健康状况，一座城市的视觉风貌便是它的“画像”，其中蕴含着潜在的社会经济与环境特征。近期已有研究尝试利用大型语言模型（LLMs），将文本知识融入基于图像的城市区域表征学习流程。但该方向仍存在两大核心难题：一、难以实现细粒度视觉特征与长文本描述的特征对齐；二、大型语言模型生成的文本描述自带噪声，致使知识融合效果达不到最优。</p>
+        <p>针对上述问题，本文提出一种全新预训练框架UrbanLN，该框架依托长文本感知与噪声抑制能力优化城市区域表征学习效果。具体而言，本文设计了一种保信息拉伸插值策略，以此实现复杂城市场景下长文本描述与细粒度视觉语义的对齐。为高效挖掘大模型生成文本描述中的有效知识并滤除噪声，本文提出双层优化策略：在数据层面，搭建多模型协同流水线，无需人工干预即可自动生成多样化、高可靠的文本描述；在模型层面，采用基于动量的自蒸馏机制生成稳定伪标签，让模型在含噪声数据条件下完成稳健的跨模态学习。</p>
+        <p>本文选取四座真实城市开展多组对比实验，结合各类下游任务进行验证，实验结果证明本文所提UrbanLN框架具备更优异的性能表现。</p>
+      </div>
+    `,
+    title_en: "One paper from CSSC Lab was accepted by AAAI 2026",
+    author_en: "Runjia Zhou",
+    summary_en: "",
+    content_en: `
+      <div style="text-align: justify;">
+        <p>The AAAI Conference on Artificial Intelligence is one of the most influential international conferences in artificial intelligence and is classified as a CCF-recommended Class A international conference. It covers machine learning, deep learning, natural language processing, computer vision, knowledge representation and reasoning, multi-agent systems, intelligent planning, and AI applications, presenting the latest theoretical results, key technologies, and practical advances. Its strong academic impact, highly competitive submissions, and rigorous review process make AAAI an important platform for researchers worldwide to exchange frontier results and follow emerging trends.</p>
+        <p>Congratulations to Yimei Zhang, a doctoral student at CSSC Lab, whose paper has been accepted by AAAI 2026!</p>
+        <p><big><span class="highlight-text">Title:</span></big> 《Improving Region Representation Learning from Urban Imagery with Noisy Long-Caption Supervision》</p>
+        <br/>
+        <p><big><span class="highlight-text">Abstract:</span></big> Region representation learning is crucial to urban computing because it extracts meaningful features from unlabeled urban data. Just as apparent facial age can reflect a person's health, a city's visual appearance serves as its portrait and reveals latent socioeconomic and environmental characteristics. Recent studies have attempted to incorporate textual knowledge from large language models (LLMs) into image-based urban region representation learning. Two major challenges remain: aligning fine-grained visual features with long captions and handling the noise inherent in LLM-generated descriptions, which prevents optimal knowledge fusion.</p>
+        <p>To address these challenges, this paper proposes UrbanLN, a new pretraining framework that improves urban region representations through long-caption awareness and noise suppression. It introduces an information-preserving stretch interpolation strategy to align long descriptions with fine-grained visual semantics in complex urban scenes. A two-level optimization strategy extracts useful knowledge from generated descriptions while filtering noise: at the data level, a multi-model collaborative pipeline automatically produces diverse, reliable descriptions without manual intervention; at the model level, momentum-based self-distillation generates stable pseudo-labels for robust cross-modal learning from noisy data.</p>
+        <p>Comparative experiments across four real-world cities and multiple downstream tasks demonstrate the superior performance of UrbanLN.</p>
+      </div>
+    `,
+    top: false,
+  },
+  {
+    id: 81,
+    title: "CSSC实验室3篇论文被WWW 2026录用",
+    author: "周润佳",
+    create_date: "2026-01-31",
+    summary: "",
+    content: `
+      <div style="text-align: justify;">
+        <p>万维网：互联网和网络信息系统（WWW）是一本国际性的、存档的、同行评审的期刊，涵盖了万维网的所有方面，包括与体系结构、应用程序、互联网和 Web 信息系统以及社区相关的问题。该杂志旨在为研究人员、专业人士和工业从业者提供一个国际论坛，以分享快速发展的知识并报告互联网和基于网络的系统的新进展。该杂志还关注与互联网和万维网相关的所有数据库和信息系统主题，特别是关于建模、设计、开发、集成和管理这些系统的方法。</p>
+        <p>恭喜CSSC实验室硕士生胡旭圆的论文被WWW 2026录用！</p>
+        <p>恭喜CSSC实验室硕士生刘博韬的论文被WWW 2026录用！</p>
+        <p><big><span class="highlight-text">题目：</span></big>《FairFRL: Fairness-aware Federated Representation Learning for Cross-domain Sequential Recommendation》（FairFRL：面向跨域序列推荐的公平感知联邦表征学习）（刘博韬）</p>
+        <br/>
+        <p><big><span class="highlight-text">摘要：</span></big>跨域序列推荐在当代 Web 生态中日益重要。在这些生态系统中，用户行为会跨越多个独立运营的服务商，而这些服务商为了满足隐私和监管的合规性要求，实行着严格的数据隔离。联邦学习为这种跨域协作提供了一种实用的范式，但是用户偏好在不同服务之间的演变是异步的，这就产生了显著的数据分布偏移。这种偏移导致了不稳定和不平等的域贡献：行为丰富的域主导了全局模型的更新，而数据匮乏或不稳定的域所能发挥的影响力非常有限。这种不平衡不仅降低了推荐的准确性，还引发了根本性的公平问题。</p>
+        <p>为了应对这些挑战，我们提出了 FairFRL，这是一个实现了公平感知的联邦表征学习框架，旨在缓解动态跨域偏移下贡献不平衡的问题。FairFRL 在保护数据本地性的前提下，通过在联邦聚合过程中联合调节各域的影响力，并解耦域共享与域专属的语义，从而减轻了动态跨域偏移带来的贡献不平衡。在真实世界的 Amazon 多域数据集上进行的实验表明，FairFRL 在多项指标上始终优于强大的联邦和集中式基线模型，并实现了更加公平的跨域贡献。这些结果表明，FairFRL 为构建负责任、公平且符合社会价值观的 Web 推荐系统迈出了原则性的一步。</p>
+        <p><big><span class="highlight-text">题目：</span></big>《Verifiable Federated Representation Learning for Cross-domain Sequential Recommendation》（面向跨域序列推荐的可验证联邦表征学习）（刘博韬）</p>
+        <br/>
+        <p><big><span class="highlight-text">摘要：</span></big>跨域序列推荐（CDSR）利用跨越多个平台的用户行为序列来缓解数据稀疏性并捕获用户的动态偏好，在去中心化的 Web 应用中发挥着至关重要的作用。然而，现有的联邦 CDSR 框架面临着两个根本性的挑战：（1）异构的序列交互编码了域专属的语义，在隐私保护的约束下无法直接共享；（2）强信任假设，即假设服务器和客户端都会诚实地运行，这使得联邦训练容易受到虚假报告、恶意更新以及负迁移的影响。</p>
+        <p>在本文中，我们提出了 VeriFRL，这是一种用于跨域序列推荐的可验证联邦表征学习框架。VeriFRL 采用了一种将表征学习与可验证训练相结合的双模块设计：一个基于注意力的变分编码器对域共享和域专属的表征进行解耦，以支持可迁移且保护隐私的知识共享；同时，一个贡献评估模块量化了客户端级别和特征级别的影响力，从而实现可验证性、可解释性以及负迁移检测。在真实世界的多域数据集上进行的大量实验表明，VeriFRL 在推荐性能上达到或超越了最先进的联邦 CDSR 方法，同时为跨域知识迁移的动态过程提供了细粒度的洞察。</p>
+        <p><big><span class="highlight-text">题目：</span></big>《Multimodal Trajectory Representation Learning for Travel Time Estimation》（用于行程时间预估的多模态轨迹表征学习）（胡旭圆）</p>
+        <br/>
+        <p><big><span class="highlight-text">摘要：</span></big>精准的行程时间预估（TTE）在智能交通系统中具有关键作用。然而，由于异构数据源和复杂的交通动态特性，这一任务仍面临重大挑战。传统方法通常将轨迹数据转换为固定长度的表征，这种做法忽视了实际车辆运动模式固有的变异性，往往导致信息丢失与冗余。为应对这些挑战，本文提出多模态动态轨迹整合（MDTI）框架——一种创新的多模态轨迹表征学习方法，通过整合GPS序列、网格轨迹与道路网络约束来提升TTE性能。MDTI采用多模态专用编码器和融合模块，以捕捉互补的空间、时间与拓扑语义，同时通过动态轨迹建模机制自适应调节不同长度轨迹的信息密度。两项自监督预训练目标进一步强化了多模态一致性与上下文理解能力。在三个真实世界数据集上的大量实验表明，MDTI始终优于当前最先进的基线模型，验证了其有效性。</p>
+      </div>
+    `,
+    title_en: "Three papers from CSSC Lab were accepted by WWW 2026",
+    author_en: "Runjia Zhou",
+    summary_en: "",
+    content_en: `
+      <div style="text-align: justify;">
+        <p>World Wide Web: Internet and Web Information Systems (WWW) is an international, archival, peer-reviewed journal covering all aspects of the World Wide Web, including architectures, applications, Internet and Web information systems, and online communities. It provides an international forum for researchers, professionals, and industry practitioners to share rapidly developing knowledge and report advances in Internet- and Web-based systems. The journal also addresses database and information-system topics related to the Internet and the Web, particularly methods for modeling, designing, developing, integrating, and managing such systems.</p>
+        <p>Congratulations to Xuyuan Hu, a master's student at CSSC Lab, whose paper has been accepted by WWW 2026!</p>
+        <p>Congratulations to Botao Liu, a master's student at CSSC Lab, whose two papers have been accepted by WWW 2026!</p>
+        <p><big><span class="highlight-text">Title:</span></big> 《FairFRL: Fairness-aware Federated Representation Learning for Cross-domain Sequential Recommendation》 (Botao Liu)</p>
+        <br/>
+        <p><big><span class="highlight-text">Abstract:</span></big> Cross-domain sequential recommendation is increasingly important in modern Web ecosystems, where user behaviors span independently operated service providers that enforce strict data isolation for privacy and regulatory compliance. Federated learning offers a practical paradigm for cross-domain collaboration, but user preferences evolve asynchronously across services, creating substantial distribution shifts. These shifts result in unstable and unequal domain contributions: behavior-rich domains dominate global model updates, while sparse or unstable domains have limited influence. This imbalance reduces recommendation accuracy and raises fundamental fairness concerns.</p>
+        <p>To address these challenges, this paper proposes FairFRL, a fairness-aware federated representation learning framework designed to mitigate contribution imbalance under dynamic cross-domain shifts. While preserving data locality, FairFRL jointly regulates each domain's influence during federated aggregation and disentangles domain-shared from domain-specific semantics. Experiments on real-world Amazon multi-domain datasets show that FairFRL consistently outperforms strong federated and centralized baselines across multiple metrics while achieving fairer cross-domain contributions. These results mark a principled step toward responsible and socially aligned Web recommender systems.</p>
+        <p><big><span class="highlight-text">Title:</span></big> 《Verifiable Federated Representation Learning for Cross-domain Sequential Recommendation》 (Botao Liu)</p>
+        <br/>
+        <p><big><span class="highlight-text">Abstract:</span></big> Cross-domain sequential recommendation (CDSR) uses user behavior sequences across multiple platforms to alleviate data sparsity and capture dynamic preferences, making it essential to decentralized Web applications. Existing federated CDSR frameworks face two fundamental challenges: heterogeneous sequential interactions encode domain-specific semantics that cannot be shared directly under privacy constraints, and strong trust assumptions that servers and clients behave honestly leave federated training vulnerable to false reporting, malicious updates, and negative transfer.</p>
+        <p>This paper proposes VeriFRL, a verifiable federated representation learning framework for CDSR. Its dual-module design combines representation learning with verifiable training: an attention-based variational encoder disentangles domain-shared and domain-specific representations to support transferable, privacy-preserving knowledge sharing, while a contribution-evaluation module quantifies client- and feature-level influence to enable verifiability, interpretability, and negative-transfer detection. Extensive experiments on real-world multi-domain datasets show that VeriFRL matches or surpasses state-of-the-art federated CDSR methods while providing fine-grained insight into dynamic cross-domain knowledge transfer.</p>
+        <p><big><span class="highlight-text">Title:</span></big> 《Multimodal Trajectory Representation Learning for Travel Time Estimation》 (Xuyuan Hu)</p>
+        <br/>
+        <p><big><span class="highlight-text">Abstract:</span></big> Accurate travel time estimation (TTE) is critical to intelligent transportation systems, yet heterogeneous data sources and complex traffic dynamics continue to pose major challenges. Traditional methods often convert trajectories into fixed-length representations, overlooking variation in real vehicle movement patterns and causing information loss or redundancy. This paper proposes multimodal dynamic trajectory integration (MDTI), a new multimodal trajectory representation learning framework that integrates GPS sequences, grid trajectories, and road-network constraints to improve TTE. MDTI uses modality-specific encoders and a fusion module to capture complementary spatial, temporal, and topological semantics, while dynamic trajectory modeling adaptively adjusts information density for trajectories of different lengths. Two self-supervised pretraining objectives further improve multimodal consistency and contextual understanding. Extensive experiments on three real-world datasets show that MDTI consistently outperforms state-of-the-art baselines.</p>
+      </div>
+    `,
+    top: false,
+  },
+  {
+    id: 80,
+    title: "CSSC实验室1篇论文被TSC 2026录用",
+    author: "周润佳",
+    create_date: "2026-01-28",
+    summary: "",
+    content: `
+      <div style="text-align: justify;">
+        <p>IEEE服务计算汇刊（IEEE Transactions on Services Computing，简称 TSC）是服务计算领域具有重要影响力的国际学术期刊，由 IEEE Computer Society 出版，属于中国计算机学会推荐的A类国际期刊。该期刊主要关注服务计算相关的理论、方法、系统与应用，研究内容涵盖面向服务架构、Web服务、云计算、微服务、业务流程管理、服务组合、服务质量保障以及智能服务系统等方向。TSC 注重算法创新与实际服务系统之间的结合，是研究云边端协同、服务资源管理和智能计算服务等问题的重要学术交流平台。</p>
+        <p>恭喜CSSC实验室博士生倪辰昊的论文被TSC 2026录用！</p>
+        <p><big><span class="highlight-text">题目：</span></big>《Transfer Reinforcement Learning for Resource Allocation in Mobile Edge Computing Systems: A Survey》（移动边缘计算系统中资源分配的迁移强化学习：综述）</p>
+        <br/>
+        <p><big><span class="highlight-text">摘要：</span></big>边缘智能依托异构边缘资源赋能人工智能驱动型应用，同时降低对中心化云基础设施的依赖。在移动边缘计算（MEC）系统中，资源调度是动态环境下对时延高度敏感的核心任务。深度强化学习（DRL）已被广泛用于解决该难题，它能够让智能体通过与环境持续交互生成适配特定任务的策略。但移动边缘计算环境存在显著异构性，且各类资源的相对重要性会随系统运行发生变化，进而改变任务优化目标。这就导致智能体切换至全新领域时往往需要重新训练，该过程计算开销大、时间效率低下。为攻克上述难题，迁移强化学习（TRL）作为一种极具发展前景的技术范式应运而生，它可实现智能体已习得知识从源域向目标域的迁移。据我们所知，本文首篇专门针对迁移强化学习在移动边缘计算系统中应用的全面综述。具体而言，本文首先阐释迁移强化学习的基础理论，涵盖问题建模与深度强化学习相关方法；随后系统梳理并批判性分析现有迁移强化学习及其在移动边缘计算系统中的相关研究；最后总结当前尚存的技术局限，并指明未来值得深入探索的研究方向。</p>
+      </div>
+    `,
+    title_en: "One paper from CSSC Lab was accepted by TSC 2026",
+    author_en: "Runjia Zhou",
+    summary_en: "",
+    content_en: `
+      <div style="text-align: justify;">
+        <p>IEEE Transactions on Services Computing (TSC), published by the IEEE Computer Society, is an influential international journal in services computing and is classified as a CCF-recommended Class A international journal. It focuses on theories, methods, systems, and applications related to services computing, including service-oriented architecture, Web services, cloud computing, microservices, business process management, service composition, quality-of-service assurance, and intelligent service systems. TSC emphasizes the connection between algorithmic innovation and practical service systems and is an important forum for cloud-edge-end collaboration, service-resource management, and intelligent computing services.</p>
+        <p>Congratulations to Chenhao Ni, a doctoral student at CSSC Lab, whose paper has been accepted by TSC 2026!</p>
+        <p><big><span class="highlight-text">Title:</span></big> 《Transfer Reinforcement Learning for Resource Allocation in Mobile Edge Computing Systems: A Survey》</p>
+        <br/>
+        <p><big><span class="highlight-text">Abstract:</span></big> Edge intelligence enables AI-driven applications through heterogeneous edge resources while reducing dependence on centralized cloud infrastructure. In mobile edge computing (MEC) systems, resource scheduling is a core, latency-sensitive task in dynamic environments. Deep reinforcement learning (DRL) has been widely used to address this challenge by enabling agents to learn task-specific policies through continuous interaction with the environment. However, MEC environments are highly heterogeneous, and the relative importance of resources changes as systems operate, altering task-optimization objectives. Agents therefore often require costly and time-consuming retraining when transferred to new domains. Transfer reinforcement learning (TRL) offers a promising solution by transferring learned knowledge from a source domain to a target domain. To the best of the authors' knowledge, this is the first comprehensive survey devoted to TRL applications in MEC systems. It introduces the foundations of TRL, including problem formulation and DRL methods; systematically reviews and critically analyzes existing TRL research and its applications in MEC; and summarizes current technical limitations and promising future directions.</p>
+      </div>
+    `,
+    top: false,
+  },
+  {
     id: 79,
     title: "学术报告 | Multimedia in Action: Supporting Interdisciplinary Applications inSurveillance, Health, and Material Research",
     author: "周润佳",
